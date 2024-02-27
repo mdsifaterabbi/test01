@@ -8,8 +8,8 @@ import {
   ServiceCard4,
   ServiceCard5,
   ServiceCard6,
-  
 } from "../components/ServiceCard";
+import TabContext from "../components/TabContext";
 
 const Home = ({ title }) => {
   return (
@@ -78,6 +78,9 @@ Builds Your Brand? =============================== */}
           <ServiceCard6 />
         </div>
       </div>
+      {/* =============================Tab with Context change=============================== */}
+
+      <TabContext />
     </>
   );
 };
