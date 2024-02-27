@@ -1,54 +1,90 @@
-const TabContext = () => {
-  return (
-    <>
-      <div role="tablist" className="tabs tabs-lifted">
-        <input
-          type="radio"
-          name="my_tabs_2"
-          role="tab"
-          className="tab"
-          aria-label="Amazon FBA"
-        />
-        <div
-          role="tabpanel"
-          className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-        >
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./Group457.png" alt="Group457.png"></img>
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-            </div>
+import { Tabs } from "antd";
+import { Carousel } from "antd";
+const contentStyle = {
+  margin: 0,
+  height: "160px",
+  color: "#fff",
+  lineHeight: "160px",
+  textAlign: "center",
+  background: "#364d79",
+};
+const onChange2 = (currentSlide) => {
+  console.log(currentSlide);
+};
+const onChange = (key) => {
+  console.log(key);
+};
+const items = [
+  {
+    key: "1",
+    label: <span className="text-red-500 mx-auto">Tab 1</span>,
+    children: (
+      <>
+        <Carousel afterChange={onChange2}>
+          <div>
+            <h3 style={contentStyle}>1 of Tab 1</h3>
           </div>
-        </div>
+          <div>
+            <h3 style={contentStyle}>2 of Tab 1</h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>3 of Tab 1</h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>4 of Tab 1</h3>
+          </div>
+        </Carousel>
+      </>
+    ),
+  },
+  {
+    key: "2",
+    label: "Tab 2",
+    children: (
+      <>
+        <Carousel afterChange={onChange2}>
+          <div>
+            <h3 style={contentStyle}>1 of Tab 2</h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>2 of Tab 2</h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>3 of Tab 2</h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>4 of Tab 2</h3>
+          </div>
+        </Carousel>
+      </>
+    ),
+  },
+  {
+    key: "3",
+    label: "Tab 3",
+    children: (
+      <>
+        <Carousel afterChange={onChange2}>
+          <div>
+            <h3 style={contentStyle}>1 of Tab 3</h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>2 of Tab 3</h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>3 of Tab 3</h3>
+          </div>
+          <div>
+            <h3 style={contentStyle}>4 of Tab 3</h3>
+          </div>
+        </Carousel>
+      </>
+    ),
+  },
+];
 
-        <input
-          type="radio"
-          name="my_tabs_2"
-          role="tab"
-          className="tab"
-          aria-label="Tab 2"
-          checked
-        />
-        <div
-          role="tabpanel"
-          className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-        >
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./Group463.png" alt="Group463 image"></img>
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+const TabContext = () => {
+  return <Tabs defaultActiveKey="1" items={items} onChange={onChange}></Tabs>;
 };
 
 export default TabContext;
