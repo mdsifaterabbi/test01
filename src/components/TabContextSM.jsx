@@ -39,16 +39,15 @@ function SamplePrevArrow(props) {
   );
 }
 
-const TabContext = () => {
+const TabContextSM = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
-
   return (
     <>
       <div className="pb-[25px] mt-[12px] text-center bg-[#cee9ff]">
@@ -57,7 +56,6 @@ const TabContext = () => {
           <span className=" text-sky-500 font-bold">Services</span>
         </span>
       </div>
-
       <Tabs>
         <TabList className="bg-[#cee9ff] pb-[10px]">
           <Tab>Amazon FBA</Tab>
@@ -71,7 +69,7 @@ const TabContext = () => {
           <div className="slider-container pb-[0px] bg-[#cee9ff]">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonFBA2.png"
@@ -98,7 +96,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -125,7 +123,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -158,7 +156,7 @@ const TabContext = () => {
           <div className="slider-container p-0 bg-[#cee9ff]">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw]] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonFBA2.png"
@@ -185,7 +183,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -212,7 +210,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -245,7 +243,7 @@ const TabContext = () => {
           <div className="slider-container p-0  bg-[#cee9ff]">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -272,7 +270,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -299,7 +297,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -338,4 +336,4 @@ const TabContext = () => {
   );
 };
 
-export default TabContext;
+export default TabContextSM;

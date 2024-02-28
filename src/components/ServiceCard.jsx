@@ -6,10 +6,10 @@ const ServiceCard = () => {
           <img src="../expert2.png" alt="expert2" />
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2">
-          <h2 className="text-sky-500 font-bold text-[14px]">
+          <h2 className="text-sky-500 font-bold text-[14px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]">
             Expert Guidance
           </h2>
-          <p className="text-[10px] pb-1 mt-[-10px]">
+          <p className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px]">
             Our Amazon FBA Consultancy provides you with strategic insights to
             navigate the complexities of online retail, ensuring your products
             stand out in the competitive marketplace.
@@ -28,10 +28,10 @@ const ServiceCard2 = () => {
           <img src="../DigitalMarketing1.png" alt="expert2" />
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2">
-          <h2 className="text-sky-500 font-bold text-[14px]">
+          <h2 className="text-sky-500 font-bold text-[14px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]">
             Digital Marketing Mastery
           </h2>
-          <p className="text-[10px] pb-1 mt-[-10px]">
+          <p className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px]">
             Unleash the power of our Digital Marketing services to reach your
             target audience effectively. From SEO to social media campaigns, we
             drive results that matter.
@@ -50,10 +50,10 @@ const ServiceCard3 = () => {
           <img src="../Creative_1.png" alt="expCreative_1" />
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2">
-          <h2 className="text-sky-500 font-bold text-[14px]">
+          <h2 className="text-sky-500 font-bold text-[14px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]">
             Creative Excellence
           </h2>
-          <p className="text-[10px] pb-1 mt-[-10px]">
+          <p className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px]">
             Elevate your brand with our Graphics Design services, where
             creativity meets strategy. Our team transforms concepts into
             captivating visuals that leave a lasting impression.
@@ -72,8 +72,8 @@ const ServiceCard4 = () => {
           <img src="../Creative_1.png" alt="expCreative_1" />
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2">
-          <h2 className="text-sky-500 font-bold text-[14px]">Learn and Grow</h2>
-          <p className="text-[10px] pb-1 mt-[-10px]">
+          <h2 className="text-sky-500 font-bold text-[14px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]">Learn and Grow</h2>
+          <p className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px]">
             Explore our courses in Graphics Design, UI/UX Design, Website Design
             and Development, and SEO. Empower yourself with the skills needed to
             thrive in the digital era.
@@ -92,10 +92,10 @@ const ServiceCard5 = () => {
           <img src="../Creative_1.png" alt="expCreative_1" />
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2">
-          <h2 className="text-sky-500 font-bold text-[14px]">
+          <h2 className="text-sky-500 font-bold text-[14px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]">
             Web Solutions That Work
           </h2>
-          <p className="text-[10px] pb-1 mt-[-10px]">
+          <p className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px]">
             Experience seamless Website Development that not only looks stunning
             but also functions flawlessly. We create responsive, user-friendly
             websites tailored to your unique business needs.
@@ -114,10 +114,10 @@ const ServiceCard6 = () => {
           <img src="../Creative_1.png" alt="expCreative_1" />
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2">
-          <h2 className="text-sky-500 font-bold text-[14px]">
+          <h2 className="text-sky-500 font-bold text-[14px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]">
             End-to-End Solutions
           </h2>
-          <p className="text-[10px] pb-1 mt-[-10px]">
+          <p className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px]">
             From concept to execution, we offer end-to-end solutions to
             streamline your digital journey. Trust us to handle every aspect,
             ensuring a seamless and hassle-free experience.

@@ -3,52 +3,13 @@ import "react-tabs/style/react-tabs.css";
 
 import Slider from "react-slick";
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "skyblue",
-        marginRight: "38px",
-        zIndex: "100",
-        borderRadius: "50%",
-      }}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "skyblue",
-        marginLeft: "38px",
-        zIndex: "100",
-        borderRadius: "50%",
-      }}
-      onClick={onClick}
-    />
-  );
-}
-
-const TabContext = () => {
+const TabContextMD = () => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
   };
-
   return (
     <>
       <div className="pb-[25px] mt-[12px] text-center bg-[#cee9ff]">
@@ -57,7 +18,6 @@ const TabContext = () => {
           <span className=" text-sky-500 font-bold">Services</span>
         </span>
       </div>
-
       <Tabs>
         <TabList className="bg-[#cee9ff] pb-[10px]">
           <Tab>Amazon FBA</Tab>
@@ -71,7 +31,7 @@ const TabContext = () => {
           <div className="slider-container pb-[0px] bg-[#cee9ff]">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonFBA2.png"
@@ -81,7 +41,7 @@ const TabContext = () => {
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
                     <h2 className="font-bold text-white text-3xl">
-                      Amazon FBA
+                      Amazon <br></br>FBA
                     </h2>
                     <span className="text-white font-normal text-xl opacity-80">
                       Consultancy
@@ -98,7 +58,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -125,7 +85,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -158,7 +118,7 @@ const TabContext = () => {
           <div className="slider-container p-0 bg-[#cee9ff]">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonFBA2.png"
@@ -185,7 +145,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -212,7 +172,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -245,7 +205,7 @@ const TabContext = () => {
           <div className="slider-container p-0  bg-[#cee9ff]">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -272,7 +232,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -299,7 +259,7 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -328,14 +288,19 @@ const TabContext = () => {
             </Slider>
           </div>
         </TabPanel>
-        <div className="text-center bg-[#cee9ff]">
+        {/* <div className="text-center bg-[#cee9ff]">
           <button className="btn btn-sm btn-neutral rounded-none my-[10px]">
             View All Services
           </button>
-        </div>
+        </div> */}
       </Tabs>
+      <div className="text-center bg-[#cee9ff]">
+        <button className="btn btn-sm btn-neutral rounded-none my-[50px]">
+          View All Services
+        </button>
+      </div>
     </>
   );
 };
 
-export default TabContext;
+export default TabContextMD;
