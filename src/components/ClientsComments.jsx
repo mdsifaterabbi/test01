@@ -11,8 +11,8 @@ const ClientsComments = () => {
     <>
       <div className="mb-[50px]">
         <div className="text-center">
-          <h1 className="font-thin text-3xl text-sky-500">
-            Clients <strong className="text-sky-500 font-bold">Love</strong> Us
+          <h1 className="text-sky-500 TabContextFontSpan text-[22px]">
+            Clients <strong className="text-sky-500 TabContextFontSpan2">Love</strong> Us
           </h1>
         </div>
         <div>
@@ -23,11 +23,11 @@ const ClientsComments = () => {
                   <img src="./avatar1.png" alt="avatar1.png" className="rounded-full" />
                 </figure>
                 <div className="card-body p-0 m-0">
-                  <h2 className="card-title px-[5px]">Ian Page</h2>
-                  <span className="px-[5px] text-[12px] text-slate-900 font-bold">
+                  <h2 className="card-title px-[5px] section_3_span">Ian Page</h2>
+                  <span className="px-[5px] text-[12px] text-slate-900 font-bold section_3_span">
                     Owner, Bullseye Sellers Ecom Consulting
                   </span>
-                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50">
+                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50 section_3_span">
                     When launching our first products on Amazon, we were worried
                     and sought the assistance of Virtual Experts. They provided
                     end-to-end services for our Amazon FBA business, including
@@ -43,11 +43,11 @@ const ClientsComments = () => {
                   <img src="./avatar1.png" alt="avatar1.png" className="rounded-full"/>
                 </figure>
                 <div className="card-body p-0 m-0">
-                  <h2 className="card-title px-[5px]">Ian Page</h2>
-                  <span className="px-[5px] text-[12px] text-slate-900 font-bold">
+                  <h2 className="card-title px-[5px] section_3_span">Ian Page</h2>
+                  <span className="px-[5px] text-[12px] text-slate-900 font-bold section_3_span">
                     Owner, Bullseye Sellers Ecom Consulting
                   </span>
-                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50">
+                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50 section_3_span">
                     When launching our first products on Amazon, we were worried
                     and sought the assistance of Virtual Experts. They provided
                     end-to-end services for our Amazon FBA business, including
@@ -63,11 +63,11 @@ const ClientsComments = () => {
                   <img src="./avatar1.png" alt="avatar1.png" className="rounded-full" />
                 </figure>
                 <div className="card-body p-0 m-0">
-                  <h2 className="card-title px-[5px]">Ian Page</h2>
-                  <span className="px-[5px] text-[12px] text-slate-900 font-bold">
+                  <h2 className="card-title px-[5px] section_3_span">Ian Page</h2>
+                  <span className="px-[5px] text-[12px] text-slate-900 font-bold section_3_span">
                     Owner, Bullseye Sellers Ecom Consulting
                   </span>
-                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50">
+                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50 section_3_span">
                     When launching our first products on Amazon, we were worried
                     and sought the assistance of Virtual Experts. They provided
                     end-to-end services for our Amazon FBA business, including
@@ -83,11 +83,11 @@ const ClientsComments = () => {
                   <img src="./avatar1.png" alt="avatar1.png" className="rounded-full"/>
                 </figure>
                 <div className="card-body p-0 m-0">
-                  <h2 className="card-title px-[5px]">Ian Page</h2>
-                  <span className="px-[5px] text-[12px] text-slate-900 font-bold">
+                  <h2 className="card-title px-[5px] section_3_span">Ian Page</h2>
+                  <span className="px-[5px] text-[12px] text-slate-900 font-bold section_3_span">
                     Owner, Bullseye Sellers Ecom Consulting
                   </span>
-                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50">
+                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50 section_3_span">
                     When launching our first products on Amazon, we were worried
                     and sought the assistance of Virtual Experts. They provided
                     end-to-end services for our Amazon FBA business, including
@@ -103,11 +103,11 @@ const ClientsComments = () => {
                   <img src="./avatar1.png" alt="avatar1.png" className="rounded-full"/>
                 </figure>
                 <div className="card-body p-0 m-0">
-                  <h2 className="card-title px-[5px]">Ian Page</h2>
-                  <span className="px-[5px] text-[12px] text-slate-900 font-bold">
+                  <h2 className="card-title px-[5px] section_3_span">Ian Page</h2>
+                  <span className="px-[5px] text-[12px] text-slate-900 font-bold section_3_span">
                     Owner, Bullseye Sellers Ecom Consulting
                   </span>
-                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50">
+                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50 section_3_span">
                     When launching our first products on Amazon, we were worried
                     and sought the assistance of Virtual Experts. They provided
                     end-to-end services for our Amazon FBA business, including
@@ -123,11 +123,11 @@ const ClientsComments = () => {
                   <img src="./avatar1.png" alt="avatar1.png" className="rounded-full"/>
                 </figure>
                 <div className="card-body p-0 m-0">
-                  <h2 className="card-title px-[5px]">Ian Page</h2>
-                  <span className="px-[5px] text-[12px] text-slate-900 font-bold">
+                  <h2 className="card-title px-[5px] section_3_span">Ian Page</h2>
+                  <span className="px-[5px] text-[12px] text-slate-900 font-bold section_3_span">
                     Owner, Bullseye Sellers Ecom Consulting
                   </span>
-                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50">
+                  <p className="px-[5px] text-[12px] text-slate-600 opacity-50 section_3_span">
                     When launching our first products on Amazon, we were worried
                     and sought the assistance of Virtual Experts. They provided
                     end-to-end services for our Amazon FBA business, including

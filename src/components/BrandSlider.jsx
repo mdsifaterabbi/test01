@@ -23,7 +23,7 @@ const BrandSlider = () => {
             <img
               src="./t3r-logo.png"
               alt="t3r-logo"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[300px]"
             ></img>
           </h3>
         </div>
@@ -32,7 +32,7 @@ const BrandSlider = () => {
             <img
               src="./virtusale-logo.png"
               alt="virtusale-logo.png"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[300px]"
             ></img>
           </h3>
         </div>
@@ -41,7 +41,7 @@ const BrandSlider = () => {
             <img
               src="./bugwomp-logo.png"
               alt="bugwomp-logo"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[300px]"
             ></img>
           </h3>
         </div>
@@ -50,7 +50,7 @@ const BrandSlider = () => {
             <img
               src="./t3r-logo.png"
               alt="t3r-logo"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[300px]"
             ></img>
           </h3>
         </div>
@@ -59,7 +59,7 @@ const BrandSlider = () => {
             <img
               src="./virtusale-logo.png"
               alt="virtusale-logo.png"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[300px]"
             ></img>
           </h3>
         </div>
@@ -68,7 +68,7 @@ const BrandSlider = () => {
             <img
               src="./bugwomp-logo.png"
               alt="bugwomp-logo"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[300px]"
             ></img>
           </h3>
         </div>

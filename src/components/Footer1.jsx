@@ -8,7 +8,7 @@ var settings = {
   infinite: true,
   speed: 500,
   slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToScroll: 2,
 };
 
 const Footer1 = () => {
@@ -16,14 +16,14 @@ const Footer1 = () => {
     <>
       <Slider
         {...settings}
-        className="border border-t-[5px] border-b-[5px] py-[15px] border-[rgba(82, 83, 86,0.5)]"
+        className="border border-t-[5px] border-b-[5px] py-[15px] border-[rgba(82, 83, 86,0.5)] xl:w-[70vw] xl:mx-auto"
       >
         <div>
           <h3 className="text-center">
             <img
               src="./Clutch.png"
               alt="clutch"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[150px]"
             ></img>
           </h3>
         </div>
@@ -32,7 +32,7 @@ const Footer1 = () => {
             <img
               src="./Trustppailot.png"
               alt="Trustppailot.png"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[150px]"
             ></img>
           </h3>
         </div>
@@ -41,14 +41,24 @@ const Footer1 = () => {
             <img
               src="./Google.png"
               alt="Google.png"
-              className="w-[80px] mx-auto"
+              className="w-[80px] mx-auto xl:w-[150px]"
+            ></img>
+          </h3>
+        </div>
+        <div>
+          <h3 className="text-center">
+            <img
+              src="./Clutch.png"
+              alt="clutch"
+              className="w-[80px] mx-auto xl:w-[150px]"
             ></img>
           </h3>
         </div>
       </Slider>
+      {/* ========== only for extra small device ============= */}
       <div className="flex flex-col sm:hidden mb-[50px]">
         <div className="basis-1/1 bg-[#EEF7FF]">
-          <p className="text-center text-[12px] px-[5px] py-[10px]">
+          <p className="text-center text-[12px] px-[5px] py-[10px] section_3_span">
             Our Professional Team has helped Hundreds of Sellers on Amazon to
             Avoid Failure and Maximize Potential Growth. Schedule a Free Meeting
             Now!
@@ -62,8 +72,8 @@ const Footer1 = () => {
         <div className="basis-1/1">
           <div className="flex flex-row">
             <div className="basis-1/2 bg-[#40b0fd] text-center py-[20px]">
-              <p className="font-bold text-sm">Or Direct</p>
-              <p className="font-light text-xl text-[white] tracking-widest pr-[10px]">
+              <p className="font-bold text-sm section_3_span">Or Direct</p>
+              <p className="font-light text-xl text-[white] tracking-widest pr-[10px] section_3_span">
                 Message
               </p>
             </div>
@@ -99,17 +109,17 @@ const Footer1 = () => {
               className="grow placeholder-slate-600"
               placeholder="Email"
             />
-            <button className="btn btn-success btn-sm rounded-sm">
+            <button className="btn bg-[#40b0fd] btn-sm rounded-sm section_3_span text-white">
               Submit
             </button>
           </label>
         </div>
       </div>
-      {/* ============ for small to upper device ============= */}
-      <div className="hidden sm:block">
+      {/* ============ only for for extra large device ============= */}
+      <div className="hidden xl:block xl:w-[70vw] xl:mx-auto">
         <div className="flex flex-row">
-          <div className="basis-1/2 border bg-[#eef7ff]">
-            <p className="text-center text-[12px] px-[5px] py-[10px]">
+          <div className="basis-1/2 bg-[#eef7ff]">
+            <p className="text-center text-[12px] px-[5px] py-[10px] section_3_span">
               Our Professional Team has helped Hundreds of Sellers on Amazon to
               Avoid Failure and Maximize Potential Growth. Schedule a Free
               Meeting Now!
@@ -122,11 +132,13 @@ const Footer1 = () => {
           </div>
           <div className="basis-1/2">
             <div className="flex flex-col">
-              <div className="basis-1/1 border bg-[#40b0fd] text-center">
+              <div className="basis-1/1 bg-[#40b0fd] text-center">
                 <div className="flex flex-row">
                   <div className="basis-1/2 py-[15px]">
-                    <p className="font-bold text-sm">Or Direct</p>
-                    <p className="font-light text-xl text-[white] tracking-widest pr-[10px]">
+                    <p className="font-bold text-sm section_3_span">
+                      Or Direct
+                    </p>
+                    <p className="font-light text-xl text-[white] tracking-widest pr-[10px] section_3_span">
                       Message
                     </p>
                   </div>
@@ -155,14 +167,14 @@ const Footer1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="basis-1/1 border my-[5px] bg-[#eef7ff]">
+              <div className="basis-1/1 my-[5px] bg-[#eef7ff]">
                 <label className="input input-bordered flex items-center rounded-none w-[95%] mx-auto my-[15px]">
                   <input
                     type="text"
                     className="grow placeholder-slate-600"
                     placeholder="Email"
                   />
-                  <button className="btn btn-success btn-sm rounded-sm">
+                  <button className="btn bg-[#40b0fd] btn-sm rounded-sm">
                     Submit
                   </button>
                 </label>

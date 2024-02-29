@@ -51,15 +51,15 @@ const TabContext = () => {
 
   return (
     <>
-      <div className="pb-[25px] mt-[12px] text-center bg-[#cee9ff]">
-        <span className="font-thin text-xl">
+      <div className="pb-[25px] pt-[25px] mt-[12px] text-center bg-[#cee9ff]">
+        <span className="TabContextFontSpan text-[22px]">
           Our Best Selling&nbsp;
-          <span className=" text-sky-500 font-bold">Services</span>
+          <span className=" text-sky-500 TabContextFontSpan2">Services</span>
         </span>
       </div>
 
       <Tabs>
-        <TabList className="bg-[#cee9ff] pb-[10px]">
+        <TabList className="bg-[#cee9ff] pb-[10px] TabContextTabFont text-[12px]">
           <Tab>Amazon FBA</Tab>
 
           <Tab>Digital Marketing</Tab>
@@ -328,7 +328,7 @@ const TabContext = () => {
             </Slider>
           </div>
         </TabPanel>
-        <div className="text-center bg-[#cee9ff]">
+        <div className="text-center bg-[#cee9ff] pb-[25px]">
           <button className="btn btn-sm btn-neutral rounded-none my-[10px]">
             View All Services
           </button>

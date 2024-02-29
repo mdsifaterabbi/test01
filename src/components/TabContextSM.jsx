@@ -156,7 +156,7 @@ const TabContextSM = () => {
           <div className="slider-container p-0 bg-[#cee9ff]">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[45vw]] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[45vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonFBA2.png"

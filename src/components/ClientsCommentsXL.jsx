@@ -1,11 +1,11 @@
 import Slider from "react-slick";
-const ClientsCommentsMD = () => {
+const ClientsCommentsXL = () => {
   var settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
   };
   return (
     <>
@@ -14,7 +14,7 @@ const ClientsCommentsMD = () => {
           Clients <strong className="text-sky-500 TabContextFontSpan2">Love</strong> Us
         </h1>
       </div>
-      <div className="mb-[100px]">
+      <div className="mb-[100px] w-[70vw] mx-auto">
         <Slider {...settings} className="pt-[50px]">
           <div className="mb-[30px]">
             <div className="card w-[90%] glass mx-auto">
@@ -142,4 +142,4 @@ const ClientsCommentsMD = () => {
   );
 };
 
-export default ClientsCommentsMD;
+export default ClientsCommentsXL;

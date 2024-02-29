@@ -12,8 +12,8 @@ const ClientsCommentsSM = () => {
   return (
     <>
       <div className="text-center">
-        <h1 className="font-thin text-3xl text-sky-500">
-          Clients <strong className="text-sky-500 font-bold">Love</strong> Us
+        <h1 className="text-sky-500 text-[22px] TabContextFontSpan">
+          Clients <strong className="text-sky-500 TabContextFontSpan2">Love</strong> Us
         </h1>
       </div>
       <div className="mb-[100px]">

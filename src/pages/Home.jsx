@@ -19,6 +19,11 @@ import ClientsCommentsMD from "../components/ClientsCommentsMD";
 import TabContextSM from "../components/TabContextSM";
 import TabContextMD from "../components/TabContextMD";
 import Footer1 from "../components/Footer1";
+import Footer2 from "../components/Footer2";
+import "../Font.css";
+import TabContextXL from "../components/TabContextXL";
+import CreativeSliderXL from "../components/CreativeSliderXL";
+import ClientsCommentsXL from "../components/ClientsCommentsXL";
 
 const Home = ({ title }) => {
   return (
@@ -33,29 +38,37 @@ const Home = ({ title }) => {
         <div className="basis-1/1 md:basis-1/2 flex justify-center items-center">
           <img src="../Arrow_2.png" alt="Arrow_2"></img>
         </div>
-        <div className="basis-1/1 md:basis-1/2 text-center">
-          <span className="text-[40px] pr-[5px]">Who</span>
-          <span className="text-sky-500 text-[30px] pr-[5px]">We</span>
-          <span className="text-sm text-[20px]">Are?</span>
-          <p className="text-[12px] sm:text-[14px] md:text-[16px] pb-[20px] px-[10px] sm:px-[10px] md:text-slate-600">
+        <div className="basis-1/1 md:basis-1/2 text-left xl:py-[100px]">
+          <span className="text-[40px] pr-[5px] pl-[5px] section_3_span">
+            Who
+          </span>
+          <span className="text-sky-500 text-[30px] pr-[5px] section_3_span">
+            We
+          </span>
+          <span className="text-sm text-[20px] section_3_span">Are?</span>
+          <p className="text-[12px] sm:text-[14px] md:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 section_3_p">
             eSaviour Limited is an industry leader in the digital marketing
             sector and offers B2B enterprises a wide range of services that help
             them dominate international markets
           </p>
-          <p className="text-[12px] sm:text-[14px] md:text-[16px] pb-[20px] px-[10px] sm:px-[10px] md:text-slate-600">
+          <p className="text-[12px] sm:text-[14px] md:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 section_3_p">
             Esaviour Limited is not just a service provider; we are your
             strategic ally in navigating the dynamic landscape of digital
             business. With a team of dedicated professionals, we bring a wealth
             of experience in diverse fields, including digital marketing, web
             development, and Amazon FBA consultancy.
           </p>
-          <p className="text-[12px] sm:text-[14px] md:text-[16px] px-[10px] sm:px-[10px] md:text-slate-600">
+          <p className="text-[12px] sm:text-[14px] md:text-[16px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 section_3_p">
             Esaviour Limited is not just a service provider; we are your
             strategic ally in navigating the dynamic landscape of digital
             business. With a team of dedicated professionals, we bring a wealth
             of experience in diverse fields, including digital marketing, web
             development, and Amazon FBA consultancy.
           </p>
+
+          <button className="btn btn-sm btn-danger rounded-none my-[20px] bg-[#000000] text-white font-medium ml-[10px]">
+            Learn More
+          </button>
         </div>
       </div>
       {/* ========================== section 3 ended  here ============================ */}
@@ -66,48 +79,53 @@ const Home = ({ title }) => {
       <div className="hidden sm:block md:hidden">
         <TabContextSM />
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block xl:hidden">
         <TabContextMD />
+      </div>
+      <div className="hidden xl:block">
+        <TabContextXL />
       </div>
 
       {/* ================== section 4 ends from here =================================*/}
       {/* ================== section 5 starts from here =================================*/}
       <div className="my-[25px] text-center">
-        <span className="">
+        <span className="TabContextFontSpan text-[18px] xl:text-[40px]">
           Why Choose Esaviour Limited to
-          <span className=" text-sky-500 font-bold">
+          <span className=" text-sky-500 TabContextFontSpan2">
             <br></br> Builds Your Brand?
           </span>
         </span>
       </div>
-      <div className="flex flex-wrap flex-col sm:flex-row">
-        <div className="basis-1/1 sm:basis-1/2">
+      <div className="flex flex-wrap flex-col sm:flex-row xl:w-[80%] xl:mx-auto">
+        <div className="basis-1/1 sm:basis-1/2 ">
           <ServiceCard />
         </div>
-        <div className="basis-1/1 sm:basis-1/2">
+        <div className="basis-1/1 sm:basis-1/2 ">
           <ServiceCard2 />
         </div>
-        <div className="basis-1/1 sm:basis-1/2">
+        <div className="basis-1/1 sm:basis-1/2 ">
           <ServiceCard3 />
         </div>
-        <div className="basis-1/1 sm:basis-1/2">
+        <div className="basis-1/1 sm:basis-1/2 ">
           <ServiceCard4 />
         </div>
-        <div className="basis-1/1 sm:basis-1/2">
+        <div className="basis-1/1 sm:basis-1/2 ">
           <ServiceCard5 />
         </div>
-        <div className="basis-1/1 sm:basis-1/2">
+        <div className="basis-1/1 sm:basis-1/2 ">
           <ServiceCard6 />
         </div>
       </div>
       {/* ================== section 5 ended here =================================*/}
 
       {/* ================== section 6 (The Brands we have worked with) starts from here =====================*/}
-      <div className="flex flex-wrap flex-col justify-center items-center mb-0">
+      <div className="flex flex-wrap flex-col justify-center items-center mb-0 py-[20px]">
         <div className="basis-1/1">
-          <h1 className="text-center font-light py-[20px]">
+          <h1 className="text-center py-[20px] TabContextFontSpan text-[18px] xl:text-[40px]">
             The Brands we have <br></br>
-            <span className="text-sky-500 font-bold">worked with</span>
+            <span className="text-sky-500 TabContextFontSpan2">
+              worked with
+            </span>
           </h1>
         </div>
       </div>
@@ -116,17 +134,22 @@ const Home = ({ title }) => {
       {/* ================== section 7 (A Glimpse into our Creative Universe) starts from here =====================*/}
       <div className="flex flex-wrap flex-col justify-center items-center mb-0">
         <div className="basis-1/1">
-          <h1 className="text-center font-light py-[20px]">
+          <h1 className="text-center py-[20px] TabContextFontSpan text-[18px] xl:text-[40px]">
             A Glimpse into our <br></br>
-            <span className="text-sky-500 font-bold">Creative Universe</span>
+            <span className="text-sky-500 TabContextFontSpan2">
+              Creative Universe
+            </span>
           </h1>
         </div>
       </div>
       <div className="sm:hidden">
         <CreativeSlider />
       </div>
-      <div className="hidden sm:block">
+      <div className="hidden sm:block md:hidden">
         <CreativeSliderSM />
+      </div>
+      <div className="hidden xl:block">
+        <CreativeSliderXL />
       </div>
       {/* ================== section 7 (A Glimpse into our Creative Universe) ended here here =====================*/}
       {/* ================== section 8 (Clients Comments) start from here =====================*/}
@@ -136,14 +159,20 @@ const Home = ({ title }) => {
       <div className="hidden sm:block md:hidden">
         <ClientsCommentsSM />
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block lg:hidden">
         <ClientsCommentsMD />
+      </div>
+      <div className="hidden xl:block">
+        <ClientsCommentsXL />
       </div>
 
       {/* ================== section 8 (Clients Comments) ended here =====================*/}
       {/* ================== section 9 (Footer1) starts from here =====================*/}
       <Footer1 />
       {/* ================== section 9 (Footer1) ended here =====================*/}
+      {/* ================== section 10 (Footer2) started from here =====================*/}
+      <Footer2 />
+      {/* ================== section 9 (Footer2) ended here =====================*/}
     </>
   );
 };

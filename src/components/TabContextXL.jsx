@@ -3,16 +3,16 @@ import "react-tabs/style/react-tabs.css";
 
 import Slider from "react-slick";
 
-const TabContextMD = () => {
+const TabContextXL = () => {
   const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
   };
   return (
     <>
-      <div className="pb-[25px] mt-[12px] text-center bg-[#cee9ff]">
+      <div className="pb-[25px] mt-[12px] text-center bg-[#cee9ff] xl:py-[50px]">
         <span className="font-thin text-xl">
           Our Best Selling&nbsp;
           <span className=" text-sky-500 font-bold">Services</span>
@@ -27,11 +27,11 @@ const TabContextMD = () => {
           <Tab>Graphics Design</Tab>
         </TabList>
 
-        <TabPanel>
-          <div className="slider-container pb-[0px] bg-[#cee9ff]">
+        <TabPanel className="xl:bg-[#cee9ff]">
+          <div className="slider-container pb-[0px] bg-[#cee9ff] xl:w-[70vw] xl:mx-auto">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonFBA2.png"
@@ -58,7 +58,7 @@ const TabContextMD = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -85,7 +85,7 @@ const TabContextMD = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -114,11 +114,11 @@ const TabContextMD = () => {
             </Slider>
           </div>
         </TabPanel>
-        <TabPanel>
-          <div className="slider-container p-0 bg-[#cee9ff]">
+        <TabPanel className="xl:bg-[#cee9ff]">
+          <div className="slider-container p-0 bg-[#cee9ff] xl:w-[70vw] xl:mx-auto">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonFBA2.png"
@@ -145,7 +145,7 @@ const TabContextMD = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -172,7 +172,7 @@ const TabContextMD = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -201,11 +201,11 @@ const TabContextMD = () => {
             </Slider>
           </div>
         </TabPanel>
-        <TabPanel>
-          <div className="slider-container p-0  bg-[#cee9ff]">
+        <TabPanel className="xl:bg-[#cee9ff]">
+          <div className="slider-container p-0  bg-[#cee9ff] xl:w-[70vw] xl:mx-auto">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProduct2.png"
@@ -232,7 +232,7 @@ const TabContextMD = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -259,7 +259,7 @@ const TabContextMD = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[30vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[20vw] bg-base-100 shadow-xl mx-auto">
                   <figure>
                     <img
                       src="./AmazonProductListing2.png"
@@ -303,4 +303,4 @@ const TabContextMD = () => {
   );
 };
 
-export default TabContextMD;
+export default TabContextXL;
