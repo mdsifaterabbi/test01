@@ -30,7 +30,7 @@ const Hero = () => {
 
       {/* ========================================================= */}
 
-      <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[90vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-120px] relative">
+      <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[90vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-120px] xl:w-[90vw] relative">
         <div className="basis-1/1 md:basis-1/1 text-center text-black px-[5px] section_3_span">
           <span className="text-sm text-slate-600 xl:text-3xl">
             eSaviour Limited has achieved fame internationally recognized by the

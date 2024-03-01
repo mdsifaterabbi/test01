@@ -8,8 +8,8 @@ var settings = {
   dots: false,
   infinite: true,
   speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToShow: 4,
+  slidesToScroll: 2,
 };
 
 const BrandSlider = () => {
@@ -17,13 +17,13 @@ const BrandSlider = () => {
   return (
     <>
      
-      <Slider {...settings} className="border border-t-[5px] border-b-[5px] py-[15px] border-[rgba(82, 83, 86,0.5)]">
+      <Slider {...settings} className="border border-t-[5px] border-b-[5px] py-[15px] border-[rgba(82, 83, 86,0.5)] md:w-[90vw] md:mx-auto">
         <div>
           <h3 className="text-center">
             <img
               src="./t3r-logo.png"
               alt="t3r-logo"
-              className="w-[80px] mx-auto xl:w-[300px]"
+              className="w-[50px] sm:w-[80px] mx-auto xl:w-[250px]"
             ></img>
           </h3>
         </div>
@@ -32,7 +32,7 @@ const BrandSlider = () => {
             <img
               src="./virtusale-logo.png"
               alt="virtusale-logo.png"
-              className="w-[80px] mx-auto xl:w-[300px]"
+              className="w-[50px] sm:w-[80px] mx-auto xl:w-[250px]"
             ></img>
           </h3>
         </div>
@@ -41,7 +41,7 @@ const BrandSlider = () => {
             <img
               src="./bugwomp-logo.png"
               alt="bugwomp-logo"
-              className="w-[80px] mx-auto xl:w-[300px]"
+              className="w-[50px] sm:w-[80px] mx-auto xl:w-[250px]"
             ></img>
           </h3>
         </div>
@@ -50,7 +50,7 @@ const BrandSlider = () => {
             <img
               src="./t3r-logo.png"
               alt="t3r-logo"
-              className="w-[80px] mx-auto xl:w-[300px]"
+              className="w-[50px] sm:w-[80px] mx-auto xl:w-[250px]"
             ></img>
           </h3>
         </div>
@@ -59,7 +59,7 @@ const BrandSlider = () => {
             <img
               src="./virtusale-logo.png"
               alt="virtusale-logo.png"
-              className="w-[80px] mx-auto xl:w-[300px]"
+              className="w-[50px] sm:w-[80px] mx-auto xl:w-[250px]"
             ></img>
           </h3>
         </div>
@@ -68,7 +68,7 @@ const BrandSlider = () => {
             <img
               src="./bugwomp-logo.png"
               alt="bugwomp-logo"
-              className="w-[80px] mx-auto xl:w-[300px]"
+              className="w-[50px] sm:w-[80px] mx-auto xl:w-[250px]"
             ></img>
           </h3>
         </div>

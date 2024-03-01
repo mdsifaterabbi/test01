@@ -34,7 +34,7 @@ const Home = ({ title }) => {
       <MyNav />
       <Hero />
       {/* ========================== section 3 starts from here ============================ */}
-      <div className="flex flex-col md:flex-row flex-wrap">
+      <div className="flex flex-col md:flex-row flex-wrap xl:w-[90vw]">
         <div className="basis-1/1 md:basis-1/2 flex justify-center items-center">
           <img src="../Arrow_2.png" alt="Arrow_2"></img>
         </div>
@@ -96,7 +96,7 @@ const Home = ({ title }) => {
           </span>
         </span>
       </div>
-      <div className="flex flex-wrap flex-col sm:flex-row xl:w-[80%] xl:mx-auto">
+      <div className="flex flex-wrap flex-col sm:flex-row xl:w-[80%] xl:mx-auto md:w-[90vw] md:mx-auto">
         <div className="basis-1/1 sm:basis-1/2 ">
           <ServiceCard />
         </div>
@@ -159,7 +159,7 @@ const Home = ({ title }) => {
       <div className="hidden sm:block md:hidden">
         <ClientsCommentsSM />
       </div>
-      <div className="hidden md:block lg:hidden">
+      <div className="hidden md:block xl:hidden">
         <ClientsCommentsMD />
       </div>
       <div className="hidden xl:block">
