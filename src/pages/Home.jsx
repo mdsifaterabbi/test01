@@ -39,13 +39,13 @@ const Home = ({ title }) => {
           <img src="../Arrow_2.png" alt="Arrow_2"></img>
         </div>
         <div className="basis-1/1 md:basis-1/2 text-left xl:py-[100px]">
-          <span className="text-[40px] pr-[5px] pl-[5px] section_3_span">
-            Who
+          <span className="text-[40px] pr-[5px] pl-[5px] section_3_span xl:text-9xl">
+            Who&nbsp;
           </span>
-          <span className="text-sky-500 text-[30px] pr-[5px] section_3_span">
-            We
+          <span className="text-sky-500 text-[30px] pr-[5px] section_3_span xl:text-6xl">
+            We&nbsp;
           </span>
-          <span className="text-sm text-[20px] section_3_span">Are?</span>
+          <span className="text-sm text-[20px] section_3_span xl:text-3xl">Are?</span>
           <p className="text-[12px] sm:text-[14px] md:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 section_3_p">
             eSaviour Limited is an industry leader in the digital marketing
             sector and offers B2B enterprises a wide range of services that help

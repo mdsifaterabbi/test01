@@ -2,7 +2,7 @@ const Footer2 = () => {
   return (
     <>
       {/* Footer2 for extra small and small devices */}
-      <div className="flex flex-col flex-wrap md:hidden bg-[#ccddeb]">
+      <div className="flex flex-col flex-wrap md:hidden bg-[#ffffff]">
         <div className="basis-1/1 w-[95vw] mx-auto relative top-[30px] z-50">
           <div className="flex flex-row flex-wrap bg-[#40b0fd]">
             <div className="basis-1/2 text-center py-[15px]">
@@ -408,8 +408,10 @@ const Footer2 = () => {
                 </div>
               </div>
             </div>
-            <div className="basis-1/5 pt-[70px] pb-[30px] pl-[30px] bg-[#ddf1ff]">
-              <span className="font-book text-xl">Quick Link</span>
+            <div className="basis-1/5 pt-[70px] pb-[30px] pl-[30px] xl:pt-[85px] bg-[#ddf1ff]">
+              <span className="font-book text-xl block pb-[15px]">
+                Quick Link
+              </span>
               <ul>
                 <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>Home</a>
@@ -428,8 +430,8 @@ const Footer2 = () => {
                 </li>
               </ul>
             </div>
-            <div className="basis-1/5 pt-[70px] pb-[30px] pl-[0px] bg-[#ddf1ff]">
-              <span className="font-book text-xl">Legal</span>
+            <div className="basis-1/5 pt-[70px] pb-[30px] pl-[0px] xl:pt-[85px] bg-[#ddf1ff]">
+              <span className="font-book text-xl block pb-[15px]">Legal</span>
               <ul>
                 <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>privacy Policy</a>
@@ -445,8 +447,10 @@ const Footer2 = () => {
                 </li>
               </ul>
             </div>
-            <div className="basis-1/5 pt-[70px] pb-[10px] bg-[#ddf1ff]">
-              <h5 className="text-left font-book text-md">Let's Get Social</h5>
+            <div className="basis-1/5 pt-[70px] pb-[10px] xl:pt-[85px] bg-[#ddf1ff]">
+              <span className="font-book text-xl block pb-[15px]">
+                Let's Get Social
+              </span>
               <div className="flex justify-start">
                 <a className="inline mr-[3px]" href="">
                   <img src="./Facebook2.png" alt="Facebook2"></img>
@@ -465,9 +469,10 @@ const Footer2 = () => {
                   ></img>
                 </a>
               </div>
-              <h5 className="text-left pt-[20px] pb-[10px] font-book text-md">
+              <span className="font-book text-xl block py-[15px]">
                 Payment method
-              </h5>
+              </span>
+
               <div className="flex justify-start w-[90%]">
                 <a className="inline mr-[3px]" href="">
                   <img

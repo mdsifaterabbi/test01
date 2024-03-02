@@ -2,8 +2,8 @@ const Hero = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row bg-[#b3d9f8] pb-[200px]">
-        <div className="basis-1/1 md:basis-1/2 md:mx-[100px] lg:mt-[100px] order-1 md:order-0 px-[10px] xl:pt-[100px]">
-          <h1 className="text-left pt-[20px] font-bold lg:text-2xl xl:pl-[20%] xl:text-[40px] md:pt-[100px] md:font-extrabold">
+        <div className="basis-1/1 md:basis-1/2 md:mx-[100px] lg:mt-[100px] order-1 md:order-0 px-[10px] xl:mt-[0px]">
+          <h1 className="text-left pt-[20px] font-bold lg:text-2xl xl:pl-[20%] xl:text-[40px] xl:leading-[50px] md:pt-[100px]  md:font-extrabold">
             Worried About your Brand's<br></br>
             <span className="text-sky-500"> Marketing Strategy?</span>
           </h1>
@@ -23,14 +23,14 @@ const Hero = () => {
             Get Free Quote!
           </button>
         </div>
-        <div className="basis-1/1 md:basis-1/2 flex justify-center items-center order-0 md:order-1 pt-[20px] md:mr-[50px] lg:mr-[150px] lg:mt-[100px] xl:text-center xl:pt-[100px] xl:mr-[200px] md:bg-orange-500">
+        <div className="basis-1/1 md:basis-1/2 flex justify-center items-center order-0 md:order-1 pt-[20px] md:mr-[50px] lg:mr-[150px] lg:mt-[100px] xl:text-center xl:pt-[10px] xl:mr-[200px]">
           <img src="../Speech_Bubble.png" alt="GSpeech_Bubble"></img>
         </div>
       </div>
 
       {/* ========================================================= */}
 
-      <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[90vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-120px] xl:w-[90vw] relative">
+      <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[80vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-140px] xl:w-[80vw] relative">
         <div className="basis-1/1 md:basis-1/1 text-center text-black px-[5px] section_3_span">
           <span className="text-sm text-slate-600 xl:text-3xl">
             eSaviour Limited has achieved fame internationally recognized by the
@@ -137,7 +137,7 @@ const Hero = () => {
         </div>
         {/* =============For Extra large devices only============ */}
         <div className="hidden xl:block">
-          <div className="basis-1/1 flex flex-wrap items-center justify-center mx-auto mt-[40px]">
+          <div className="basis-1/1 flex flex-wrap items-center justify-center mx-auto mt-[0px]">
             <div className="basis-1/4">
               <img
                 src="./meta.png"
@@ -149,21 +149,21 @@ const Hero = () => {
               <img
                 src="./Amazon-Ads 1.png"
                 alt="Amazon-Ads 1.png"
-                className="w-auto h-[200px] mx-auto"
+                className="w-auto h-[150px] mx-auto"
               ></img>
             </div>
             <div className="basis-1/4">
               <img
                 src="./Google_Ads_logo.png"
                 alt="Google_Ads_logo.png"
-                className="w-[100px] h-[100px] mx-auto"
+                className="w-[80px] h-auto mx-auto"
               ></img>
             </div>
             <div className="basis-1/4">
               <img
                 src="./Group 210.png"
                 alt="meta"
-                className="w-[100px] h-[100px] mx-auto"
+                className="w-[100px] h-[50px] mx-auto"
               ></img>
             </div>
           </div>

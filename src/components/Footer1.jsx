@@ -129,7 +129,7 @@ const Footer1 = () => {
             <div className="flex flex-col">
               <div className="basis-1/1 bg-[#40b0fd] text-center w-[80%] mx-auto xl:w-[90%]">
                 <div className="flex flex-row">
-                  <div className="basis-1/2 py-[15px]">
+                  <div className="basis-1/2 py-[20px]">
                     <p className="font-bold text-sm section_3_span">
                       Or Direct
                     </p>
@@ -137,7 +137,7 @@ const Footer1 = () => {
                       Message
                     </p>
                   </div>
-                  <div className="basis-1/2 py-[15px] text-center">
+                  <div className="basis-1/2 py-[20px] text-center">
                     <a href="#" className="mx-[5px]">
                       <img
                         src="./WHatsapp.png"
