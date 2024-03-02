@@ -55,11 +55,11 @@ const TabContextMD = () => {
             <Slider {...settings}>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonFBA2.png"
                       alt="AmazonFBA.png"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -82,11 +82,11 @@ const TabContextMD = () => {
               </div>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonProduct2.png"
                       alt="AmazonProduct"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -109,11 +109,11 @@ const TabContextMD = () => {
               </div>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonProductListing2.png"
                       alt="AmazonProductListing"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -142,11 +142,11 @@ const TabContextMD = () => {
             <Slider {...settings}>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonFBA2.png"
                       alt="AmazonFBA.png"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -169,11 +169,11 @@ const TabContextMD = () => {
               </div>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonProductListing2.png"
                       alt="AmazonProductListing"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -196,11 +196,11 @@ const TabContextMD = () => {
               </div>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonProduct2.png"
                       alt="AmazonProduct"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -229,11 +229,11 @@ const TabContextMD = () => {
             <Slider {...settings}>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonProduct2.png"
                       alt="AmazonProduct"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -256,11 +256,11 @@ const TabContextMD = () => {
               </div>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonProductListing2.png"
                       alt="AmazonProductListing"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -283,11 +283,11 @@ const TabContextMD = () => {
               </div>
               <div>
                 <div className="card card-compact w-[27vw] bg-base-100 shadow-xl mx-auto">
-                  <figure>
+                  <figure className="bg-[#cee9ff] pt-[20px]">
                     <img
                       src="./AmazonProductListing2.png"
                       alt="AmazonProductListing"
-                      className="w-[90vw] mx-auto"
+                      className="w-[250px] rounded-md"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">

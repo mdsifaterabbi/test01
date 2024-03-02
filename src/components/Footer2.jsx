@@ -344,11 +344,11 @@ const Footer2 = () => {
         </div>
       </div>
       {/* =================== Footer2 for xl devices ========================= */}
-      <div className="hidden xl:block">
+      <div className="hidden xl:block xl:w-[50vw] xl:mx-auto">
         <div className="flex flex-row">
           <div className="basis-1/1 w-[80vw] mx-auto mt-[50px] relative z-50">
             <div className="flex flex-row bg-[#40b0fd]">
-              <div className="basis-1/4 text-center py-[15px]">
+              <div className="basis-1/4 text-center py-[15px] xl:py-[30px]">
                 <span className="block text-3xl font-thin text-white">
                   500+
                 </span>
@@ -356,13 +356,13 @@ const Footer2 = () => {
                   Happy Clients
                 </span>
               </div>
-              <div className="basis-1/4 text-center py-[15px]">
+              <div className="basis-1/4 text-center py-[15px] xl:py-[30px]">
                 <span className="block text-3xl font-thin text-white">27+</span>
                 <span className="text-sm font-bold text-white">
                   Brains to Support
                 </span>
               </div>
-              <div className="basis-1/4 text-center py-[15px]">
+              <div className="basis-1/4 text-center py-[15px] xl:py-[30px]">
                 <span className="block text-3xl font-thin text-white">
                   100+
                 </span>
@@ -370,7 +370,7 @@ const Footer2 = () => {
                   Websites Developed
                 </span>
               </div>
-              <div className="basis-1/4 text-center py-[15px]">
+              <div className="basis-1/4 text-center py-[15px] xl:py-[30px]">
                 <span className="block text-3xl font-thin text-white">
                   150+
                 </span>
@@ -384,8 +384,8 @@ const Footer2 = () => {
       </div>
       {/* ====================== Only for extra large devices ========================= */}
       <div className="hidden xl:block xl:w-[100vw] bg-[#ddf1ff]">
-        <div className="hidden xl:block xl:w-[80vw] xl:mx-auto">
-          <div className="flex flex-row mt-[-40px]">
+        <div className="hidden xl:block xl:w-[70vw] xl:mx-auto">
+          <div className="flex flex-row mt-[-50px]">
             <div className="basis-2/5">
               <div className="flex flex-col">
                 <div className="basis-1/1 bg-[#ddf1ff] pt-[30px]">
@@ -396,7 +396,7 @@ const Footer2 = () => {
                   ></img>
                 </div>
                 <div className="basis-1/1 bg-[#ddf1ff]">
-                  <p className="text-[11px] text-left px-[0px] pt-[20px] section_3_span">
+                  <p className="text-[11px] text-left px-[0px] xl:pr-[50px] pt-[20px] section_3_span xl:text-[14px] xl:font-bold xl:pb-[20px]">
                     At Esaviour Limited, we're dedicated to propelling your
                     business to new heights in the digital landscape. Our
                     comprehensive suite of services is crafted to elevate your
@@ -411,19 +411,19 @@ const Footer2 = () => {
             <div className="basis-1/5 pt-[70px] pb-[30px] pl-[30px] bg-[#ddf1ff]">
               <span className="font-book text-xl">Quick Link</span>
               <ul>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>Home</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>Service</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>Portfolio</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>About Us</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>Blog</a>
                 </li>
               </ul>
@@ -431,16 +431,16 @@ const Footer2 = () => {
             <div className="basis-1/5 pt-[70px] pb-[30px] pl-[0px] bg-[#ddf1ff]">
               <span className="font-book text-xl">Legal</span>
               <ul>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>privacy Policy</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>Terms & Conditions</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>Order Calcellation Policy</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px]">
+                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
                   <a>Refund Policy</a>
                 </li>
               </ul>

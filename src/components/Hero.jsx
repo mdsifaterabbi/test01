@@ -2,8 +2,8 @@ const Hero = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row bg-[#b3d9f8] pb-[200px]">
-        <div className="basis-1/1 md:basis-1/2 md:mx-[100px] order-1 md:order-0 px-[10px] xl:pt-[100px]">
-          <h1 className="text-left pt-[20px] font-bold xl:pl-[20%] xl:text-[40px]">
+        <div className="basis-1/1 md:basis-1/2 md:mx-[100px] lg:mt-[100px] order-1 md:order-0 px-[10px] xl:pt-[100px]">
+          <h1 className="text-left pt-[20px] font-bold lg:text-2xl xl:pl-[20%] xl:text-[40px] md:pt-[100px] md:font-extrabold">
             Worried About your Brand's<br></br>
             <span className="text-sky-500"> Marketing Strategy?</span>
           </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             Get Free Quote!
           </button>
         </div>
-        <div className="basis-1/1 md:basis-1/2 flex justify-center items-center order-0 md:order-1 pt-[20px] xl:text-center xl:pt-[100px] xl:mr-[200px]">
+        <div className="basis-1/1 md:basis-1/2 flex justify-center items-center order-0 md:order-1 pt-[20px] md:mr-[50px] lg:mr-[150px] lg:mt-[100px] xl:text-center xl:pt-[100px] xl:mr-[200px] md:bg-orange-500">
           <img src="../Speech_Bubble.png" alt="GSpeech_Bubble"></img>
         </div>
       </div>

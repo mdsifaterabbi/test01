@@ -96,8 +96,8 @@ const Home = ({ title }) => {
           </span>
         </span>
       </div>
-      <div className="flex flex-wrap flex-col sm:flex-row xl:w-[80%] xl:mx-auto md:w-[90vw] md:mx-auto">
-        <div className="basis-1/1 sm:basis-1/2 ">
+      <div className="flex flex-wrap flex-col sm:flex-row w-[90vw] xl:w-[80%] xl:mx-auto md:w-[90vw] md:mx-auto mx-auto">
+        <div className="basis-1/1 sm:basis-1/2">
           <ServiceCard />
         </div>
         <div className="basis-1/1 sm:basis-1/2 ">

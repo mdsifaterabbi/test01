@@ -5,7 +5,7 @@ const ClientsCommentsSM = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
   };
 
@@ -13,15 +13,20 @@ const ClientsCommentsSM = () => {
     <>
       <div className="text-center">
         <h1 className="text-sky-500 text-[22px] TabContextFontSpan">
-          Clients <strong className="text-sky-500 TabContextFontSpan2">Love</strong> Us
+          Clients{" "}
+          <strong className="text-sky-500 TabContextFontSpan2">Love</strong> Us
         </h1>
       </div>
       <div className="mb-[100px]">
         <Slider {...settings} className="pt-[50px]">
           <div className="mb-[30px]">
-            <div className="card w-[90%] glass mx-auto">
-              <figure className="pt-[20px]">
-                <img src="./avatar1.png" alt="avatar1.png" />
+            <div className="card card-side w-[90%] glass mx-auto">
+              <figure className="pt-[20px] px-[100px]">
+                <img
+                  src="./avatar1.png"
+                  alt="avatar1.png"
+                  className="w-[100px]"
+                />
               </figure>
               <div className="card-body">
                 <h2 className="card-title px-[0px]">Ian Page</h2>
@@ -39,16 +44,20 @@ const ClientsCommentsSM = () => {
             </div>
           </div>
           <div className="mb-[30px]">
-            <div className="card  w-[90%] glass mx-auto">
-              <figure className="pt-[20px]">
-                <img src="./avatar1.png" alt="avatar1.png" />
+            <div className="card card-side w-[90%] glass mx-auto">
+              <figure className="pt-[20px] px-[100px]">
+                <img
+                  src="./avatar1.png"
+                  alt="avatar1.png"
+                  className="w-[100px]"
+                />
               </figure>
               <div className="card-body">
                 <h2 className="card-title px-[0px]">Ian Page</h2>
-                <span className="px-[0px] text-[12px] text-slate-900 font-bold">
+                <span className="pl-[0px] text-[12px] text-slate-900 font-bold">
                   Owner, Bullseye Sellers Ecom Consulting
                 </span>
-                <p className="px-[0px] text-[12px] text-slate-600 opacity-50">
+                <p className="pl-[0px] text-[12px] text-slate-600 opacity-50">
                   When launching our first products on Amazon, we were worried
                   and sought the assistance of Virtual Experts. They provided
                   end-to-end services for our Amazon FBA business, including
@@ -59,16 +68,20 @@ const ClientsCommentsSM = () => {
             </div>
           </div>
           <div className="mb-[30px]">
-            <div className="card  w-[90%] glass mx-auto">
-              <figure className="pt-[20px]">
-                <img src="./avatar1.png" alt="avatar1.png" />
+            <div className="card card-side w-[90%] glass mx-auto">
+              <figure className="pt-[20px] px-[100px]">
+                <img
+                  src="./avatar1.png"
+                  alt="avatar1.png"
+                  className="w-[100px]"
+                />
               </figure>
               <div className="card-body">
                 <h2 className="card-title px-[0px]">Ian Page</h2>
-                <span className="px-[0px] text-[12px] text-slate-900 font-bold">
+                <span className="pl-[0px] text-[12px] text-slate-900 font-bold">
                   Owner, Bullseye Sellers Ecom Consulting
                 </span>
-                <p className="px-[0px] text-[12px] text-slate-600 opacity-50">
+                <p className="pl-[0px] text-[12px] text-slate-600 opacity-50">
                   When launching our first products on Amazon, we were worried
                   and sought the assistance of Virtual Experts. They provided
                   end-to-end services for our Amazon FBA business, including
@@ -79,16 +92,20 @@ const ClientsCommentsSM = () => {
             </div>
           </div>
           <div className="mb-[30px]">
-            <div className="card  w-[90%] glass mx-auto">
-              <figure className="pt-[20px]">
-                <img src="./avatar1.png" alt="avatar1.png" />
+            <div className="card card-side w-[90%] glass mx-auto">
+              <figure className="pt-[20px] px-[100px]">
+                <img
+                  src="./avatar1.png"
+                  alt="avatar1.png"
+                  className="w-[100px]"
+                />
               </figure>
               <div className="card-body">
                 <h2 className="card-title px-[0px]">Ian Page</h2>
-                <span className="px-[0px] text-[12px] text-slate-900 font-bold">
+                <span className="pl-[0px] text-[12px] text-slate-900 font-bold">
                   Owner, Bullseye Sellers Ecom Consulting
                 </span>
-                <p className="px-[0px] text-[12px] text-slate-600 opacity-50">
+                <p className="pl-[0px] text-[12px] text-slate-600 opacity-50">
                   When launching our first products on Amazon, we were worried
                   and sought the assistance of Virtual Experts. They provided
                   end-to-end services for our Amazon FBA business, including
@@ -99,16 +116,20 @@ const ClientsCommentsSM = () => {
             </div>
           </div>
           <div className="mb-[30px]">
-            <div className="card  w-[90%] glass mx-auto">
-              <figure className="pt-[20px]">
-                <img src="./avatar1.png" alt="avatar1.png" />
+            <div className="card card-side w-[90%] glass mx-auto">
+              <figure className="pt-[20px] px-[100px]">
+                <img
+                  src="./avatar1.png"
+                  alt="avatar1.png"
+                  className="w-[100px]"
+                />
               </figure>
               <div className="card-body">
                 <h2 className="card-title px-[0px]">Ian Page</h2>
-                <span className="px-[0px] text-[12px] text-slate-900 font-bold">
+                <span className="pl-[0px] text-[12px] text-slate-900 font-bold">
                   Owner, Bullseye Sellers Ecom Consulting
                 </span>
-                <p className="px-[0px] text-[12px] text-slate-600 opacity-50">
+                <p className="pl-[0px] text-[12px] text-slate-600 opacity-50">
                   When launching our first products on Amazon, we were worried
                   and sought the assistance of Virtual Experts. They provided
                   end-to-end services for our Amazon FBA business, including
@@ -119,16 +140,20 @@ const ClientsCommentsSM = () => {
             </div>
           </div>
           <div className="mb-[30px]">
-            <div className="card  w-[90%] glass mx-auto">
-              <figure className="pt-[20px]">
-                <img src="./avatar1.png" alt="avatar1.png" />
+            <div className="card card-side w-[90%] glass mx-auto">
+              <figure className="pt-[20px] px-[100px]">
+                <img
+                  src="./avatar1.png"
+                  alt="avatar1.png"
+                  className="w-[100px]"
+                />
               </figure>
               <div className="card-body">
                 <h2 className="card-title px-[0px]">Ian Page</h2>
-                <span className="px-[0px] text-[12px] text-slate-900 font-bold">
+                <span className="pl-[0px] text-[12px] text-slate-900 font-bold">
                   Owner, Bullseye Sellers Ecom Consulting
                 </span>
-                <p className="px-[0px] text-[12px] text-slate-600 opacity-50">
+                <p className="pl-[0px] text-[12px] text-slate-600 opacity-50">
                   When launching our first products on Amazon, we were worried
                   and sought the assistance of Virtual Experts. They provided
                   end-to-end services for our Amazon FBA business, including

@@ -9,9 +9,13 @@ function SampleNextArrow(props) {
         ...style,
         display: "block",
         background: "skyblue",
-        marginRight: "38px",
+        marginRight: "10px",
         zIndex: "100",
         borderRadius: "50%",
+        width: "35px",
+        height: "35px",
+        textAlign: "center",
+        paddingTop: "10px",
       }}
       onClick={onClick}
     />
@@ -27,9 +31,13 @@ function SamplePrevArrow(props) {
         ...style,
         display: "block",
         background: "skyblue",
-        marginLeft: "38px",
+        marginLeft: "10px",
         zIndex: "100",
         borderRadius: "50%",
+        width: "35px",
+        height: "35px",
+        textAlign: "center",
+        paddingTop: "10px",
       }}
       onClick={onClick}
     />
@@ -40,14 +48,14 @@ const CreativeSliderXL = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
   return (
     <>
-      <div className="slider-container p-0 mb-[50px] w-[70vw] mx-auto">
+      <div className="slider-container p-0 mb-[50px] w-[50vw] mx-auto">
         <Slider {...settings}>
           <div>
             <img

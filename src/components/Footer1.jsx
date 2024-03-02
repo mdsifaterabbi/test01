@@ -1,4 +1,4 @@
-import Carousel from "react-slick";
+// import Carousel from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -16,35 +16,36 @@ const Footer1 = () => {
     <>
       <Slider
         {...settings}
-        className="py-[15px] border-[rgba(82, 83, 86,0.5)] w-[95vw] xl:w-[50vw] xl:mb-[50px] mx-auto"
+        className="pt-[50px] lg:w-[50vw] xl:w-[50vw] mx-auto"
+        autoplay={false} // Enables autoplay
+        autoplaySpeed={1000} // Sets the autoplay speed in milliseconds (optional)
       >
-        <div className="xl:bg-[#f8fcff] border h-[100px] w-[150px] md:w-[200px] md:h-[150px]">
-          <img
-            src="./Clutch.png"
-            alt="clutch"
-            className="w-[80px] xl:w-[150px] relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2"
-          ></img>
+        <div className="mb-[30px]">
+          <div className="card w-[90%] glass mx-auto rounded-none min-h-[100px] sm:min-h-[120px] xl:min-h-[200px]">
+            <img
+              src="./Clutch.png"
+              alt="Clutch"
+              className="w-[80px] mx-auto xl:w-[150px] mt-[15px] xl:mt-[35px] xl:mx-auto sm:w-[100px] sm:mx-auto"
+            ></img>
+          </div>
         </div>
-        <div className="xl:bg-[#f8fcff] border h-[100px] w-[150px] md:w-[200px] md:h-[150px] ">
-          <img
-            src="./Trustppailot.png"
-            alt="Trustppailot.png"
-            className="w-[80px] xl:w-[150px] relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2"
-          ></img>
+        <div className="mb-[30px]">
+          <div className="card w-[90%] glass mx-auto rounded-none min-h-[100px] xl:min-h-[200px] sm:min-h-[120px]">
+            <img
+              src="./Google.png"
+              alt="Google"
+              className="w-[80px] mx-auto xl:w-[150px] mt-[20px] xl:mt-[50px] xl:mx-auto sm:w-[100px] sm:mx-auto"
+            ></img>
+          </div>
         </div>
-        <div className="xl:bg-[#f8fcff] border h-[100px] w-[150px] md:w-[200px] md:h-[150px]">
-          <img
-            src="./Google.png"
-            alt="Google.png"
-            className="w-[80px] xl:w-[150px] relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2"
-          ></img>
-        </div>
-        <div className="xl:bg-[#f8fcff] border h-[100px] w-[150px] md:w-[200px] md:h-[150px]">
-          <img
-            src="./Clutch.png"
-            alt="clutch"
-            className="w-[80px] xl:w-[150px] relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2"
-          ></img>
+        <div className="mb-[30px]">
+          <div className="card w-[90%] glass mx-auto rounded-none min-h-[100px] xl:min-h-[200px] sm:min-h-[120px]">
+            <img
+              src="./Trustppailot.png"
+              alt="Trustppailot"
+              className="w-[80px] mx-auto xl:w-[150px] mt-[20px] xl:mt-[50px] xl:mx-auto sm:w-[100px] sm:mx-auto"
+            ></img>
+          </div>
         </div>
       </Slider>
       {/* ========== only for extra small device ============= */}
@@ -110,10 +111,10 @@ const Footer1 = () => {
         </div>
       </div>
       {/* ============ only for extra large device ============= */}
-      <div className="hidden xl:block xl:w-[80vw] xl:mx-auto">
+      <div className="hidden xl:block xl:w-[70vw] xl:mx-auto">
         <div className="flex flex-row">
           <div className="basis-1/2 bg-[#eef7ff]">
-            <p className="text-center text-[12px] pt-[50px] px-[50px] pb-[10px] section_3_span">
+            <p className="text-center text-[12px] pt-[50px] px-[50px] pb-[10px] section_3_span xl:text-[18px] xl:font-semibold">
               Our Professional Team has helped Hundreds of Sellers on Amazon to
               Avoid Failure and Maximize Potential Growth. Schedule a Free
               Meeting Now!
@@ -126,7 +127,7 @@ const Footer1 = () => {
           </div>
           <div className="basis-1/2">
             <div className="flex flex-col">
-              <div className="basis-1/1 bg-[#40b0fd] text-center w-[80%] mx-auto">
+              <div className="basis-1/1 bg-[#40b0fd] text-center w-[80%] mx-auto xl:w-[90%]">
                 <div className="flex flex-row">
                   <div className="basis-1/2 py-[15px]">
                     <p className="font-bold text-sm section_3_span">
@@ -161,7 +162,7 @@ const Footer1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="basis-1/1 my-[20px] bg-[#eef7ff] w-[80%] mx-auto">
+              <div className="basis-1/1 my-[20px] bg-[#eef7ff] w-[80%] mx-auto xl:w-[90%]">
                 <label className="input input-bordered flex items-center rounded-none w-[95%] mx-auto my-[15px] py-[20px]">
                   <input
                     type="text"
