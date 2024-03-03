@@ -1,42 +1,42 @@
 const OrderForm = () => {
   return (
     <>
-      <div className="bg-[#40b0fd] h-[230px]">
+      <div className="bg-[#40b0fd] xl:h-[230px] pb-[50px]">
         <img
           src="../Logo-white.png"
           alt="Logo-white.png"
           className="inline mx-auto pt-[20px]"
         ></img>
       </div>
-      <div className="bg-white w-[450px] h-[500px] mx-auto mt-[-120px] px-[10px]">
-        <h1 className="text-center text-[30px] font-thin pt-[50px] pb-[30px]">
+      <div className="w-[80vw] ml-[-5px] xl:bg-white xl:w-[450px] h-[500px] xl:mx-auto xl:mt-[-120px] xl:px-[10px]">
+        <h1 className="text-center text-[12px] xl:text-[30px] font-thin xl:pt-[50px] xl:pb-[30px]">
           Place an order to start
         </h1>
         <div className="flex flex-wrap justify-between">
-          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[48%] inline my-[10px]">
+          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[80vw] xl:w-[48%] xl:inline mb-[5px] xl:my-[10px]">
             <input
               type="text"
               className="grow"
               placeholder="Your Name/Brand Name"
             />
           </label>
-          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[48%] inline my-[10px]">
+          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[80vw] xl:w-[48%] xl:inline mb-[5px] xl:my-[10px]">
             <input type="text" className="grow" placeholder="Your Email" />
           </label>
-          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[48%] inline my-[10px]">
+          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[80vw] xl:w-[48%] xl:inline mb-[5px] xl:my-[10px]">
             <input type="text" className="grow" placeholder="Your Phone" />
           </label>
-          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[48%] inline my-[10px]">
+          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[80vw] xl:w-[48%] xl:inline mb-[5px] xl:my-[10px]">
             <input type="text" className="grow" placeholder="Product Link" />
           </label>
-          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[48%] inline my-[10px]">
+          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[80vw] xl:w-[48%] xl:inline mb-[5px] xl:my-[10px]">
             <input
               type="text"
               className="grow"
               placeholder="Service Category"
             />
           </label>
-          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[48%] inline my-[10px]">
+          <label className="input input-bordered  bg-[#cee9ff] border-none pt-[10px] rounded-none w-[80vw] xl:w-[48%] mb-[5px] xl:inline xl:my-[10px]">
             <input
               type="text"
               className="grow"

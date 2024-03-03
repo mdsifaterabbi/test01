@@ -110,6 +110,71 @@ const Footer1 = () => {
           </div>
         </div>
       </div>
+
+      {/* ============ For small and medium devices with large ============ */}
+      <div className="hidden sm:block xl:hidden w-[95vw] mx-auto">
+        <div className="flex flex-col mb-[30px]">
+          <div className="basis-1/1 bg-[#EEF7FF]">
+            <p className="text-center text-[12px] px-[5px] py-[10px] section_3_span">
+              Our Professional Team has helped Hundreds of Sellers on Amazon to
+              Avoid Failure and Maximize Potential Growth. Schedule a Free
+              Meeting Now!
+            </p>
+            <div className="pt-[10px] pb-[20px] text-center">
+              <a href="#" className="py-[5px] px-[10px] bg-black text-white">
+                Schedule a Meeting
+              </a>
+            </div>
+          </div>
+          <div className="basis-1/1">
+            <div className="flex flex-row">
+              <div className="basis-1/2 bg-[#40b0fd] text-center py-[20px]">
+                <p className="font-bold text-sm section_3_span">Or Direct</p>
+                <p className="font-light text-xl text-[white] tracking-widest pr-[10px] section_3_span">
+                  Message
+                </p>
+              </div>
+              <div className="basis-1/2 bg-[#40b0fd] text-center py-[20px]">
+                <a href="#" className="mx-[5px]">
+                  <img
+                    src="./WHatsapp.png"
+                    alt="WHatsapp"
+                    className="w-[30px] inline"
+                  ></img>
+                </a>
+                <a href="#" className="mx-[5px]">
+                  <img
+                    src="./Facebook.png"
+                    alt="Facebook.png"
+                    className="w-[30px] inline"
+                  ></img>
+                </a>
+                <a href="#" className="mx-[5px]">
+                  <img
+                    src="./LinkedIn.png"
+                    alt="LinkedIn.png"
+                    className="w-[35px] inline "
+                  ></img>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="basis-1/1 bg-[#ddf1ff] py-[10px]">
+            <label className="input input-bordered flex items-center border-none rounded-none w-[90%] mx-auto">
+              <input
+                type="text"
+                className="grow placeholder-slate-600 "
+                placeholder="Email"
+              />
+              <button className="btn bg-[#40b0fd] btn-sm rounded-sm section_3_span text-white relative left-[-30px]">
+                Submit
+              </button>
+            </label>
+          </div>
+        </div>
+      </div>
+
+
       {/* ============ only for extra large device ============= */}
       <div className="hidden xl:block xl:w-[70vw] xl:mx-auto">
         <div className="flex flex-row">
@@ -163,16 +228,18 @@ const Footer1 = () => {
                 </div>
               </div>
               <div className="basis-1/1 my-[20px] bg-[#eef7ff] w-[80%] mx-auto xl:w-[90%]">
-                <label className="input input-bordered flex items-center rounded-none w-[95%] mx-auto my-[15px] py-[20px]">
-                  <input
-                    type="text"
-                    className="grow placeholder-slate-600"
-                    placeholder="Email"
-                  />
-                  <button className="btn bg-[#40b0fd] btn-sm rounded-sm">
-                    Submit
-                  </button>
-                </label>
+                <div className="bg-[#eef7ff] relative top-[20px] left-[0px] h-[100px]">
+                  <label className="input input-bordered flex items-center rounded-none w-[95%] mx-auto my-[15px] py-[20px]">
+                    <input
+                      type="text"
+                      className="grow placeholder-slate-600"
+                      placeholder="Email"
+                    />
+                    <button className="btn bg-[#40b0fd] btn-sm rounded-sm">
+                      Submit
+                    </button>
+                  </label>
+                </div>
               </div>
             </div>
           </div>

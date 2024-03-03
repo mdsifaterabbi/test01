@@ -55,8 +55,8 @@ const TabContextXL = () => {
               <div className="slider-container pb-[0px] bg-[#f4faff] xl:w-[70vw] xl:mx-auto">
                 <Slider {...settings}>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 shadow-xl shadow-[#cee6f8] mx-auto h-[350px]">
-                      <figure className="bg-[#ffffff] py-[20px]">
+                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                      <figure className="bg-[#ffffff] py-[40px]">
                         <img
                           src="../updated/Fba_Consultancy.png"
                           alt="Fba_Consultancy"
@@ -73,21 +73,20 @@ const TabContextXL = () => {
                           potential of your Amazon FBA business with Esaviour
                           Limited. Our consultancy services are designed to
                           optimize your product listings, enhance visibility,
-                          and boost sales. Trust our expertise to navigate the
-                          intricacies of the world's largest online marketplace.
+                          and boost sales.
                         </p>
 
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
                           className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -124,21 +123,19 @@ const TabContextXL = () => {
                           Pay-per-click (PPC) advertising (Sponsored Ads) is a
                           common tool for e-commerce merchants. However, if you
                           lack the necessary skills and experience, you can
-                          jeopardize your whole business instead. Our Sponsored
-                          Ad campaign guarantees you a decent click-through and
-                          conversion rate within a convenient price range.
+                          jeopardize your whole business instead.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -180,15 +177,15 @@ const TabContextXL = () => {
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -231,20 +228,19 @@ const TabContextXL = () => {
                           We will research highly profitable products for your
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling
-                          proposition for your product and it will be different
-                          from your competitor and help you to grow as a brand.
+                          proposition for your product.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -282,19 +278,19 @@ const TabContextXL = () => {
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling
                           proposition for your product and it will be different
-                          from your competitor and help you to grow as a brand.
+                          from your competitor.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -329,24 +325,20 @@ const TabContextXL = () => {
 
                         <p className="text-[12px] text-black opacity-70">
                           Professional guidance to optimize your product
-                          listings to enhance the visibility on Amazon that will
-                          attract new customers and drive more sales. The best
-                          e-commerce optimization techniques such as keyword
-                          research and optimization, crafting compelling product
-                          descriptions and images, and pricing and promotions to
-                          convert the clicks to sales.
+                          listings to enhance the visibility on Amazon. The best
+                          e-commerce optimization techniques we are providing.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -389,21 +381,20 @@ const TabContextXL = () => {
                           Maximize Your E-commerce Potential Unlock the full
                           potential of your Amazon FBA business with Esaviour
                           Limited. Our consultancy services are designed to
-                          optimize your product listings, enhance visibility,
-                          and boost sales. Trust our expertise to navigate the
-                          intricacies of the world’s largest online marketplace.
+                          optimize you business. Trust our expertise to navigate
+                          the online marketplace.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -440,22 +431,19 @@ const TabContextXL = () => {
                           Your product package tells a lot about your brand and
                           your representation. Our designers are well-equipped
                           to create smart, responsive, and lucrative packages
-                          for your Amazon product. Leave the technical aspects
-                          of how the package looks to us so you can concentrate
-                          on more important areas like the delivery and product
-                          quality.
+                          for your Amazon product.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -493,20 +481,19 @@ const TabContextXL = () => {
                           attention of a huge customer base. Our social media
                           package includes graphics design for posts, creating
                           page layouts, making infographics and graphics for
-                          video content. Highlight your products by customizing
-                          your social media plan with our graphics design team.
+                          video content.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -546,26 +533,22 @@ const TabContextXL = () => {
                         </h2>
 
                         <p className="text-[12px] text-black opacity-70">
-                          As a brand, you must take approval for your brand name
-                          from amazon and it’s essential if you want to create
-                          your private label products and build a brand on
-                          Amazon. We can help you to navigate the complex
-                          process of obtaining brand registry and trademark
-                          approval on Amazon, which will protect your
-                          intellectual property and build a strong brand
-                          identity.
+                          You must take approval for your brand name and
+                          trademark from amazon and it’s essential if you want
+                          to create your private label products and build a
+                          brand on Amazon.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -607,15 +590,15 @@ const TabContextXL = () => {
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -653,19 +636,19 @@ const TabContextXL = () => {
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling
                           proposition for your product and it will be different
-                          from your competitor and help you to grow as a brand.
+                          from others.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
-                          className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                          className="btn btn-neutral btn-sm z-50 w-[100px] mb-[50px] rounded-none mx-auto"
                           onClick={() =>
-                            document.getElementById("my_modal_3").showModal()
+                            document.getElementById("my_modal_2").showModal()
                           }
                         >
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_3" className="modal">
+                        <dialog id="my_modal_2" className="modal">
                           <div className="modal-box">
                             <form method="dialog">
                               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
