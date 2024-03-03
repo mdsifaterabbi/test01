@@ -26,24 +26,23 @@ const ClientsCommentsXL = () => {
             <div className="card card-side shadow-xl xl:w-[70%] xl:mx-auto">
               <figure className="xl:w-[300px]">
                 <img
-                  src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-                  alt="Movie"
+                  src="../Mostafiz_Rana.jpeg"
+                  alt="Mostafiz_Rana.jpeg"
                   className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px]"
                 />
               </figure>
               <div className="card-body xl:max-w-[500px]">
                 <p className="pt-[80px] xl:text-[14px] section_3_span">
-                  xxxWhen launching our first products on Amazon, we were
-                  worried and sought the assistance of Virtual Experts. They
-                  provided end-to-end services for our Amazon FBA business,
-                  including product research, product listing, content writing,
-                  EBC content, and more.”
+                  We wanted to design a website for our chauffeur business in
+                  Austin city. eSaviour Limited designed a simple and
+                  easy-to-use website for our company. We highly recommend them
+                  for web development.”
                 </p>
                 <h2 className="relative left-[0px] top-[-60px] xl:text-[20px] text-sky-500 section_3_span">
-                  Iam Page
+                  Mostafiz Rana
                 </h2>
                 <span className="relative left-[0px] top-[-70px] xl:text-[14px] section_3_span">
-                  Owner, Bullseye Sellers Ecom Consulting
+                  UnitedCarry Imports LLC
                 </span>
               </div>
             </div>
@@ -52,24 +51,24 @@ const ClientsCommentsXL = () => {
             <div className="card card-side shadow-xl xl:w-[70%] xl:mx-auto">
               <figure className="xl:w-[300px]">
                 <img
-                  src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-                  alt="Movie"
+                  src="../Robert.jpeg"
+                  alt="Robert.jpeg"
                   className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px]"
                 />
               </figure>
               <div className="card-body xl:max-w-[500px]">
                 <p className="pt-[80px] xl:text-[14px] section_3_span">
-                  xxxWhen launching our first products on Amazon, we were
-                  worried and sought the assistance of Virtual Experts. They
-                  provided end-to-end services for our Amazon FBA business,
-                  including product research, product listing, content writing,
-                  EBC content, and more.”
+                  eSaviour Limited helped us launch a new Amazon FBA product in
+                  the pest repeller category. They handled product photography,
+                  designed listing images, created EBC content, and also wrote
+                  an SEO-optimized title and bullet points for our product. We
+                  highly recommend them for Amazon FBA services.
                 </p>
                 <h2 className="relative left-[0px] top-[-60px] xl:text-[20px] text-sky-500 section_3_span">
-                  Iam Page
+                  Robert Cameron
                 </h2>
                 <span className="relative left-[0px] top-[-70px] xl:text-[14px] section_3_span">
-                  Owner, Bullseye Sellers Ecom Consulting
+                  T3-R LLC
                 </span>
               </div>
             </div>
@@ -78,24 +77,22 @@ const ClientsCommentsXL = () => {
             <div className="card card-side shadow-xl xl:w-[70%] xl:mx-auto">
               <figure className="xl:w-[300px]">
                 <img
-                  src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-                  alt="Movie"
+                  src="../Noor.jpeg"
+                  alt="Noor"
                   className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px]"
                 />
               </figure>
               <div className="card-body xl:max-w-[500px]">
                 <p className="pt-[80px] xl:text-[14px] section_3_span">
-                  xxxWhen launching our first products on Amazon, we were
-                  worried and sought the assistance of Virtual Experts. They
-                  provided end-to-end services for our Amazon FBA business,
-                  including product research, product listing, content writing,
-                  EBC content, and more.”
+                  As a legal professional, I badly needed social media branding
+                  and content management for my law firm ‘Noor & Co.’ eSaviour
+                  Limited helped me build the entire brand design from scratch.
                 </p>
                 <h2 className="relative left-[0px] top-[-60px] xl:text-[20px] text-sky-500 section_3_span">
-                  Iam Page
+                  Barrister AKM NOOR A RABBI
                 </h2>
                 <span className="relative left-[0px] top-[-70px] xl:text-[14px] section_3_span">
-                  Owner, Bullseye Sellers Ecom Consulting
+                  Noor & Co
                 </span>
               </div>
             </div>

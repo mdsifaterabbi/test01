@@ -1,27 +1,29 @@
+import { Link } from "react-router-dom";
+
 const MyNav = () => {
   return (
     <>
       <div className="xl:w-[80vw] xl:mx-auto">
         <div className="navbar bg-base-100 pt-[10px] pb-[20px]">
           <div className="navbar-start hidden lg:flex">
-            <a className="btn btn-ghost text-xl">
+            <Link to="/home" className="btn btn-ghost text-xl">
               <img src="../Logo.png" alt="logo" className="w-[120px]"></img>
-            </a>
+            </Link>
           </div>
 
           <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Service</a>
+                <Link to="/service">Service</Link>
               </li>
               <li>
-                <a>Portfolio</a>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <a>About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a>Blog</a>
+                <Link to="/blog">Blog</Link>
               </li>
               <li>
                 <a>Contact</a>

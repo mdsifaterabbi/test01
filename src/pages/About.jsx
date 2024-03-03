@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import MyNav from "../components/MyNav";
 
 const About = ({ title }) => {
   return (
@@ -6,6 +7,7 @@ const About = ({ title }) => {
       <Helmet>
         <title>{title}</title>
       </Helmet>
+      <MyNav />
       About
     </>
   );
