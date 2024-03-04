@@ -3,7 +3,7 @@ const ServiceHero = () => {
     <>
       <div className="flex flex-col md:flex-row bg-[#b3d9f8] pb-[150px] md:pb-[150px] md:pt-[50px]">
         <div className="basis-1/1 md:basis-1/2 lg:basis-1/2 lg:mt-[50px] order-1 md:order-0 px-[10px] xl:mt-[0px]">
-          <h1 className="text-left pt-[20px] font-bold sm:text-[26px] md:text-xl lg:text-2xl xl:pl-[20%] xl:text-[30px] xl:leading-[50px] md:pt-[50px] md:pl-[5%] md:font-extrabold sm:pl-[5%] xl:pt-[50px]">
+          <h1 className="text-left pt-[20px] font-bold sm:text-[26px] md:text-xl lg:text-2xl xl:pl-[20%] xl:text-[30px] xl:leading-[50px] md:pt-[50px] md:pl-[5%] md:font-extrabold sm:pl-[5%] lg:pt-[0px] xl:pt-[50px]">
             Welcome to Esaviour Limited <br></br>Your Optimal Solutions for
             <br></br>Exceptional Services
           </h1>
@@ -18,7 +18,7 @@ const ServiceHero = () => {
           <img
             src="../ServicePageLogos/Service_Logo.png"
             alt="Service Logo"
-            className="w-[30%]"
+            className="w-[40%] sm:w-[30%] md:w-[50%] lg:w-[50%] xl:w-[35%]"
           ></img>
         </div>
       </div>
