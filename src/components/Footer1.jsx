@@ -174,12 +174,11 @@ const Footer1 = () => {
         </div>
       </div>
 
-
       {/* ============ only for extra large device ============= */}
       <div className="hidden xl:block xl:w-[70vw] xl:mx-auto">
         <div className="flex flex-row">
-          <div className="basis-1/2 bg-[#eef7ff]">
-            <p className="text-center text-[12px] pt-[50px] px-[50px] pb-[10px] section_3_span xl:text-[18px] xl:font-semibold">
+          <div className="basis-3/5 bg-[#eef7ff]">
+            <p className="text-center text-[12px] pt-[35px] px-[100px] pb-[30px] section_3_span xl:text-[18px] xl:font-semibold">
               Our Professional Team has helped Hundreds of Sellers on Amazon to
               Avoid Failure and Maximize Potential Growth. Schedule a Free
               Meeting Now!
@@ -190,15 +189,15 @@ const Footer1 = () => {
               </a>
             </div>
           </div>
-          <div className="basis-1/2">
+          <div className="basis-2/5">
             <div className="flex flex-col">
               <div className="basis-1/1 bg-[#40b0fd] text-center w-[80%] mx-auto xl:w-[90%]">
                 <div className="flex flex-row">
                   <div className="basis-1/2 py-[20px]">
-                    <p className="font-bold text-sm section_3_span">
-                      Or Direct
+                    <p className="font-bold text-md section_3_span">
+                      <span className="text-[#40b0fd]">........</span>Or Direct
                     </p>
-                    <p className="font-light text-xl text-[white] tracking-widest pr-[10px] section_3_span">
+                    <p className="font-light text-2xl text-[white] tracking-widest pr-[10px] section_3_span">
                       Message
                     </p>
                   </div>
@@ -207,38 +206,41 @@ const Footer1 = () => {
                       <img
                         src="./WHatsapp.png"
                         alt="WHatsapp"
-                        className="w-[30px] inline"
+                        className="w-[60px] inline"
                       ></img>
                     </a>
                     <a href="#" className="mx-[5px]">
                       <img
                         src="./Facebook.png"
                         alt="Facebook.png"
-                        className="w-[30px] inline"
+                        className="w-[60px] inline"
                       ></img>
                     </a>
                     <a href="#" className="mx-[5px]">
                       <img
                         src="./LinkedIn.png"
                         alt="LinkedIn.png"
-                        className="w-[35px] inline "
+                        className="w-[60px] inline "
                       ></img>
                     </a>
                   </div>
                 </div>
               </div>
-              <div className="basis-1/1 my-[20px] bg-[#eef7ff] w-[80%] mx-auto xl:w-[90%]">
-                <div className="bg-[#eef7ff] relative top-[20px] left-[0px] h-[100px]">
-                  <label className="input input-bordered flex items-center rounded-none w-[95%] mx-auto my-[15px] py-[20px]">
-                    <input
-                      type="text"
-                      className="grow placeholder-slate-600"
-                      placeholder="Email"
-                    />
-                    <button className="btn bg-[#40b0fd] btn-sm rounded-sm">
-                      Submit
-                    </button>
-                  </label>
+              {/* bg-[#eef7ff]  */}
+              <div className="basis-1/1 mt-[0px] w-[80%] mx-auto xl:w-[90%]">
+                <div className="bg-[#eef7ff] relative top-[20px] left-[0px] h-[80px]">
+                  <div className="bg-purple-500 absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
+                    <label className="input flex items-center rounded-none">
+                      <input
+                        type="text"
+                        className="grow placeholder-slate-600 py-[50px] w-[350px]"
+                        placeholder="Email"
+                      />
+                      <button className="btn bg-[#40b0fd] btn-sm rounded-sm text-white">
+                        Submit
+                      </button>
+                    </label>
+                  </div>
                 </div>
               </div>
             </div>

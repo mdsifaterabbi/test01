@@ -45,8 +45,11 @@
     font-weight: 800;
     font-style: normal;
   } */
+.myPoppinsFont {
+  font-family: "Poppins", sans-serif;
+}
 .section_3_span {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .section_3_p {
   font-family: "Poppins", sans-serif;
@@ -54,16 +57,14 @@
   font-style: normal;
 }
 .TabContextFontSpan {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
 }
 .TabContextFontSpan2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .TabContextTabFont {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
-

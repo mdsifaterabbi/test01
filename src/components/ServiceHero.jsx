@@ -1,27 +1,31 @@
 const ServiceHero = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row bg-[#b3d9f8] pb-[200px]">
-        <div className="basis-1/1 md:basis-1/2 md:mx-[100px] lg:mt-[100px] order-1 md:order-0 px-[10px] xl:mt-[0px]">
-          <h1 className="text-left pt-[20px] font-bold lg:text-2xl xl:pl-[20%] xl:text-[40px] xl:leading-[50px] md:pt-[100px]  md:font-extrabold">
+      <div className="flex flex-col md:flex-row bg-[#b3d9f8] pb-[150px] md:pb-[150px] md:pt-[50px]">
+        <div className="basis-1/1 md:basis-1/2 lg:basis-1/2 lg:mt-[50px] order-1 md:order-0 px-[10px] xl:mt-[0px]">
+          <h1 className="text-left pt-[20px] font-bold sm:text-[26px] md:text-xl lg:text-2xl xl:pl-[20%] xl:text-[30px] xl:leading-[50px] md:pt-[50px] md:pl-[5%] md:font-extrabold sm:pl-[5%] xl:pt-[50px]">
             Welcome to Esaviour Limited <br></br>Your Optimal Solutions for
             <br></br>Exceptional Services
           </h1>
-          <p className="text-sm md:text-[14px] mt-[20px] mb-[10px] section_3_span xl:pl-[20%]">
+          <p className="text-[12px] sm:text-[16px] sm:pl-[5%] sm:pr-[5%] md:text-[14px] md:pl-[5%] mt-[20px] mb-[10px] section_3_span xl:pl-[20%] xl:pr-[200px] xl:leading-[25px]">
             Esaviour Services: Your go-to solution for seamless, efficient, and
             innovative services. We simplify your needs with a touch of
             excellence, ensuring convenience and satisfaction in every
             experience.
           </p>
         </div>
-        <div className="basis-1/1 md:basis-1/2 flex justify-center items-center order-0 md:order-1 pt-[20px] md:mr-[50px] lg:mr-[150px] lg:mt-[100px] xl:text-center xl:pt-[10px] xl:mr-[200px]">
-          {/* <img src="../Speech_Bubble.png" alt="GSpeech_Bubble"></img> */}
+        <div className="basis-1/1 md:basis-1/2 lg:basis-1/2 flex justify-center items-center order-0 md:order-1 pt-[20px] lg:mt-[50px] xl:text-center xl:pt-[0px]">
+          <img
+            src="../ServicePageLogos/Service_Logo.png"
+            alt="Service Logo"
+            className="w-[30%]"
+          ></img>
         </div>
       </div>
 
       {/* ========================================================= */}
 
-      <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[80vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-100px] xl:w-[80vw] relative">
+      <div className="flex flex-col md:flex-col bg-[#ffffff] py-[10px] w-[90vw] mt-[-100px] md:w-[80vw] mx-auto md:mt-[-70px] sm:mt-[-80px] xl:mt-[-100px] xl:w-[80vw] relative">
         {/* ===================For extra small devices only====================== */}
         <div className="basis-1/1 sm:hidden flex flex-wrap items-center justify-center mx-auto">
           <div className="basis-1/2">
@@ -55,7 +59,7 @@ const ServiceHero = () => {
         </div>
 
         {/* =============For small and medium devices only============ */}
-        <div className="hidden sm:block lg:hidden">
+        <div className="hidden sm:block lg:hidden bg-purple-400]">
           <div className="basis-1/1 flex flex-wrap items-center justify-center mx-auto">
             <div className="basis-1/4">
               <img
