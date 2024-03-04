@@ -1,0 +1,51 @@
+/* @font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/FuturaPT.woff2") format("woff2"),
+    url("./fonts/FuturaPT.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: "Futura PT";
+  src: url("./FuturaPTFont/FuturaPTDemiOblique.otf") format("woff2"),
+    url("./FuturaPTFont/FuturaPTExtraBold.otf") format("woff2"),
+    url("./FuturaPTFont/FuturaPTExtraBoldOblique.otf") format("woff2"),
+    url("./FuturaPTFont/FuturaPTHeavy.otf") format("woff2"),
+    url("./FuturaPTFont/FuturaPTHeavyOblique.otf") format("woff2"),
+    url("./FuturaPTFont/FuturaPTLight.otf") format("woff2"),
+    url("./FuturaPTFont/FuturaPTLightOblique.otf") format("woff2"),
+    url("./FuturaPTFont/FuturaPTMedium.otf") format("woff2"),
+    url("./FuturaPTFont/FuturaPTMediumOblique.otf") format("woff2"),
+    url("./fonts/FuturaPT.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* Weights:
+
+    Thin (100): A very light weight, suitable for minimal impact or creating a delicate feel.
+    Light (200): A slightly heavier weight than thin, often used for body text in large sizes.
+    Book (300): A lighter weight often used for body text or headings in smaller sizes.
+    Normal (400): The standard weight, often used for body text and general use.
+    Medium (500): A slightly heavier weight, often used for emphasis or headings.
+    Bold (600): A bold weight, suitable for strong emphasis or headlines.
+    Demi (700): A very bold weight, even bolder than bold, used for strong emphasis or large headlines.
+    Extra Bold (800): An extremely bold weight, reserved for situations requiring maximum impact.
+    Heavy (900): The heaviest weight available, typically used sparingly due to its dominance. */
+
+/* 
+Usage Example in the React Component: 
+<p style={{ fontFamily: 'Futura PT, sans-serif', fontWeight: 'bold', fontStyle: 'italic' }}>
+  This text is bold and italic.
+</p>
+<h3 style={{ fontFamily: 'Futura PT, sans-serif', fontStyle: 'oblique', fontWeight: 600 }}>
+  This heading is emphasized with oblique style and a bold weight (Demi).
+</h3> */
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("./FuturaPTFont/FuturaPTLight.otf") format("woff2"),
+    url("./fonts/FuturaPT.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}

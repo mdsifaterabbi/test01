@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import MyNav from "../components/MyNav";
 import Hero from "../components/Hero";
+import "../App.css";
 import {
   ServiceCard,
   ServiceCard2,
@@ -38,27 +39,55 @@ const Home = ({ title }) => {
         <div className="basis-1/1 md:basis-1/2 flex justify-center items-center">
           <img src="../Arrow_2.png" alt="Arrow_2"></img>
         </div>
-        <div className="basis-1/1 md:basis-1/2 text-left xl:py-[100px]">
-          <span className="text-[40px] pr-[5px] pl-[5px] section_3_span xl:text-9xl">
+        <div
+          className="basis-1/1 md:basis-1/2 text-left xl:py-[100px]"
+          style={{
+            fontFamily: "Futura PT, sans-serif",
+            fontWeight: 'bold',
+            fontStyle: "normal",
+          }}
+        >
+          <span className="text-[40px] pr-[5px] pl-[5px] xl:text-9xl">
             Who&nbsp;
           </span>
-          <span className="text-sky-500 text-[30px] pr-[5px] section_3_span xl:text-6xl">
+          <span className="text-sky-500 text-[30px] pr-[5px] xl:text-6xl">
             We&nbsp;
           </span>
-          <span className="text-sm text-[20px] section_3_span xl:text-3xl">Are?</span>
-          <p className="text-[12px] sm:text-[14px] md:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 section_3_p">
-            eSaviour Limited is an industry leader in the digital marketing
+          <span className="text-sm text-[20px] xl:text-3xl">Are?</span>
+          <p
+            className="text-[12px] sm:text-[14px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600"
+            style={{
+              fontFamily: "Futura PT, sans-serif",
+              fontWeight: 400,
+              fontStyle: "normal",
+            }}
+          >
+            XXXeSaviour Limited is an industry leader in the digital marketing
             sector and offers B2B enterprises a wide range of services that help
             them dominate international markets
           </p>
-          <p className="text-[12px] sm:text-[14px] md:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 section_3_p">
+          <p
+            className="text-[12px] sm:text-[14px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 "
+            style={{
+              fontFamily: "Futura PT, sans-serif",
+              fontWeight: 400,
+              fontStyle: "normal",
+            }}
+          >
             Esaviour Limited is not just a service provider; we are your
             strategic ally in navigating the dynamic landscape of digital
             business. With a team of dedicated professionals, we bring a wealth
             of experience in diverse fields, including digital marketing, web
             development, and Amazon FBA consultancy.
           </p>
-          <p className="text-[12px] sm:text-[14px] md:text-[16px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 section_3_p">
+          <p
+            className="text-[12px] sm:text-[14px] md:text-[16px] xl:text-[16px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600"
+            style={{
+              fontFamily: "Futura PT, sans-serif",
+              fontWeight: 400,
+              fontStyle: "normal",
+            }}
+          >
             Esaviour Limited is not just a service provider; we are your
             strategic ally in navigating the dynamic landscape of digital
             business. With a team of dedicated professionals, we bring a wealth
