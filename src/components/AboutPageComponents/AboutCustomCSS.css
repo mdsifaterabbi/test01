@@ -1,0 +1,11 @@
+.mySliderHover:hover div{
+    border: none;
+}
+.mySliderHover:hover  div {
+    background: skyblue;
+    transition: all linear 0.3s;
+} 
+.mySliderHover:hover div div p {
+    color: #fff;
+    transition: all linear 0.3s;
+}

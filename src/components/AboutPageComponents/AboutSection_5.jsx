@@ -1,3 +1,4 @@
+import AboutSectionSlider from "./AboutSectionSlider";
 import AboutSectionSliderXL from "./AboutSectionSliderXL";
 
 const AboutSection_5 = () => {
@@ -12,6 +13,10 @@ const AboutSection_5 = () => {
         >
           When Numbers Speak for Us
         </h1>
+      </div>
+      {/* ============== Slider only for extra small devices =================== */}
+      <div className="sm:hidden">
+        <AboutSectionSlider />
       </div>
       {/* ============== Slider only for XL devices =================== */}
       <div className="hidden xl:block">
