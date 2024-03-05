@@ -64,11 +64,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Amazon FBA Consultancy
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           Maximize Your E-commerce Potential Unlock the full
                           potential of your Amazon FBA business with Esaviour
                           Limited. Our consultancy services are designed to
@@ -115,11 +129,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           PPC Campaigns
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           Pay-per-click (PPC) advertising (Sponsored Ads) is a
                           common tool for e-commerce merchants. However, if you
                           lack the necessary skills and experience, you can
@@ -164,11 +192,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Product Sourcing
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           Leave some of your major concerns to us, like choosing
                           the right supplier for your products. As FBA
                           specialists, we will source from the most reliable and
@@ -220,11 +262,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Facebook Ads Campaigns
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           We will research highly profitable products for your
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling
@@ -269,11 +325,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="font-bold text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Google Ads Campaigns
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           We will research highly profitable products for your
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling
@@ -319,11 +389,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="font-bold text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Local & Technical SEO
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           Professional guidance to optimize your product
                           listings to enhance the visibility on Amazon. The best
                           e-commerce optimization techniques we are providing.
@@ -373,11 +457,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="text-black text-xl opacity-80 "
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Amazon Product Listing Design
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           Maximize Your E-commerce Potential Unlock the full
                           potential of your Amazon FBA business with Esaviour
                           Limited. Our consultancy services are designed to
@@ -423,11 +521,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className=" text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Product package Design
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           Your product package tells a lot about your brand and
                           your representation. Our designers are well-equipped
                           to create smart, responsive, and lucrative packages
@@ -472,11 +584,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className=" text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Social Media Post Design
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           Social media is all about visuals and drawing the
                           attention of a huge customer base. Our social media
                           package includes graphics design for posts, creating
@@ -528,11 +654,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Wordpress Website
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           You must take approval for your brand name and
                           trademark from amazon and it’s essential if you want
                           to create your private label products and build a
@@ -577,11 +717,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           MERN Stack Development
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           If the technical aspects like UPC/FNSKU are not
                           handled properly, you can face serious troubles to the
                           extent of registry suspension. We make sure your UPC
@@ -627,11 +781,25 @@ const TabContextXL = () => {
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                        <h2 className="font-bold text-black text-xl opacity-80">
+                        <h2
+                          className="text-black text-xl opacity-80"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: "bold",
+                            fontStyle: "normal",
+                          }}
+                        >
                           Shopify Store
                         </h2>
 
-                        <p className="text-[12px] text-black opacity-70">
+                        <p
+                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                            fontWeight: 400,
+                            fontStyle: "normal",
+                          }}
+                        >
                           We will research highly profitable products for your
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling

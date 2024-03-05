@@ -396,7 +396,13 @@ const Footer2 = () => {
                   ></img>
                 </div>
                 <div className="basis-1/1 bg-[#ddf1ff]">
-                  <p className="text-[11px] text-left px-[0px] xl:pr-[50px] pt-[20px] section_3_span xl:text-[14px] xl:font-bold xl:pb-[20px]">
+                  <p
+                    className="text-[11px] text-left px-[0px] xl:pr-[50px] pt-[20px] xl:text-[16px] xl:font-bold xl:pb-[20px]"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                      fontStyle: "normal",
+                    }}
+                  >
                     At Esaviour Limited, we're dedicated to propelling your
                     business to new heights in the digital landscape. Our
                     comprehensive suite of services is crafted to elevate your
@@ -413,19 +419,49 @@ const Footer2 = () => {
                 Quick Link
               </span>
               <ul>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>Home</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>Service</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>Portfolio</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>About Us</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>Blog</a>
                 </li>
               </ul>
@@ -433,16 +469,40 @@ const Footer2 = () => {
             <div className="basis-1/5 pt-[70px] pb-[30px] pl-[0px] xl:pt-[85px] bg-[#ddf1ff]">
               <span className="font-book text-xl block pb-[15px]">Legal</span>
               <ul>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>privacy Policy</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>Terms & Conditions</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>Order Calcellation Policy</a>
                 </li>
-                <li className="font-thin text-[13px] my-[3px] xl:font-bold">
+                <li
+                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                    fontStyle: "normal",
+                  }}
+                >
                   <a>Refund Policy</a>
                 </li>
               </ul>

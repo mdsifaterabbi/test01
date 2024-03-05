@@ -62,7 +62,7 @@ const Home = ({ title }) => {
               fontStyle: "normal",
             }}
           >
-            XXXeSaviour Limited is an industry leader in the digital marketing
+            eSaviour Limited is an industry leader in the digital marketing
             sector and offers B2B enterprises a wide range of services that help
             them dominate international markets
           </p>

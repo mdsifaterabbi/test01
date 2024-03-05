@@ -178,13 +178,26 @@ const Footer1 = () => {
       <div className="hidden xl:block xl:w-[70vw] xl:mx-auto">
         <div className="flex flex-row">
           <div className="basis-3/5 bg-[#eef7ff]">
-            <p className="text-center text-[12px] pt-[35px] px-[100px] pb-[30px] section_3_span xl:text-[18px] xl:font-semibold">
+            <p
+              className="text-center text-[12px] pt-[35px] px-[100px] pb-[30px] xl:text-[22px] xl:font-semibold"
+              style={{
+                fontFamily: "Futura PT, sans-serif",
+                fontStyle: "normal",
+              }}
+            >
               Our Professional Team has helped Hundreds of Sellers on Amazon to
               Avoid Failure and Maximize Potential Growth. Schedule a Free
               Meeting Now!
             </p>
-            <div className="pt-[10px] pb-[20px] text-center">
-              <a href="#" className="py-[5px] px-[10px] bg-black text-white">
+            <div className="pt-[5px] pb-[5px] text-center">
+              <a
+                href="#"
+                className="py-[5px] px-[10px] bg-black text-white"
+                style={{
+                  fontFamily: "Futura PT, sans-serif",
+                  fontStyle: "normal",
+                }}
+              >
                 Schedule a Meeting
               </a>
             </div>

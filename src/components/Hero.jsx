@@ -3,23 +3,51 @@ const Hero = () => {
     <>
       <div className="flex flex-col md:flex-row bg-[#b3d9f8] pb-[200px]">
         <div className="basis-1/1 md:basis-1/2 md:mx-[100px] lg:mt-[100px] order-1 md:order-0 px-[10px] xl:mt-[0px]">
-          <h1 className="text-left pt-[20px] font-bold lg:text-2xl xl:pl-[20%] xl:text-[40px] xl:leading-[50px] md:pt-[100px]  md:font-extrabold">
+          <h1
+            className="text-left font-bold pt-[20px] lg:text-[34px] xl:pl-[20%] xl:text-[38px] xl:leading-[50px] md:pt-[100px]"
+            style={{
+              fontFamily: "Futura PT, sans-serif",
+              fontWeight: 600,
+              fontStyle: "normal",
+            }}
+          >
             Worried About your Brand's<br></br>
             <span className="text-sky-500"> Marketing Strategy?</span>
           </h1>
-          <p className="text-sm md:text-[14px] mt-[20px] mb-[10px] section_3_span xl:pl-[20%]">
+          <p
+            className="text-sm md:text-[14px] mt-[20px] mb-[10px] xl:pl-[20%] xl:text-[16px]"
+            style={{
+              fontFamily: "Futura PT, sans-serif",
+              fontWeight: 400,
+              fontStyle: "normal",
+            }}
+          >
             Maximize Your Profits with Our Proven Digital Marketing Strategy.
             Our B2B digital marketing agency uses a customer-oriented approach
             and personalized strategies to ensure business Growth. Our
             comprehensive service portfolio shows our proven track record.
           </p>
           <div className="xl:pl-[20%]">
-            <span className="text-[11px] italic md:text-[14px] section_3_span">
+            <span
+              className="text-[11px] md:text-[14px]"
+              style={{
+                fontFamily: "Futura PT, sans-serif",
+                fontWeight: 400,
+                fontStyle: "normal",
+              }}
+            >
               Get Free Quote! Over 3 Years of Experience in Digital Business
               Development.Helped 27+ Brands to Achieve Success.<br></br>
             </span>
           </div>
-          <button className="btn btn-sm btn-neutral rounded-none my-[20px] md:my-[25px] md:mr-[10px] xl:ml-[20%]">
+          <button
+            className="btn btn-sm btn-neutral rounded-none my-[20px] md:my-[25px] md:mr-[10px] xl:ml-[20%]"
+            style={{
+              fontFamily: "Futura PT, sans-serif",
+              fontWeight: 400,
+              fontStyle: "normal",
+            }}
+          >
             Get Free Quote!
           </button>
         </div>
@@ -32,7 +60,14 @@ const Hero = () => {
 
       <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[80vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-140px] xl:w-[80vw] relative">
         <div className="basis-1/1 md:basis-1/1 text-center text-black px-[5px] section_3_span">
-          <span className="text-sm text-slate-600 xl:text-3xl">
+          <span
+            className="text-sm text-slate-600 xl:text-3xl"
+            style={{
+              fontFamily: "Futura PT, sans-serif",
+              fontWeight: 400,
+              fontStyle: "normal",
+            }}
+          >
             eSaviour Limited has achieved fame internationally recognized by the
             world leaders.
           </span>
