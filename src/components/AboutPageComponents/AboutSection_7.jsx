@@ -1,15 +1,15 @@
 const AboutSection_7 = () => {
   return (
     <>
-      {/* ============== Only For Extra large devices ================== */}
-      <div className="w-[80vw] mx-auto hidden xl:block">
-        <div className="flex xl:flex-col flex-wrap w-[80vw]">
-          <div className="basis-1/1 xl:basis-1/1">
-            <h1 className="text-center xl:text-[36px] xl:font-bold text-[#40b0fd]">
+      {/* ============== Only For Large and Extra large devices ================== */}
+      <div className="lg:w-[90vw] xl:w-[80vw] mx-auto hidden lg:block xl:block">
+        <div className="flex lg:flex-col xl:flex-col flex-wrap w-[80vw] mx-auto">
+          <div className="lg:basis-1/1 xl:basis-1/1 mx-auto">
+            <h1 className="text-center lg:text-[32px] xl:text-[36px] font-bold text-[#40b0fd]">
               LEADERSHIP TEAM
             </h1>
             <p
-              className="text-center xl:text-[24px] xl:font-semibold xl:pb-[50px]"
+              className="text-center lg:text-[22px] xl:text-[24px] font-semibold lg:pb-[35px] xl:pb-[50px]"
               style={{
                 fontFamily: "Futura PT, sans-serif",
               }}
@@ -17,19 +17,20 @@ const AboutSection_7 = () => {
               Get a glimpse into the names carrying us into the future.
             </p>
           </div>
-          <div className="xl:basis-1/1">
-            <div className="flex xl:flex-row">
-              <div className="xl:basis-1/2">
+          <div className="lg:basis-1/1 xl:basis-1/1">
+            <div className="flex lg:flex-row xl:flex-row">
+              <div className="lg:basis-1/2 xl:basis-1/2">
                 <div className="inline-block w-[38%]">
                   <img
                     src="../AboutPageLogos/Mainul_Islam_2.png"
                     alt="Mainul_Islam_2"
+                    className="lg:h-auto"
                   ></img>
                 </div>
                 <div className="inline-block w-[58%] relative top-0 left-0">
-                  <div className="absolute top-[0px] xl:top-[-250px]">
+                  <div className="absolute top-[0px] lg:top-[-170px] xl:top-[-250px]">
                     <h1
-                      className="xl:text-[22px] xl:font-bold xl:pl-[10px]"
+                      className="lg:text-[20px] lg:font-bold lg:pl-[10px] xl:text-[22px] xl:font-bold xl:pl-[10px]"
                       style={{
                         fontFamily: "Futura PT, sans-serif",
                       }}
@@ -39,7 +40,7 @@ const AboutSection_7 = () => {
                     </h1>
 
                     <p
-                      className="xl:text-[22px] font-thin bg-[#cee9ff] inline px-[10px] py-[5px]"
+                      className="lg:text-[20px] lg:pl-[10px] xl:text-[22px] font-thin bg-[#cee9ff] inline px-[10px] py-[5px]"
                       style={{
                         fontFamily: "Futura PT, sans-serif",
                       }}
@@ -47,7 +48,7 @@ const AboutSection_7 = () => {
                       Managing Director
                     </p>
                     <p
-                      className="xl:text-[18px] xl:pl-[10px] xl:pr-[35px] text-justify xl:pt-[20px]"
+                      className="lg:text-[14px] lg:leading-[17px] lg:pl-[10px] lg:pr-[5px] lg:pt-[10px] xl:text-[18px] xl:pl-[10px] xl:pr-[35px] text-justify xl:pt-[20px]"
                       style={{
                         fontFamily: "Futura PT, sans-serif",
                       }}
@@ -62,7 +63,7 @@ const AboutSection_7 = () => {
                   </div>
                 </div>
               </div>
-              <div className="xl:basis-1/2">
+              <div className="lg:basis-1/2 xl:basis-1/2">
                 <div className="inline-block w-[38%]">
                   <img
                     src="../AboutPageLogos/Bhanni.png"
@@ -70,9 +71,9 @@ const AboutSection_7 = () => {
                   ></img>
                 </div>
                 <div className="inline-block w-[58%] relative top-0 left-0">
-                  <div className="absolute xl:top-[-250px]">
+                  <div className="absolute lg:top-[-170px] xl:top-[-250px]">
                     <h1
-                      className="xl:text-[22px] xl:font-bold xl:pl-[10px]"
+                      className="lg:text-[20px] lg:font-bold lg:pl-[10px] xl:text-[22px] xl:font-bold xl:pl-[10px"
                       style={{
                         fontFamily: "Futura PT, sans-serif",
                       }}
@@ -82,7 +83,7 @@ const AboutSection_7 = () => {
                     </h1>
 
                     <p
-                      className="xl:text-[22px] font-thin bg-[#cee9ff] inline px-[10px] py-[5px]"
+                      className="lg:text-[20px] lg:pl-[10px] xl:text-[22px] font-thin bg-[#cee9ff] inline px-[10px] py-[5px]"
                       style={{
                         fontFamily: "Futura PT, sans-serif",
                       }}
@@ -90,7 +91,7 @@ const AboutSection_7 = () => {
                       Chairman
                     </p>
                     <p
-                      className="xl:text-[18px] xl:pl-[10px] xl:pr-[35px]  text-justify xl:pt-[20px]"
+                      className="lg:text-[14px] lg:leading-[17px] lg:pl-[10px] lg:pr-[5px] lg:pt-[10px] xl:text-[18px] xl:pl-[10px] xl:pr-[35px] text-justify xl:pt-[20px]"
                       style={{
                         fontFamily: "Futura PT, sans-serif",
                       }}

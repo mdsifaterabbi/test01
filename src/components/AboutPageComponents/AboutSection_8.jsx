@@ -929,7 +929,7 @@ const AboutSection_8 = () => {
       </div>
 
       {/* For large Devices */}
-      <div className="w-[80vw] mx-auto mt-[50px] hidden lg:block xl:hidden">
+      <div className="w-[80vw] mx-auto mt-[150px] hidden lg:block xl:hidden">
         <div>
           <Slider {...settings_5}>
             <div className="">
