@@ -4,7 +4,7 @@ const AboutSection_7 = () => {
       {/* ============== Only For Extra large devices ================== */}
       <div className="w-[80vw] mx-auto hidden xl:block">
         <div className="flex xl:flex-col flex-wrap w-[80vw]">
-          <div className="xl:basis-1/1">
+          <div className="basis-1/1 xl:basis-1/1">
             <h1 className="text-center xl:text-[36px] xl:font-bold text-[#40b0fd]">
               LEADERSHIP TEAM
             </h1>
@@ -107,8 +107,8 @@ const AboutSection_7 = () => {
           </div>
         </div>
       </div>
-      {/* ========================== Only for extra small devices =========================*/}
-      <div className="block sm:hidden">
+      {/* ========================== Only for extra small, small and medium devices =========================*/}
+      <div className="block lg:hidden">
         <div className="flex flex-col flex-wrap w-[95vw] mx-auto">
           <div className="basis-1/1">
             <h1 className="text-center text-[24px] font-bold text-[#40b0fd]">
