@@ -3,13 +3,18 @@ import "./AboutCustomCSS.css";
 
 const AboutSection_8 = () => {
   var settings = {
-    dots: false,
+    //dots: false,
     // dotsClass: "custom-dots",
     infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
     centeredItem: true,
+    
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    ltr: true,
   };
   var settings_2 = {
     dots: false,
@@ -42,13 +47,16 @@ const AboutSection_8 = () => {
   };
   var settings_5 = {
     //for large devices
-    dots: false,
-    // dotsClass: "custom-dots",
+
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     centeredItem: true,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    ltr: true,
   };
 
   return (
@@ -929,7 +937,7 @@ const AboutSection_8 = () => {
       </div>
 
       {/* For large Devices */}
-      <div className="w-[80vw] mx-auto mt-[150px] hidden lg:block xl:hidden">
+      <div className={`w-[80vw] mx-auto mt-[150px] hidden lg:block xl:hidden`}>
         <div>
           <Slider {...settings_5}>
             <div className="">
