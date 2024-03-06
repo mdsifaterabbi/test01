@@ -1,4 +1,5 @@
 import AboutSectionSlider from "./AboutSectionSlider";
+import AboutSectionSliderSM from "./AboutSectionSliderSM";
 import AboutSectionSliderXL from "./AboutSectionSliderXL";
 
 const AboutSection_5 = () => {
@@ -6,7 +7,7 @@ const AboutSection_5 = () => {
     <>
       <div>
         <h1
-          className="xl:text-[70px] text-center"
+          className="text-[24px] font-bold py-[20px] xl:text-[70px] text-center"
           style={{
             fontFamily: "Futura PT, sans-serif",
           }}
@@ -17,6 +18,10 @@ const AboutSection_5 = () => {
       {/* ============== Slider only for extra small devices =================== */}
       <div className="sm:hidden">
         <AboutSectionSlider />
+      </div>
+      {/* ================== Slider only for Small, medium and large devices ================== */}
+      <div className="hidden sm:block xl:hidden">
+        <AboutSectionSliderSM />
       </div>
       {/* ============== Slider only for XL devices =================== */}
       <div className="hidden xl:block">

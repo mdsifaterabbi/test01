@@ -1,21 +1,29 @@
 import Slider from "react-slick";
 import "./AboutCustomCSS.css";
 
-const AboutSectionSlider = () => {
+const AboutSectionSliderSM = () => {
   const settings = {
     className: "center",
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 2,
+    slidesToShow: 3,
     speed: 500,
   };
-
+  const settings_2 = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "60px",
+    slidesToShow: 3,
+    speed: 500,
+  };
+  
   return (
     <>
       <div className="slider-container w-[100vw] mx-auto">
         <Slider {...settings}>
-          <div className="w-[25vw] h-[120px] mySliderHover">
+          <div className="w-[25vw] h-[160px] md:h-[200px] mySliderHover">
             <div className="w-[90%] h-[90%] mx-auto border-[2px] border-black rounded-md">
               <div className="relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[12px] text-center pl-[0px] text-[#40b0fd] font-thin italic">
@@ -27,7 +35,7 @@ const AboutSectionSlider = () => {
               </div>
             </div>
           </div>
-          <div className="w-[25vw] h-[120px] mySliderHover">
+          <div className="w-[25vw] h-[160px] md:h-[200px] mySliderHover">
             <div className="w-[90%] h-[90%] mx-auto border-[2px] border-black rounded-md">
               <div className="relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[12px] text-center pl-[0px] text-[#40b0fd] font-thin italic">
@@ -39,7 +47,7 @@ const AboutSectionSlider = () => {
               </div>
             </div>
           </div>
-          <div className="w-[25vw] h-[120px] mySliderHover">
+          <div className="w-[25vw] h-[160px] md:h-[200px] mySliderHover">
             <div className="w-[90%] h-[90%] mx-auto border-[2px] border-black rounded-md">
               <div className="relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[12px] text-center pl-[0px] text-[#40b0fd] font-thin italic">
@@ -51,7 +59,7 @@ const AboutSectionSlider = () => {
               </div>
             </div>
           </div>
-          <div className="w-[25vw] h-[120px] mySliderHover">
+          <div className="w-[25vw] h-[160px] md:h-[200px] mySliderHover">
             <div className="w-[90%] h-[90%] mx-auto border-[2px] border-black rounded-md">
               <div className="relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[12px] text-center pl-[0px] text-[#40b0fd] font-thin italic">
@@ -66,9 +74,9 @@ const AboutSectionSlider = () => {
         </Slider>
       </div>
       {/* ========== Slider 2 starts from here ======== */}
-      <div className="slider-container w-[92vw] mx-auto">
-        <Slider {...settings}>
-          <div className="w-[25vw] h-[120px] mySliderHover">
+      <div className="slider-container w-[90vw] mx-auto md:mt-[25px]">
+        <Slider {...settings_2}>
+          <div className="w-[25vw] h-[160px] md:h-[200px] mySliderHover">
             <div className="w-[90%] h-[90%] mx-auto border-[2px] border-black rounded-md">
               <div className="relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[12px] text-center pl-[0px] text-[#40b0fd] font-thin italic">
@@ -80,7 +88,7 @@ const AboutSectionSlider = () => {
               </div>
             </div>
           </div>
-          <div className="w-[25vw] h-[120px] mySliderHover">
+          <div className="w-[25vw] h-[160px] md:h-[200px] mySliderHover">
             <div className="w-[90%] h-[90%] mx-auto border-[2px] border-black rounded-md">
               <div className="relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[12px] text-center pl-[0px] text-[#40b0fd] font-thin italic">
@@ -92,7 +100,7 @@ const AboutSectionSlider = () => {
               </div>
             </div>
           </div>
-          <div className="w-[25vw] h-[120px] mySliderHover">
+          <div className="w-[25vw] h-[160px] md:h-[200px] mySliderHover">
             <div className="w-[90%] h-[90%] mx-auto border-[2px] border-black rounded-md">
               <div className="relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[12px] text-center pl-[0px] text-[#40b0fd] font-thin italic">
@@ -104,7 +112,7 @@ const AboutSectionSlider = () => {
               </div>
             </div>
           </div>
-          <div className="w-[25vw] h-[120px] mySliderHover">
+          <div className="w-[25vw] h-[160px] md:h-[200px] mySliderHover">
             <div className="w-[90%] h-[90%] mx-auto border-[2px] border-black rounded-md">
               <div className="relative top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[12px] text-center pl-[0px] text-[#40b0fd] font-thin italic">
@@ -122,4 +130,4 @@ const AboutSectionSlider = () => {
   );
 };
 
-export default AboutSectionSlider;
+export default AboutSectionSliderSM;
