@@ -29,6 +29,12 @@ const PortfolioTabContents = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
   };
+  const settings_web_panel = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+  };
 
   const handleTabClick = (index) => {
     setSelectedIndex(index);
@@ -47,13 +53,15 @@ const PortfolioTabContents = () => {
                   "Social Media Design",
                   "Listing Images Design",
                   "Amazon A+ Content",
+                  "Product Package Design",
+                  "Web Development",
                 ].map((tabName, index) => (
                   <Tab
                     key={tabName}
-                    className={`lg:px-[50px] border-b-[2px] border-b-sky-300 cursor-pointer ${
+                    className={`lg:px-[15px] lg:mx-[5px] rounded-md cursor-pointer ${
                       selectedIndex === index
-                        ? "bg-[#f4faff] text-black font-bold border-b-[4px] border-b-sky-800"
-                        : "border-b-[2px] border-b-sky-300"
+                        ? "font-bold border-none bg-sky-500 text-white"
+                        : "border-[1px] border-black"
                     }`}
                     onClick={() => handleTabClick(index)}
                   >
@@ -63,125 +71,40 @@ const PortfolioTabContents = () => {
               </TabList>
               {/* ============ First Tab panel starts from here ================ */}
               <TabPanel className="xl:bg-[#ffffff] py-[25px]">
-                <div className="slider-container pb-[0px] bg-[#f4faff] xl:w-[70vw] xl:mx-auto">
-                  <Slider {...settings}>
-                    <div>
-                      <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
-                        <figure className="bg-[#ffffff] py-[40px]">
-                          <img
-                            src="../updated/Fba_Consultancy.png"
-                            alt="Fba_Consultancy"
-                            className="w-[50%]"
-                          ></img>
-                        </figure>
-                        <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                          <h2
-                            className="text-black text-xl opacity-80"
-                            style={{
-                              fontFamily: "Futura PT, sans-serif",
-                              fontWeight: "bold",
-                              fontStyle: "normal",
-                            }}
-                          >
-                            Amazon FBA Consultancy
-                          </h2>
-
-                          <p
-                            className="text-[12px] text-black opacity-70 xl:text-[14px]"
-                            style={{
-                              fontFamily: "Futura PT, sans-serif",
-                              fontWeight: 400,
-                              fontStyle: "normal",
-                            }}
-                          >
-                            Maximize Your E-commerce Potential Unlock the full
-                            potential of your Amazon FBA business with Esaviour
-                            Limited. Our consultancy services are designed to
-                            optimize your product listings, enhance visibility,
-                            and boost sales.
-                          </p>
-                        </div>
-                      </div>
+                <div>
+                  <h1 className="text-center text-[#31b3fb] xl:text-[32px] xl:font-semibold">
+                    BRANDING DESIGN
+                  </h1>
+                  <p className="text-center xl:px-[300px] xl:pt-[10px] xl:pb-[30px] xl:font-semibold xl:text-[16px]">
+                    Crafting compelling and distinctive brand identities that
+                    resonate with your audience. Our branding designs seamlessly
+                    blend creativity andstrategy to visually communicate your
+                    brand’s essence, fostering recognition, trust, and lasting
+                    connections.
+                  </p>
+                </div>
+                <div className="pb-[0px] xl:w-[70vw] xl:mx-auto">
+                  <div className="flex xl:flex-row flex-wrap">
+                    <div className="xl:basis-1/2 border">
+                      <div className="border bg-purple-500">Item 1</div>
                     </div>
-                    <div>
-                      <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
-                        <figure className="bg-[#ffffff] py-[20px]">
-                          <img
-                            src="../updated/PPC.png"
-                            alt="PPC"
-                            className="w-[50%]"
-                          ></img>
-                        </figure>
-                        <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                          <h2
-                            className="text-black text-xl opacity-80"
-                            style={{
-                              fontFamily: "Futura PT, sans-serif",
-                              fontWeight: "bold",
-                              fontStyle: "normal",
-                            }}
-                          >
-                            PPC Campaigns
-                          </h2>
-
-                          <p
-                            className="text-[12px] text-black opacity-70 xl:text-[14px]"
-                            style={{
-                              fontFamily: "Futura PT, sans-serif",
-                              fontWeight: 400,
-                              fontStyle: "normal",
-                            }}
-                          >
-                            Pay-per-click (PPC) advertising (Sponsored Ads) is a
-                            common tool for e-commerce merchants. However, if
-                            you lack the necessary skills and experience, you
-                            can jeopardize your whole business instead.
-                          </p>
-                        </div>
-                      </div>
+                    <div className="xl:basis-1/2 border">
+                      <div className="border bg-purple-500">Item 2</div>
                     </div>
-                    <div>
-                      <div className="card card-compact w-[20vw] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
-                        <figure className="bg-[#ffffff] py-[20px]">
-                          <img
-                            src="../updated/Product_Sorcing.png"
-                            alt="Product_Sorcing.png"
-                            className="w-[50%]"
-                          ></img>
-                        </figure>
-                        <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
-                          <h2
-                            className="text-black text-xl opacity-80"
-                            style={{
-                              fontFamily: "Futura PT, sans-serif",
-                              fontWeight: "bold",
-                              fontStyle: "normal",
-                            }}
-                          >
-                            Product Sourcing
-                          </h2>
-
-                          <p
-                            className="text-[12px] text-black opacity-70 xl:text-[14px]"
-                            style={{
-                              fontFamily: "Futura PT, sans-serif",
-                              fontWeight: 400,
-                              fontStyle: "normal",
-                            }}
-                          >
-                            Leave some of your major concerns to us, like
-                            choosing the right supplier for your products. As
-                            FBA specialists, we will source from the most
-                            reliable and affordable suppliers in the market for
-                            you at a competitive price.
-                          </p>
-                        </div>
-                      </div>
+                    <div className="xl:basis-1/2 border">
+                      <div className="border bg-purple-500">Item 3</div>
                     </div>
-                  </Slider>
+                    <div className="xl:basis-1/2 border">
+                      <div className="border bg-purple-500">Item 4</div>
+                    </div>
+                    <div className="xl:basis-1/2 border">
+                      <div className="border bg-purple-500">Item 5</div>
+                    </div>
+                  </div>
                 </div>
               </TabPanel>
-              {/* ============ Second Tab panel starts from here ================ */}
+
+              {/* ============ Social Media Design Tab panel starts from here ================ */}
               <TabPanel className="xl:bg-[#ffffff]">
                 <div>
                   <h1 className="text-center text-[#31b3fb] xl:text-[32px] xl:font-semibold">
@@ -196,7 +119,7 @@ const PortfolioTabContents = () => {
                     in the digital era.
                   </p>
                 </div>
-                <div className="slider-container p-0 bg-[#f4faff] xl:w-[70vw] xl:mx-auto">
+                <div className="slider-container p-0 bg-[#ffffff] xl:w-[70vw] xl:mx-auto">
                   <Slider {...settings}>
                     <div>
                       <div className="card card-compact w-[15vw] bg-base-100  mx-auto shadow-xl h-auto">
@@ -245,7 +168,7 @@ const PortfolioTabContents = () => {
                   </Slider>
                 </div>
               </TabPanel>
-              {/* ============ Third Tab panel starts from here ================ */}
+              {/* ============ Listing Images Design Tab panel starts from here ================ */}
               <TabPanel className="xl:bg-[#ffffff]">
                 <div>
                   <h1 className="text-center text-[#31b3fb] xl:text-[32px] xl:font-semibold">
@@ -309,7 +232,7 @@ const PortfolioTabContents = () => {
                   </Slider>
                 </div>
               </TabPanel>
-              {/* ============ Fourth Tab panel starts from here #f4faff ================ */}
+              {/* ============ Amazon A+ Content Tab panel starts from here ================ */}
               <TabPanel className="xl:bg-[#ffffff]">
                 <div>
                   <h1 className="text-center text-[#31b3fb] xl:text-[32px] xl:font-semibold">
@@ -325,19 +248,6 @@ const PortfolioTabContents = () => {
                   </p>
                 </div>
                 <div className="slider-container p-0  bg-[#ffffff] xl:w-[40vw] xl:mx-auto">
-                  {/* <div>
-                  <h1 className="text-center text-[#31b3fb] xl:text-[32px] xl:font-semibold">
-                    Amazon EBC Design
-                  </h1>
-                  <p className="text-center xl:px-[200px] xl:pt-[10px] xl:pb-[30px] xl:font-semibold xl:text-[16px]">
-                    At Esaviour Limited, we are more than just a digital
-                    business development company; we are your dedicated ally in
-                    navigating the dynamic landscape of e-commerce and
-                    digitalpresence. With a commitment to excellence and
-                    innovation, we offer a suite of services that empower
-                    businesses to thrive in the digital era.
-                  </p>
-                </div> */}
                   <Slider {...settings_fourth_panel}>
                     <div>
                       <div className="card card-compact w-[20vw] bg-base-100 mx-auto">
@@ -368,6 +278,88 @@ const PortfolioTabContents = () => {
                             src="../PortfolioImages/amazon_ap_3.png"
                             alt="../PortfolioImages/amazon_ap_3"
                             className="w-[80%] h-[900px]"
+                          ></img>
+                        </figure>
+                      </div>
+                    </div>
+                  </Slider>
+                </div>
+              </TabPanel>
+              {/* ============ Product Package Design Tab panel starts from here ================ */}
+              <TabPanel className="xl:bg-[#ffffff]">
+                <div>
+                  <h1 className="text-center text-[#31b3fb] xl:text-[32px] xl:font-semibold">
+                    Product packaging Desig
+                  </h1>
+                  <p className="text-center xl:px-[300px] xl:pt-[10px] xl:pb-[30px] xl:font-semibold xl:text-[16px]">
+                    At Esaviour Limited, we are more than just a digital
+                    business development company; we are your dedicated ally in
+                    navigating the dynamic landscape of e-commerce and digital
+                    presence. With acommitment to excellence and innovation, we
+                    offer a suite of services that empower businesses to thrive
+                    in the digital era.
+                  </p>
+                </div>
+                <div className="p-0  xl:w-[70vw] xl:mx-auto bg-[#ffffff]">
+                  <div>
+                    <div className="card card-compact w-[70vw] bg-base-100 mx-auto">
+                      <figure className="bg-[#ffffff] py-[0px]">
+                        <img
+                          src="../PortfolioImages/product_package_design.png"
+                          alt="product_package_design.png"
+                          className="w-[70%] mx-auto"
+                        ></img>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </TabPanel>
+              {/* ============ webdevelopment Tab panel starts from here ================ */}
+              <TabPanel className="xl:bg-[#ffffff]">
+                <div>
+                  <h1 className="text-center text-[#31b3fb] xl:text-[32px] xl:font-semibold">
+                    Web Development
+                  </h1>
+                  <p className="text-center xl:px-[300px] xl:pt-[10px] xl:pb-[30px] xl:font-semibold xl:text-[16px]">
+                    At Esaviour Limited, we are more than just a digital
+                    business development company; we are your dedicated ally in
+                    navigating the dynamic landscape of e-commerce and
+                    digitalpresence. With a commitment to excellence and
+                    innovation, we offer a suite of services that empower
+                    businesses to thrive in the digital era.
+                  </p>
+                </div>
+                <div className="slider-container p-0  bg-[#ffffff] xl:w-[40vw] xl:mx-auto">
+                  <Slider {...settings_web_panel}>
+                    <div>
+                      <div className="card card-compact w-[20w] bg-base-100 mx-auto">
+                        <figure className="bg-[#ffffff] py-[0px]">
+                          <img
+                            src="../PortfolioImages/web1.png"
+                            alt="web1"
+                            className="w-[90%] xl:h-[550px]"
+                          ></img>
+                        </figure>
+                      </div>
+                    </div>
+                    <div>
+                      <div className="card card-compact w-[20vw] mx-auto bg-base-100">
+                        <figure className="bg-[#ffffff] py-[0px]">
+                          <img
+                            src="../PortfolioImages/web2.png"
+                            alt="web2"
+                            className="w-[90%] xl:h-[550px]"
+                          ></img>
+                        </figure>
+                      </div>
+                    </div>
+                    <div>
+                      <div className="card card-compact w-[20vw] mx-auto bg-base-100">
+                        <figure className="bg-[#ffffff] py-[0px]">
+                          <img
+                            src="../PortfolioImages/web3.png"
+                            alt="../PortfolioImages/web3"
+                            className="w-full xl:h-[550px]"
                           ></img>
                         </figure>
                       </div>
