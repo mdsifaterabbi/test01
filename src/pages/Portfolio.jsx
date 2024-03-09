@@ -1,5 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import MyNav from "../components/MyNav";
+import PortfolioHero from "../components/PortfolioComponents/PortfolioHero";
+import PortfolioFooter from "../components/PortfolioComponents/PortfolioFooter";
+import PortfolioTabContents from "../components/PortfolioComponents/PortfolioTabContents";
 
 const Portfolio = ({ title }) => {
   return (
@@ -8,7 +11,9 @@ const Portfolio = ({ title }) => {
         <title>{title}</title>
       </Helmet>
       <MyNav />
-      Portfolio
+      <PortfolioHero />
+      <PortfolioTabContents />
+      <PortfolioFooter />
     </>
   );
 };
