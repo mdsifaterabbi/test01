@@ -49,3 +49,12 @@ Usage Example in the React Component:
   font-weight: 400;
   font-style: normal;
 }
+
+/* ========================== */
+.mycontactPlaceholder::placeholder {
+  color: #606c76;
+}
+.mycontactPlaceholder:focus {
+  outline: none;
+  border: none; /* Remove default border on focus */
+}

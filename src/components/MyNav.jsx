@@ -11,6 +11,7 @@ const MyNav = () => {
             </Link>
           </div>
 
+
           <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
@@ -26,7 +27,7 @@ const MyNav = () => {
                 <Link to="/blog">Blog</Link>
               </li>
               <li>
-                <a>Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
               <li>
                 <a className="bg-[#40b0fd] text-white hover:bg-[#40b0fd] hover:text-white rounded-none">
