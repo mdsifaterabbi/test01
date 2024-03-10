@@ -144,7 +144,7 @@ const PortfolioTabContents = () => {
                   <div className="block md:hidden">
                     <Slider {...settings_third_panel}>
                       <div>
-                        <div className="card card-compact sm:w-[16vw] md:w-[18vw] lg:w-[20vw] xl:w-[15vw] bg-base-100  mx-auto h-auto">
+                        <div className="card card-compact w-[80vw] sm:w-[70vw] md:w-[18vw] lg:w-[20vw] xl:w-[15vw] bg-base-100  mx-auto h-auto">
                           <figure className="bg-[#ffffff] py-[0px]">
                             <img
                               src="../PortfolioImages/merry_christmas.png"
@@ -155,7 +155,7 @@ const PortfolioTabContents = () => {
                         </div>
                       </div>
                       <div>
-                        <div className="card card-compact sm:w-[16vw] md:w-[18vw] lg:w-[20vw] xl:w-[15vw] bg-base-100  mx-auto h-auto">
+                        <div className="card card-compact w-[80vw] sm:w-[70vw] md:w-[18vw] lg:w-[20vw] xl:w-[15vw] bg-base-100  mx-auto h-auto">
                           <figure className="bg-[#ffffff] py-[0px]">
                             <img
                               src="../PortfolioImages/happy_new_year.png"
@@ -166,7 +166,7 @@ const PortfolioTabContents = () => {
                         </div>
                       </div>
                       <div>
-                        <div className="card card-compact sm:w-[16vw] md:w-[18vw] lg:w-[20vw] xl:w-[15vw] bg-base-100  mx-auto h-auto">
+                        <div className="card card-compact w-[80vw] sm:w-[70vw] md:w-[18vw] lg:w-[20vw] xl:w-[15vw] bg-base-100  mx-auto h-auto">
                           <figure className="bg-[#ffffff] py-[0px]">
                             <img
                               src="../PortfolioImages/digital_marketing.png"
@@ -177,7 +177,7 @@ const PortfolioTabContents = () => {
                         </div>
                       </div>
                       <div>
-                        <div className="card card-compact sm:w-[16vw] md:w-[18vw] lg:w-[20vw] xl:w-[15vw] bg-base-100  mx-auto h-auto">
+                        <div className="card card-compact w-[80vw] sm:w-[70vw] md:w-[18vw] lg:w-[20vw] xl:w-[15vw] bg-base-100  mx-auto h-auto">
                           <figure className="bg-[#ffffff] py-[0px]">
                             <img
                               src="../PortfolioImages/build_your_brand.png"
@@ -330,7 +330,7 @@ const PortfolioTabContents = () => {
                             <img
                               src="../PortfolioImages/amazon_ap_1.png"
                               alt="amazon_ap_1"
-                              className="w-[100%] h-[800px] mx-auto"
+                              className="w-[80%] h-[800px] sm:w-[60%] mx-auto"
                             ></img>
                           </figure>
                         </div>
@@ -341,7 +341,7 @@ const PortfolioTabContents = () => {
                             <img
                               src="../PortfolioImages/amazon_ap_2.png"
                               alt="amazon_ap_2"
-                              className="w-[100%] h-[800px] mx-auto"
+                              className="w-[80%] h-[800px] sm:w-[60%] mx-auto"
                             ></img>
                           </figure>
                         </div>
@@ -352,7 +352,7 @@ const PortfolioTabContents = () => {
                             <img
                               src="../PortfolioImages/amazon_ap_3.png"
                               alt="../PortfolioImages/amazon_ap_3"
-                              className="w-[100%] h-[800px] mx-auto"
+                              className="w-[80%] h-[800px] sm:w-[60%] mx-auto"
                             ></img>
                           </figure>
                         </div>
@@ -453,7 +453,7 @@ const PortfolioTabContents = () => {
                             <img
                               src="../PortfolioImages/web1.png"
                               alt="web1"
-                              className="w-[90%] h-[300px]"
+                              className="w-[90%] h-[640px]"
                             ></img>
                           </figure>
                         </div>
@@ -464,7 +464,7 @@ const PortfolioTabContents = () => {
                             <img
                               src="../PortfolioImages/web2.png"
                               alt="web2"
-                              className="w-[90%] h-[300px]"
+                              className="w-[90%] h-[640px]"
                             ></img>
                           </figure>
                         </div>
@@ -475,7 +475,7 @@ const PortfolioTabContents = () => {
                             <img
                               src="../PortfolioImages/web3.png"
                               alt="../PortfolioImages/web3"
-                              className="w-[90%] h-[300px] border"
+                              className="w-[90%] h-[640px] border"
                             ></img>
                           </figure>
                         </div>
