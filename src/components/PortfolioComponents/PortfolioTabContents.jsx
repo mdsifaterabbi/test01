@@ -46,7 +46,7 @@ const PortfolioTabContents = () => {
   return (
     <>
       <div className="w-[100vw] bg-[#ffffff]">
-        <div className="tab-container bg-[#ffffff] px-4 py-8 xl:w-[80vw] xl:mx-auto mb-[100px]">
+        <div className="tab-container bg-[#ffffff] px-4 py-8 xl:w-[80vw] xl:mx-auto mb-[50px]">
           {/* Tab list container */}
           <div className="tab-list bg-[#ffffff] pb-4">
             <Tabs>
@@ -75,7 +75,7 @@ const PortfolioTabContents = () => {
                 </TabList>
               </div>
               <div className="hidden sm:block">
-                <TabList className="flex justify-center mb-[50px] sm:w-[95vw] md:w-[90vw] mx-auto">
+                <TabList className="flex justify-center mb-[50px] sm:w-[95vw] md:w-[90vw]">
                   {[
                     "Branding Design",
                     "Social Media Design",
@@ -86,7 +86,7 @@ const PortfolioTabContents = () => {
                   ].map((tabName, index) => (
                     <Tab
                       key={tabName}
-                      className={`lg:px-[15px] lg:mx-[5px] rounded-md cursor-pointer md:text-[13px] md:mx-[5px] md:text-center sm:text-[11px] sm:text-center sm:mx-[5px] ${
+                      className={`lg:px-[15px] lg:mx-[5px] rounded-md cursor-pointer md:text-[13px] md:mx-[5px] md:text-center sm:text-[11px] sm:text-center sm:mx-[5px]  ${
                         selectedIndex === index
                           ? "font-bold border-none bg-sky-500 text-white"
                           : "border-[1px] border-black"
@@ -431,10 +431,10 @@ const PortfolioTabContents = () => {
               {/* ============ web development Tab panel starts from here ================ */}
               <TabPanel className="xl:bg-[#ffffff]">
                 <div>
-                  <h1 className="text-center text-[#31b3fb] text-[20px] font-semibold">
+                  <h1 className="text-center text-[#31b3fb] text-[20px] font-semibold sm:text-[20px] sm:font-semibold md:text-[24px] md:font-semibold lg:text-[26px] lg:font-semibold xl:text-[32px] xl:font-semibold">
                     Web Development
                   </h1>
-                  <p className="text-center text-[12px] px-[5px] pt-[10px] pb-[15px] font-bold sm:font-semibold">
+                  <p className="text-center text-[12px] px-[5px] pt-[10px] pb-[15px] font-bold sm:text-[12px] sm:px-[50px] sm:pt-[10px] sm:pb-[15px] sm:font-semibold md:px-[100px] md:pt-[10px] md:pb-[20px] md:font-semibold md:text-[13px] lg:px-[150px] lg:pt-[10px] lg:pb-[30px] lg:font-semibold lg:text-[14px] xl:px-[300px] xl:pt-[10px] xl:pb-[30px] xl:font-semibold xl:text-[16px]">
                     At Esaviour Limited, we are more than just a digital
                     business development company; we are your dedicated ally in
                     navigating the dynamic landscape of e-commerce and

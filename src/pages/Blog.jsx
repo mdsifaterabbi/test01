@@ -1,5 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import MyNav from "../components/MyNav";
+import PortfolioFooter from "../components/PortfolioComponents/PortfolioFooter";
+import BlogHero from "../components/BlogHero";
+import BlogBody from "../components/BlogPageComponents/BlogBody";
+
 const Blog = ({ title }) => {
   return (
     <>
@@ -7,7 +11,12 @@ const Blog = ({ title }) => {
         <title>{title}</title>
       </Helmet>
       <MyNav />
-      <h1>This is blog page</h1>
+      <BlogHero />
+      <BlogBody />
+      <div className="py-[200px]">
+        <h1>This is blog page</h1>
+      </div>
+      <PortfolioFooter />
     </>
   );
 };
