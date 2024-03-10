@@ -1,4 +1,4 @@
-import "./Gallery.css";
+
 
 const PortfolioGallery = () => {
   return (
