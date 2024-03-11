@@ -1,15 +1,17 @@
-import { Link } from "react-router-dom";
-import blogModuleCSS from "./BlogBody.module.css";
+import MyNav from "../MyNav";
+import PortfolioFooter from "../PortfolioComponents/PortfolioFooter";
 import { FaSearch } from "react-icons/fa";
+import blogModuleCSS from "./BlogBody.module.css";
 
-const BlogBody = () => {
+const SingleBlogDetails = () => {
   return (
     <>
-      <div className="w-[90vw] xl:w-[80vw] mx-auto my-[30px] xl:my-[70px]">
-        <div className="flex flex-col md:flex-row xl:flex-row flex-wrap">
-          <div className="basis-1/1 md:basis-4/6 xl:basis-3/5">
+      <MyNav />
+      <div className="xl:w-[70vw] mx-auto my-[30px] xl:my-[70px]">
+        <div className="flex xl:flex-row flex-wrap">
+          <div className="xl:basis-3/5">
             <div className="flex flex-col flex-wrap">
-              <div className="basis-1/1 md:w-[98%] border bg-[#cee9ff]">
+              <div className="basis-1/1 border bg-[#cee9ff]">
                 <div className="xl:text-[24px] breadcrumbs font-bold xl:font-semibold pl-[10px]">
                   <ul>
                     <li>
@@ -21,102 +23,74 @@ const BlogBody = () => {
                   </ul>
                 </div>
               </div>
-              <div className="basis-1/1 mt-[10px] xl:mt-[30px]">
-                <div className="flex flex-col md:flex-row xl:flex-row flex-wrap">
-                  <div className="basis-1/1 md:basis-[48%] xl:basis-1/3 my-[10px]">
-                    <Link to="/blog/singleblogdetails/best-digital-marketer-in-bangladesh">
-                      <div>
-                        <div className="card md:h-[400px] xl:w-[266px] bg-[#e8f5ff] shadow-xl relative top-0 left-0">
-                          <div className="absolute top-[5px] left-[10px] bg-[#40b0fd] text-white text-sm py-[5px] px-[10px] rounded-md">
-                            Digital Marketing
-                          </div>
-                          <figure>
-                            <img
-                              src="../../../BlogPageIcons/best-digital-marketer-in-bangladesh.jpg"
-                              alt="best-digital-marketer-in-bangladesh"
-                              className="max-h-[300px] w-[100%] md:h-[150px] xl:h-[150px] xl:w-[100%] rounded-t-md"
-                            />
-                          </figure>
-                          <div className="card-body pt-[15px] pl-[10px] m-0">
-                            <div className="border-b-[1px] border-b-[#40b0fd]">
-                              <h2 className="font-extrabold p-0 m-0 md:text-[14px] xl:text-[18px]">
-                                Best Digital Marketer in Bangladesh{" "}
-                              </h2>
-                            </div>
+              <div className="xl:basis-1/1 mt-[10px] xl:mt-[30px]">
+                <div>
+                  <div className="card xl:w-[100%] bg-[#e8f5ff] shadow-xl relative top-0 left-0">
+                    <img
+                      src="../../../BlogPageIcons/best-digital-marketer-in-bangladesh.jpg"
+                      alt="best-digital-marketer-in-bangladesh"
+                      className="xl:w-[70%] xl:h-[300px]"
+                    />
 
-                            <p
-                              className="font-semibold md:text-[14px] xl:text-[14px] xl:pt-[15px]"
-                              style={{
-                                fontFamily: "Futura PT, sans-serif",
-                              }}
-                            >
-                              Meet eSavior Limited, the Best Multinational B2B
-                              Digital Marketing Agency in Bangladesh. We started
-                              our
-                            </p>
-                            <div className="card-actions justify-start border-b-[1px] border-b-[#40b0fd]">
-                              <button className="btn btn-sm rounded-md bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black my-[15px] xl:my-[15px]">
-                                Read More
-                              </button>
-                            </div>
-                            <div>
-                              <h1
-                                className="md:text-[12px] xl:text-[13px] font-bold tracking-widest"
-                                style={{
-                                  fontFamily: "Futura PT, sans-serif",
-                                }}
-                              >
-                                March 6, 2024
-                              </h1>
-                            </div>
-                          </div>
-                        </div>
+                    <div className="card-body pt-[15px] pl-[10px] m-0">
+                      <div className="card-actions justify-start">
+                        <button className="btn btn-sm rounded-none bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black my-[15px] xl:my-[15px]">
+                          Digital Marketing
+                        </button>
+                        <h1
+                          className="md:text-[12px] xl:text-[15px] font-bold tracking-widest my-[20px] xl:my-[20px] pl-[20px] text-[#40b0fd]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                          }}
+                        >
+                          March 6, 2024
+                        </h1>
                       </div>
-                    </Link>
-                  </div>
-                  <div className="basis-1/1 md:basis-[48%] xl:basis-1/3 my-[10px] md:mx-[5px]">
-                    <div>
-                      <div className="card md:h-[400px] xl:w-[266px] bg-[#e8f5ff] shadow-xl relative top-0 left-0">
-                        <div className="absolute top-[5px] left-[10px] bg-[#40b0fd] text-white text-sm py-[5px] px-[10px] rounded-md">
-                          Amazon FBA
-                        </div>
-                        <figure>
-                          <img
-                            src="../../../BlogPageIcons/amazon-FBA-3.jpg"
-                            alt="amazon-FBA"
-                            className="max-h-[300px] w-[100%] md:h-[150px] xl:h-[150px] xl:w-[100%] rounded-t-md"
-                          />
-                        </figure>
-                        <div className="card-body pt-[15px] pl-[10px] m-0">
-                          <div className="border-b-[1px] border-b-[#40b0fd]">
-                            <h2 className="font-extrabold p-0 m-0 md:text-[14px] xl:text-[18px]">
-                              Unleashing the Power of Amazon FBA: A
-                            </h2>
-                          </div>
-
-                          <p
-                            className="font-semibold md:text-[14px] xl:text-[14px] xl:pt-[15px]"
-                            style={{
-                              fontFamily: "Futura PT, sans-serif",
-                            }}
-                          >
-                            In the dynamic landscape of e-commerce, Amazon
-                            stands tall as the undisputed giant. With millions
-                          </p>
-                          <div className="card-actions justify-start border-b-[1px] border-b-[#40b0fd]">
-                            <button className="btn btn-sm rounded-md bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black my-[15px] xl:my-[15px]">
-                              Read More
-                            </button>
-                          </div>
-                          <div>
-                            <h1
-                              className="md:text-[12px] xl:text-[13px] font-bold tracking-widest"
-                              style={{
-                                fontFamily: "Futura PT, sans-serif",
-                              }}
-                            >
-                              February 1, 2024
-                            </h1>
+                      <div
+                        className="border-b-[1px] border-b-[#40b0fd] xl:text-[30px] xl:font-extrabold"
+                        style={{
+                          fontFamily: "Futura PT, sans-serif",
+                        }}
+                      >
+                        <p>Best Digital Marketer in Bangladesh</p>
+                      </div>
+                      <div>
+                        <p
+                          className="xl:font-semibold xl:text-[18px] xl:pt-[10px]"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                          }}
+                        >
+                          Meet eSavior Limited, the Best Multinational B2B
+                          Digital Marketing Agency in Bangladesh. We started our
+                          journey in 2023 and have a strong presence in Amazon
+                          FBA Consultancy, digital marketing, SEO, graphics
+                          design, web development, and software development. We
+                          have completed various projects in this journey. Our
+                          creative approaches and proven track record speak for
+                          ourselves, making us essential in advancing corporate
+                          success. Learn about our ideology, journey, and impact
+                          on Bangladesh’s digital future.
+                        </p>
+                      </div>
+                      <div>
+                        <p
+                          className="xl:text-[30px] xl:font-extrabold"
+                          style={{
+                            fontFamily: "Futura PT, sans-serif",
+                          }}
+                        >
+                          What is Digital Marketing
+                        </p>
+                        <div>
+                          <div className="collapse bg-[#f9f9f9] xl:w-[250px] border-[2px] rounded-sm">
+                            <input type="checkbox" />
+                            <div className="collapse-title text-xl font-medium">
+                              Table of Contents
+                            </div>
+                            <div className="collapse-content">
+                              <p>hello</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -126,9 +100,9 @@ const BlogBody = () => {
               </div>
             </div>
           </div>
-          <div className="basis-1/1 md:basis-2/6 xl:basis-2/5">
+          <div className="xl:basis-2/5">
             <div className="flex flex-col flex-wrap">
-              <div className="basis-1/1 bg-[#e8f5ff] w-[100%] xl:w-[75%] mx-auto">
+              <div className="basis-1/1 bg-[#e8f5ff] xl:w-[75%] mx-auto">
                 <div className="bg-[#fff] w-[95%] mx-auto mt-[20px] pb-[20px] rounded-md">
                   <div className="w-[100%] h-[50px] pt-[20px] pb-[10px] relative top-[10px] left-0">
                     <input
@@ -187,7 +161,7 @@ const BlogBody = () => {
                   </div>
                 </div>
               </div>
-              <div className="basis-1/1 bg-[#e8f5ff] mt-[20px] mb-[50px] pb-[20px] w-[100%] xl:w-[75%] mx-auto">
+              <div className="basis-1/1 bg-[#e8f5ff] mt-[20px] mb-[50px] pb-[20px] xl:w-[75%] mx-auto">
                 <div className="bg-[#ffffff] w-[95%] mx-auto mt-[20px] pb-[20px] rounded-md">
                   <div>
                     <p className="font-extrabold text-[#000000] text-[20px] pl-[20px]">
@@ -247,8 +221,9 @@ const BlogBody = () => {
           </div>
         </div>
       </div>
+      <PortfolioFooter />
     </>
   );
 };
 
-export default BlogBody;
+export default SingleBlogDetails;

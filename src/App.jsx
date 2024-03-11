@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Service from "./pages/Service";
 import Contact from "./pages/Contact";
+import SingleBlogDetails from "./components/BlogPageComponents/SingleBlogDetails";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
         <Route path="/blog" element={<Blog title="blog" />} />
         <Route path="/about" element={<About title="about" />} />
         <Route path="/contact" element={<Contact title="contact" />} />
+        <Route
+          path="/blog/singleblogdetails/:slug"
+          element={<SingleBlogDetails />}
+        />
       </Routes>
     </>
   );

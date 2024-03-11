@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row bg-[#b3d9f8] pb-[200px]">
         <div className="basis-1/1 md:basis-1/2 md:mx-[100px] lg:mt-[100px] order-1 md:order-0 px-[10px] xl:mt-[0px]">
           <h1
-            className="text-left font-bold pt-[20px] lg:text-[34px] xl:pl-[20%] xl:text-[38px] xl:leading-[50px] md:pt-[100px]"
+            className="text-left font-bold pt-[20px] lg:text-[34px] xl:pl-[12%] xl:text-[38px] xl:leading-[50px] md:pt-[100px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 600,
@@ -15,7 +15,7 @@ const Hero = () => {
             <span className="text-sky-500"> Marketing Strategy?</span>
           </h1>
           <p
-            className="text-sm md:text-[14px] mt-[20px] mb-[10px] xl:pl-[20%] xl:text-[16px]"
+            className="text-sm md:text-[14px] mt-[20px] mb-[10px] xl:pl-[12%] xl:text-[16px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -27,29 +27,26 @@ const Hero = () => {
             and personalized strategies to ensure business Growth. Our
             comprehensive service portfolio shows our proven track record.
           </p>
-          <div className="xl:pl-[20%]">
-            <span
-              className="text-[11px] md:text-[14px]"
-              style={{
-                fontFamily: "Futura PT, sans-serif",
-                fontWeight: 400,
-                fontStyle: "normal",
-              }}
-            >
-              Get Free Quote! Over 3 Years of Experience in Digital Business
-              Development.Helped 27+ Brands to Achieve Success.<br></br>
-            </span>
+          <div className="hidden xl:block xl:mt-[20px]">
+            <div className="flex xl:flex-row">
+              <div className="xl:basis-1/4 xl:pl-[12%]">
+                <button className="btn btn-sm w-[120px] bg-[#000000] text-white rounded-none hover:none border-none">
+                  Get a Free Quote!
+                </button>
+              </div>
+              <div className="xl:basis-3/4">
+                <p
+                  className="xl:px-[20px] font-bold"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                  }}
+                >
+                  Over 3 Years of Experience in B2B Digital Marketing
+                  Services.Helped 27+ Brands to Achieve Success.
+                </p>
+              </div>
+            </div>
           </div>
-          <button
-            className="btn btn-sm btn-neutral rounded-none my-[20px] md:my-[25px] md:mr-[10px] xl:ml-[20%]"
-            style={{
-              fontFamily: "Futura PT, sans-serif",
-              fontWeight: 400,
-              fontStyle: "normal",
-            }}
-          >
-            Get Free Quote!
-          </button>
         </div>
         <div className="basis-1/1 md:basis-1/2 flex justify-center items-center order-0 md:order-1 pt-[20px] md:mr-[50px] lg:mr-[150px] lg:mt-[100px] xl:text-center xl:pt-[10px] xl:mr-[200px]">
           <img src="../Speech_Bubble.png" alt="GSpeech_Bubble"></img>
