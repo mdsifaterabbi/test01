@@ -3,35 +3,7 @@ const PortfolioFooter = () => {
     <>
       {/* Footer2 for extra small and small devices */}
       <div className="flex flex-col flex-wrap md:hidden bg-[#ffffff]">
-        {/* <div className="basis-1/1 w-[95vw] mx-auto relative top-[30px] z-50">
-          <div className="flex flex-row flex-wrap bg-[#40b0fd]">
-            <div className="basis-1/2 text-center py-[15px]">
-              <span className="block text-3xl font-thin text-white">500+</span>
-              <span className="text-sm font-bold text-white">
-                Happy Clients
-              </span>
-            </div>
-            <div className="basis-1/2 text-center py-[15px]">
-              <span className="block text-3xl font-thin text-white">27+</span>
-              <span className="text-sm font-bold text-white">
-                Brains to Support
-              </span>
-            </div>
-            <div className="basis-1/2 text-center py-[15px]">
-              <span className="block text-3xl font-thin text-white">100+</span>
-              <span className="text-sm font-bold text-white">
-                Websites Developed
-              </span>
-            </div>
-            <div className="basis-1/2 text-center py-[15px]">
-              <span className="block text-3xl font-thin text-white">150+</span>
-              <span className="text-sm font-bold text-white">
-                Product launched
-              </span>
-            </div>
-          </div>
-        </div> */}
-        <div className="basis-1/1 pt-[100px] bg-[#ddf1ff] mt-[-70px]">
+        <div className="basis-1/1 pt-[30px] xl:pt-[100px] bg-[#ddf1ff] xl:mt-[-70px]">
           <div className="flex flex-col">
             <div className="basis-1/1 bg-[#ddf1ff]">
               <img

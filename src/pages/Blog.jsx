@@ -13,9 +13,6 @@ const Blog = ({ title }) => {
       <MyNav />
       <BlogHero />
       <BlogBody />
-      <div className="py-[200px]">
-        <h1>This is blog page</h1>
-      </div>
       <PortfolioFooter />
     </>
   );

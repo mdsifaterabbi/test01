@@ -11,7 +11,6 @@ const MyNav = () => {
             </Link>
           </div>
 
-
           <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
@@ -40,7 +39,11 @@ const MyNav = () => {
           <div className="lg:hidden w-[100vw] relative">
             <div className=" block lg:hidden absolute left-0">
               <a className="btn btn-ghost text-xl">
-                <img src="../Logo.png" alt="logo" className="w-[120px]"></img>
+                <img
+                  src="../Logo.png"
+                  alt="logo"
+                  className="w-[80px] sm:w-[90px] md:w-[100px]"
+                ></img>
               </a>
             </div>
             <div className="block lg:hidden absolute right-[10px]">

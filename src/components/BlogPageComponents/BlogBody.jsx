@@ -1,12 +1,15 @@
+import blogModuleCSS from "./BlogBody.module.css";
+import { FaSearch } from "react-icons/fa";
+
 const BlogBody = () => {
   return (
     <>
-      <div className="w-[80vw] mx-auto">
-        <div className="flex flex-row flex-wrap">
-          <div className="basis-3/5">
+      <div className="w-[90vw] xl:w-[80vw] mx-auto my-[30px] xl:my-[70px]">
+        <div className="flex flex-col xl:flex-row flex-wrap">
+          <div className="basis-1/1 xl:basis-3/5">
             <div className="flex flex-col flex-wrap">
               <div className="basis-1/1 border bg-[#cee9ff]">
-                <div className="xl:text-[24px] breadcrumbs font-semibold">
+                <div className="xl:text-[24px] breadcrumbs font-bold xl:font-semibold pl-[10px]">
                   <ul>
                     <li>
                       <a>Home</a>
@@ -17,9 +20,9 @@ const BlogBody = () => {
                   </ul>
                 </div>
               </div>
-              <div className="basis-1/1 border mt-[30px]">
-                <div className="flex flex-row flex-wrap">
-                  <div className="basis-1/3 border">
+              <div className="basis-1/1 mt-[10px] xl:mt-[30px]">
+                <div className="flex flex-col xl:flex-row flex-wrap">
+                  <div className="basis-1/1 xl:basis-1/3 my-[10px]">
                     <div>
                       <div className="card xl:w-[266px] bg-[#e8f5ff] shadow-xl relative top-0 left-0">
                         <div className="absolute top-[5px] left-[10px] bg-[#40b0fd] text-white text-sm py-[5px] px-[10px] rounded-md">
@@ -29,7 +32,7 @@ const BlogBody = () => {
                           <img
                             src="../../../BlogPageIcons/best-digital-marketer-in-bangladesh.jpg"
                             alt="best-digital-marketer-in-bangladesh"
-                            className="xl:h-[150px] xl:w-[100%]"
+                            className="max-h-[300px] w-[100%] xl:h-[150px] xl:w-[100%] rounded-t-md"
                           />
                         </figure>
                         <div className="card-body pt-[15px] pl-[10px] m-0">
@@ -50,7 +53,7 @@ const BlogBody = () => {
                             our
                           </p>
                           <div className="card-actions justify-start border-b-[1px] border-b-[#40b0fd]">
-                            <button className="btn btn-sm rounded-md bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black xl:my-[15px]">
+                            <button className="btn btn-sm rounded-md bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black my-[15px] xl:my-[15px]">
                               Read More
                             </button>
                           </div>
@@ -68,7 +71,7 @@ const BlogBody = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="basis-1/3 border">
+                  <div className="basis-1/1 xl:basis-1/3 my-[10px]">
                     <div>
                       <div className="card xl:w-[266px] bg-[#e8f5ff] shadow-xl relative top-0 left-0">
                         <div className="absolute top-[5px] left-[10px] bg-[#40b0fd] text-white text-sm py-[5px] px-[10px] rounded-md">
@@ -76,9 +79,9 @@ const BlogBody = () => {
                         </div>
                         <figure>
                           <img
-                            src="../../../BlogPageIcons/amazon-FBA.jpg"
+                            src="../../../BlogPageIcons/amazon-FBA-3.jpg"
                             alt="amazon-FBA"
-                            className="xl:h-[150px] xl:w-[100%]"
+                            className="max-h-[300px] w-[100%] xl:h-[150px] xl:w-[100%] rounded-t-md"
                           />
                         </figure>
                         <div className="card-body pt-[15px] pl-[10px] m-0">
@@ -98,7 +101,7 @@ const BlogBody = () => {
                             stands tall as the undisputed giant. With millions
                           </p>
                           <div className="card-actions justify-start border-b-[1px] border-b-[#40b0fd]">
-                            <button className="btn btn-sm rounded-md bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black xl:my-[15px]">
+                            <button className="btn btn-sm rounded-md bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black my-[15px] xl:my-[15px]">
                               Read More
                             </button>
                           </div>
@@ -116,7 +119,7 @@ const BlogBody = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="basis-1/3 border">
+                  <div className="basis-1/1 xl:basis-1/3 my-[10px]">
                     <div>
                       <div className="card xl:w-[266px] bg-[#e8f5ff] shadow-xl relative top-0 left-0">
                         <div className="absolute top-[5px] left-[10px] bg-[#40b0fd] text-white text-sm py-[5px] px-[10px] rounded-md">
@@ -126,7 +129,7 @@ const BlogBody = () => {
                           <img
                             src="../../../BlogPageIcons/best-digital-marketer-in-bangladesh.jpg"
                             alt="best-digital-marketer-in-bangladesh"
-                            className="xl:h-[150px] xl:w-[100%]"
+                            className="max-h-[300px] w-[100%]  xl:h-[150px] xl:w-[100%] rounded-t-md"
                           />
                         </figure>
                         <div className="card-body pt-[15px] pl-[10px] m-0">
@@ -147,7 +150,7 @@ const BlogBody = () => {
                             our
                           </p>
                           <div className="card-actions justify-start border-b-[1px] border-b-[#40b0fd]">
-                            <button className="btn btn-sm rounded-md bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black xl:my-[15px]">
+                            <button className="btn btn-sm rounded-md bg-[#40b0fd] text-white hover:bg-[#e8f5ff] hover:text-black my-[15px] xl:my-[15px]">
                               Read More
                             </button>
                           </div>
@@ -169,10 +172,123 @@ const BlogBody = () => {
               </div>
             </div>
           </div>
-          <div className="basis-2/5 border">
+          <div className="basis-1/1 xl:basis-2/5">
             <div className="flex flex-col flex-wrap">
-              <div className="basis-1/1 border">Right Top</div>
-              <div className="basis-1/1 border">Right Bottom</div>
+              <div className="basis-1/1 bg-[#e8f5ff] w-[100%] xl:w-[75%] mx-auto">
+                <div className="bg-[#fff] w-[95%] mx-auto mt-[20px] pb-[20px] rounded-md">
+                  <div className="w-[100%] h-[50px] pt-[20px] pb-[10px] relative top-[10px] left-0">
+                    <input
+                      type="search"
+                      placeholder="Search..."
+                      className={`border w-[90%] py-[5px] pl-[5px] ${blogModuleCSS.blogPlaceholder} font-semibold absolute left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2 ${blogModuleCSS.rounded_top_right} ${blogModuleCSS.rounded_bottom_right} ${blogModuleCSS.blogInputField_rounded_top_bottom_left} ${blogModuleCSS.blogInputField_border} ${blogModuleCSS.blogInputField}`}
+                    ></input>
+                    <div
+                      className={`w-[40px] h-[35px] bg-[#40b0fd] absolute right-[5%] top-[50%] -translate-y-1/2 ${blogModuleCSS.rounded_top_right} ${blogModuleCSS.rounded_bottom_right} cursor-pointer`}
+                    >
+                      <FaSearch className="mx-auto my-[25%]" />
+                    </div>
+                  </div>
+                  <p className="text-[#40c0fe] xl:text-[20px] xl:font-extrabold text-center mt-[20px]">
+                    Categories
+                  </p>
+                  <div className="font-semibold text-center mt-[15px] border-b-[1px] border-[rgba(64,176,253,0.5)] w-[90%] mx-auto cursor-pointer hover:bg-[#000000] hover:text-[#ffffff] duration-300 ease-in-out">
+                    <p
+                      className="pt-[5px] pb-[5px] tracking-[1px]"
+                      style={{
+                        fontFamily: "Futura PT, sans-serif",
+                      }}
+                    >
+                      Amazon FBA
+                    </p>
+                  </div>
+                  <div className="font-semibold text-center border-b-[1px] border-[rgba(64,176,253,0.5)] w-[90%] mx-auto cursor-pointer hover:bg-[#000000] hover:text-[#ffffff] duration-300 ease-in-out">
+                    <p
+                      className="py-[5px] tracking-[1px]"
+                      style={{
+                        fontFamily: "Futura PT, sans-serif",
+                      }}
+                    >
+                      Digital Marketing
+                    </p>
+                  </div>
+                  <div className="font-semibold text-center border-b-[1px] border-[rgba(64,176,253,0.5)] w-[90%] mx-auto cursor-pointer hover:bg-[#000000] hover:text-[#ffffff] duration-300 ease-in-out">
+                    <p
+                      className="py-[5px] tracking-[1px]"
+                      style={{
+                        fontFamily: "Futura PT, sans-serif",
+                      }}
+                    >
+                      Graphics Design
+                    </p>
+                  </div>
+                  <div className="font-semibold text-center border-b-[1px] border-[rgba(64,176,253,0.5)] w-[90%] mx-auto cursor-pointer hover:bg-[#000000] hover:text-[#ffffff] duration-300 ease-in-out">
+                    <p
+                      className="py-[5px] tracking-[1px]"
+                      style={{
+                        fontFamily: "Futura PT, sans-serif",
+                      }}
+                    >
+                      Web Development
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="basis-1/1 bg-[#e8f5ff] mt-[20px] mb-[50px] pb-[20px] w-[100%] xl:w-[75%] mx-auto">
+                <div className="bg-[#ffffff] w-[95%] mx-auto mt-[20px] pb-[20px] rounded-md">
+                  <div>
+                    <p className="font-extrabold text-[#000000] text-[20px] pl-[20px]">
+                      Recent Post
+                    </p>
+                  </div>
+                  <div className="flex flex-row flex-wrap bg-[#e8f5ff] w-[95%] mx-auto py-[10px]">
+                    <div className="basis-1/4 pt-[10px] pb-[20px]">
+                      <img
+                        src="../../../BlogPageIcons/best-digital-marketer-in-bangladesh.jpg"
+                        alt="best-digital-marketer-in-bangladesh"
+                        className="max-h-[100px] w-[100%] xl:w-[100px] xl:h-[60px]"
+                      ></img>
+                    </div>
+                    <div className="basis-3/4 px-[10px]">
+                      <p className="font-bold text-[12px] xl:text-[16px] text-[#000000] pt-[0px] border-b-[2px] border-[#40b0fd] border-opacity-50">
+                        Best Digital Marketer in Bangladesh{" "}
+                      </p>
+                      <p
+                        className="text-[14px] pt-[10px]
+                        "
+                        style={{
+                          fontFamily: "Futura PT, sans-serif",
+                        }}
+                      >
+                        Meet eSavior Limited, the Best Multinational B2B Digital
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex flex-row flex-wrap bg-[#e8f5ff] w-[95%] mx-auto mt-[20px] py-[10px]">
+                    <div className="basis-1/4 pt-[10px] pb-[20px]">
+                      <img
+                        src="../../../BlogPageIcons/amazon-FBA-3.jpg"
+                        alt="amazon-FBA2"
+                        className="max-h-[100px] w-[100%] xl:w-[100px] xl:h-[60px]"
+                      ></img>
+                    </div>
+                    <div className="basis-3/4 px-[10px]">
+                      <p className="font-bold text-[#000000] text-[12px] xl:text-[16px] pt-[0px] border-b-[2px] border-[#40b0fd] border-opacity-50">
+                        Unleashing the Power of Amazon FBA: A Comprehensive
+                        Guide
+                      </p>
+                      <p
+                        className="text-[14px] pt-[10px]
+                        "
+                        style={{
+                          fontFamily: "Futura PT, sans-serif",
+                        }}
+                      >
+                        In the dynamic landscape of e-commerce, Amazon stands
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
