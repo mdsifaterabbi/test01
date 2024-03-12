@@ -69,15 +69,13 @@ const Hero = () => {
       <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[80vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-80px] xl:w-[80vw] relative myShadowDiv">
         <div className="basis-1/1 md:basis-1/1 text-center text-black px-[5px] section_3_span">
           <span
-            className="text-sm text-slate-600 xl:text-3xl"
+            className="text-sm text-black xl:text-3xl font-bold"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              fontWeight: 400,
-              fontStyle: "normal",
-            }}
+              }}
           >
             eSaviour Limited has achieved fame internationally recognized by the
-            world leaders.
+            world leaders
           </span>
         </div>
         {/* ===================For extra small devices only====================== */}

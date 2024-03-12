@@ -60,9 +60,11 @@ const TabContext = () => {
   return (
     <>
       <div className="pb-[25px] pt-[25px] mt-[12px] text-center w-[90vw] mx-auto">
-        <span className="TabContextFontSpan text-[22px]">
-          Our Best Selling&nbsp;
-          <span className=" text-sky-500 TabContextFontSpan2">Services</span>
+        <span className="TabContextFontSpan text-[20px]">
+          Our Best Selling B2B Digital Marketing{" "}
+          <span className="text-[#40b0fd] font-extrabold text-[22px]">
+            Services
+          </span>
         </span>
       </div>
 

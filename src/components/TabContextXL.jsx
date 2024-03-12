@@ -24,8 +24,8 @@ const TabContextXL = () => {
   return (
     <>
       <div className="tab-container bg-[#f4faff] px-4 py-8 xl:w-[80vw] xl:mx-auto">
-        <h2 className="text-xl font-bold text-center mb-4">
-          Our Best Selling Services
+        <h2 className="font-normal xl:text-[32px] xl:font-thin text-center mb-4">
+          Our Best Selling B2B Digital Marketing <span className="text-[#40b0fd] font-extrabold xl:text-[32px]">Services</span>
         </h2>
 
         {/* Tab list container */}

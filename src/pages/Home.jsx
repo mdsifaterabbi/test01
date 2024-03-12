@@ -55,11 +55,9 @@ const Home = ({ title }) => {
           </span>
           <span className="text-sm text-[20px] xl:text-3xl">Are?</span>
           <p
-            className="text-[12px] sm:text-[14px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600"
+            className="text-[12px] font-bold sm:text-[14px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] text-black tracking-[1px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              fontWeight: 400,
-              fontStyle: "normal",
             }}
           >
             eSaviour Limited is an industry leader in the digital marketing
@@ -67,32 +65,27 @@ const Home = ({ title }) => {
             them dominate international markets
           </p>
           <p
-            className="text-[12px] sm:text-[14px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600 "
+            className="text-[12px] font-bold sm:text-[14px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] tracking-[1px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              fontWeight: 400,
-              fontStyle: "normal",
             }}
           >
-            Esaviour Limited is not just a service provider; we are your
-            strategic ally in navigating the dynamic landscape of digital
-            business. With a team of dedicated professionals, we bring a wealth
-            of experience in diverse fields, including digital marketing, web
-            development, and Amazon FBA consultancy.
+            Our specialty lies in the novelty experience we offer to our clients
+            and partners. We are fixated on staying transparent in our work and
+            communication, willing to negotiate on the best deals you’ll find in
+            the market today and habituated to producing the most sustained
+            results for you.
           </p>
           <p
-            className="text-[12px] sm:text-[14px] md:text-[16px] xl:text-[16px] pl-[10px] pr-[20px] sm:px-[10px] md:text-slate-600"
+            className="text-[12px] font-bold sm:text-[14px] md:text-[16px] xl:text-[16px] pl-[10px] pr-[20px] sm:px-[10px] text-black tracking-[1px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              fontWeight: 400,
-              fontStyle: "normal",
             }}
           >
-            Esaviour Limited is not just a service provider; we are your
-            strategic ally in navigating the dynamic landscape of digital
-            business. With a team of dedicated professionals, we bring a wealth
-            of experience in diverse fields, including digital marketing, web
-            development, and Amazon FBA consultancy.
+            We confidently assure you of a proper blend of innovation,
+            professionalism, expertise and productivity in our projects. All we
+            need now is your trust to complete the recipe and create magic
+            together!
           </p>
 
           <button className="btn btn-sm btn-danger rounded-none my-[20px] bg-[#000000] text-white font-medium ml-[10px]">

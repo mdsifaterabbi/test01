@@ -59,14 +59,16 @@ const TabContextSM = () => {
 
   return (
     <>
-      <div className="pb-[25px] mt-[12px] text-center bg-[#cee9ff] w-[90vw] mx-auto">
-        <span className="font-thin text-xl">
-          Our Best Selling&nbsp;
-          <span className=" text-sky-500 font-bold">Services</span>
+      <div className="mt-[12px] text-center bg-[#faf7f5] w-[100vw] mx-auto pt-[20px] pb-[20px]">
+        <span className="font-thin text-2xl">
+          Our Best Selling B2B Digital Marketing{" "}
+          <span className="text-[#40b0fd] font-extrabold text-[22px]">
+            Services
+          </span>
         </span>
       </div>
       <Tabs>
-        <TabList className="flex justify-center bg-[#cee9ff] pb-[10px] TabContextTabFont text-[12px] w-[90vw] mx-auto">
+        <TabList className="flex justify-center bg-[#f4faff] py-[30px] TabContextTabFont text-[12px] w-[90vw] mx-auto">
           {[
             "Amazon FBA",
             "Digital Marketing",
@@ -88,7 +90,7 @@ const TabContextSM = () => {
         </TabList>
 
         <TabPanel>
-          <div className="slider-container pb-[0px] bg-[#cee9ff] w-[90vw] mx-auto">
+          <div className="slider-container pb-[0px] bg-[#f4faff] w-[90vw] mx-auto">
             <Slider {...settings}>
               <div>
                 <div className="card card-compact w-[40vw] h-[450px] bg-[#ffffff] shadow-xl mx-auto">
@@ -100,9 +102,7 @@ const TabContextSM = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
-                      Amazon FBA
-                    </h2>
+                    <h2 className="font-bold text-white text-xl">Amazon FBA</h2>
                     {/* <span className="text-white font-normal text-xl opacity-80">
                       Consultancy
                     </span> */}
@@ -249,7 +249,7 @@ const TabContextSM = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <div className="slider-container p-0 bg-[#cee9ff] w-[90vw] mx-auto">
+          <div className="slider-container p-0 bg-[#f4faff] w-[90vw] mx-auto">
             <Slider {...settings}>
               <div>
                 <div className="card card-compact w-[40vw] h-[450px] bg-[#ffffff] shadow-xl mx-auto">
@@ -409,7 +409,7 @@ const TabContextSM = () => {
         </TabPanel>
         {/* ============= 3rd panel for graphics design =============== */}
         <TabPanel>
-          <div className="slider-container p-0  bg-[#cee9ff] w-[90vw] mx-auto">
+          <div className="slider-container p-0  bg-[#f4faff] w-[90vw] mx-auto">
             <Slider {...settings}>
               <div>
                 <div className="card card-compact w-[40vw] h-[450px] bg-[#ffffff] shadow-xl mx-auto">
@@ -575,7 +575,7 @@ const TabContextSM = () => {
         </TabPanel>
         {/* 4th Tabpanel for Web Development */}
         <TabPanel>
-          <div className="slider-container p-0  bg-[#cee9ff] w-[90vw] mx-auto">
+          <div className="slider-container p-0  bg-[#f4faff] w-[90vw] mx-auto">
             <Slider {...settings}>
               <div>
                 <div className="card card-compact w-[40vw] h-[450px] bg-[#ffffff] shadow-xl mx-auto">
@@ -733,7 +733,7 @@ const TabContextSM = () => {
             </Slider>
           </div>
         </TabPanel>
-        <div className="text-center bg-[#cee9ff] w-[90vw] mx-auto">
+        <div className="text-center bg-[#f4faff] w-[90vw] mx-auto">
           <button className="btn btn-sm btn-neutral rounded-none my-[10px]">
             View All Services
           </button>
