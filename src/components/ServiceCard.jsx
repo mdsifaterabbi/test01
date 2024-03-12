@@ -5,7 +5,14 @@ const ServiceCard = () => {
         <figure className="bg-sky-500 min-w-[80px]">
           <img src="../expert2.png" alt="expert2" className="w-[50px]" />
         </figure>
-        <div className="card-body shadow-sm py-[0px] px-2">
+        <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
+          {/* water mark */}
+          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px] hidden lg:block">
+            <img
+              src="../watermarks/xl_home_water_3.png"
+              alt="xl_home_water_3"
+            ></img>
+          </div>
           <h2
             className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
@@ -45,7 +52,14 @@ const ServiceCard2 = () => {
             className="w-[50px]"
           />
         </figure>
-        <div className="card-body shadow-sm py-[0px] px-2">
+        <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
+          {/* water mark */}
+          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px]  hidden lg:block">
+            <img
+              src="../watermarks/xl_home_water_3.png"
+              alt="xl_home_water_3"
+            ></img>
+          </div>
           <h2
             className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
@@ -85,7 +99,14 @@ const ServiceCard3 = () => {
             className="w-[50px]"
           />
         </figure>
-        <div className="card-body shadow-sm py-[0px] px-2">
+        <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
+          {/* water mark */}
+          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px]  hidden lg:block">
+            <img
+              src="../watermarks/xl_home_water_3.png"
+              alt="xl_home_water_3"
+            ></img>
+          </div>
           <h2
             className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
@@ -125,7 +146,14 @@ const ServiceCard4 = () => {
             className="w-[50px]"
           />
         </figure>
-        <div className="card-body shadow-sm py-[0px] px-2">
+        <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
+          {/* water mark */}
+          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px]  hidden lg:block">
+            <img
+              src="../watermarks/xl_home_water_3.png"
+              alt="xl_home_water_3"
+            ></img>
+          </div>
           <h2
             className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
@@ -165,7 +193,14 @@ const ServiceCard5 = () => {
             className="w-[50px]"
           />
         </figure>
-        <div className="card-body shadow-sm py-[0px] px-2">
+        <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
+          {/* water mark */}
+          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px]  hidden lg:block">
+            <img
+              src="../watermarks/xl_home_water_3.png"
+              alt="xl_home_water_3"
+            ></img>
+          </div>
           <h2
             className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
@@ -205,7 +240,14 @@ const ServiceCard6 = () => {
             className="w-[50px]"
           />
         </figure>
-        <div className="card-body shadow-sm py-[0px] px-2">
+        <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
+          {/* water mark */}
+          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px] hidden lg:block">
+            <img
+              src="../watermarks/xl_home_water_3.png"
+              alt="xl_home_water_3"
+            ></img>
+          </div>
           <h2
             className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{

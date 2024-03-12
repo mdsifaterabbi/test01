@@ -14,7 +14,7 @@ function SampleNextArrow(props) {
         ...style,
         display: "block",
         background: "skyblue",
-        marginRight: "15px",
+        marginRight: "35px",
         zIndex: "100",
         borderRadius: "50%",
       }}
@@ -32,7 +32,7 @@ function SamplePrevArrow(props) {
         ...style,
         display: "block",
         background: "skyblue",
-        marginLeft: "15px",
+        marginLeft: "35px",
         zIndex: "100",
         borderRadius: "50%",
       }}
@@ -59,7 +59,7 @@ const TabContext = () => {
 
   return (
     <>
-      <div className="pb-[25px] pt-[25px] mt-[12px] text-center bg-[#cee9ff] w-[90vw] mx-auto">
+      <div className="pb-[25px] pt-[25px] mt-[12px] text-center w-[90vw] mx-auto">
         <span className="TabContextFontSpan text-[22px]">
           Our Best Selling&nbsp;
           <span className=" text-sky-500 TabContextFontSpan2">Services</span>
@@ -67,38 +67,41 @@ const TabContext = () => {
       </div>
 
       <Tabs>
-        <TabList className="flex justify-center bg-[#cee9ff] pb-[10px] TabContextTabFont text-[12px] w-[90vw] mx-auto">
-          {["Amazon FBA", "Digital Marketing", "Graphics Design"].map(
-            (tabName, index) => (
-              <Tab
-                key={tabName}
-                className={`px-[10px] border-b-[2px] border-b-sky-300 cursor-pointer ${
-                  selectedIndex === index
-                    ? "bg-[#cee9ff] text-black font-bold border-b-[4px] border-b-sky-800"
-                    : "border-b-[2px] border-b-sky-300"
-                }`}
-                onClick={() => handleTabClick(index)}
-              >
-                {tabName}
-              </Tab>
-            )
-          )}
+        <TabList className=" pb-[10px] TabContextTabFont text-[12px] w-[50vw] mx-auto text-center">
+          {[
+            "Amazon FBA",
+            "Digital Marketing",
+            "Graphics Design",
+            "Web Development",
+          ].map((tabName, index) => (
+            <Tab
+              key={tabName}
+              className={`px-[10px] border-b-[2px] border-b-sky-300 cursor-pointer ${
+                selectedIndex === index
+                  ? "bg-[#cee9ff] text-black font-bold border-b-[4px] border-b-sky-800"
+                  : "border-b-[2px] border-b-sky-300"
+              }`}
+              onClick={() => handleTabClick(index)}
+            >
+              {tabName}
+            </Tab>
+          ))}
         </TabList>
 
         <TabPanel>
-          <div className="slider-container pb-[0px] bg-[#cee9ff] w-[90vw] mx-auto">
+          <div className="slider-container pt-[20px] pb-[0px] bg-[#ffffff] w-[100vw] mx-auto">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
-                      className="w-[90vw] mx-auto"
+                      className="w-[60vw] mx-auto my-[20px]"
                       src="../updated/Fba_Consultancy.png"
                       alt="Fba_Consultancy"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-[16px]">
+                    <h2 className="font-bold text-white text-xl">
                       Amazon FBA Consultancy
                     </h2>
 
@@ -139,16 +142,16 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
                       src="../updated/PPC.png"
                       alt="PPC"
-                      className="w-[90vw] mx-auto"
+                      className="w-[60vw] mx-auto my-[20px]"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-[16px]">
+                    <h2 className="font-bold text-white text-xl">
                       PPC Campaigns
                     </h2>
 
@@ -188,16 +191,16 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
                       src="../updated/Product_Sorcing.png"
                       alt="Product_Sorcing.png"
-                      className="w-[90vw] mx-auto"
+                      className="w-[60vw] mx-auto my-[20px]"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-[16px]">
+                    <h2 className="font-bold text-white text-xl">
                       Product Sourcing
                     </h2>
 
@@ -240,19 +243,19 @@ const TabContext = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <div className="slider-container p-0 bg-[#cee9ff] w-[90vw] mx-auto">
+          <div className="slider-container pt-[20px] bg-[#ffffff] w-[100vw] mx-auto">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
                       src="../updated/Facebook_Ads.png"
                       alt="Facebook_Ads"
-                      className="w-[90vw] mx-auto"
+                      className="w-[60vw] mx-auto my-[20px]"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-[16px]">
+                    <h2 className="font-bold text-white text-xl">
                       Facebook Ads Campaigns
                     </h2>
 
@@ -292,16 +295,16 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
                       src="../updated/Google_Ads.png"
                       alt="Google_Ads"
-                      className="w-[90vw] mx-auto"
+                      className="w-[60vw] mx-auto my-[20px]"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-3xl">
+                    <h2 className="font-bold text-white text-xl">
                       Google Ads Campaigns
                     </h2>
 
@@ -342,16 +345,16 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
                       src="../updated/Local_SEO.png"
                       alt="Local_SEO"
-                      className="w-[90vw] mx-auto"
+                      className="w-[60vw] mx-auto my-[20px]"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-[16px]">
+                    <h2 className="font-bold text-white text-xl">
                       Amazon Product Listing Design
                     </h2>
 
@@ -392,21 +395,22 @@ const TabContext = () => {
             </Slider>
           </div>
         </TabPanel>
+        {/* ============= 3rd panel for graphics design =============== */}
         <TabPanel>
-          <div className="slider-container p-0 bg-[#cee9ff] w-[90vw] mx-auto">
+          <div className="slider-container pt-[20px] bg-[#ffffff] w-[100vw] mx-auto">
             <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
-                      src="./AmazonProduct2.png"
-                      alt="AmazonProduct"
-                      className="w-[90vw] mx-auto"
+                      src="../updated/amazon_product_listing_design.png"
+                      alt="amazon_product_listing_design"
+                      className="w-[60vw] mx-auto my-[20px]"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-3xl">
-                      Amazon Product Listing
+                    <h2 className="font-bold text-white text-xl">
+                      Amazon Product Listing Design
                     </h2>
 
                     <p className="text-[12px] text-white opacity-70">
@@ -447,17 +451,68 @@ const TabContext = () => {
                 </div>
               </div>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
-                      className="w-[90vw] mx-auto"
-                      src="../updated/Social_Media_Design.png"
-                      alt="Social_Media_Design.png"
+                      className="w-[60vw] mx-auto my-[20px]"
+                      src="../updated/product_package_design.png"
+                      alt="product_package_design.png"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-[16px]">
-                      Spcial Media post Again
+                    <h2 className="font-bold text-white text-xl">
+                      Product Package Design
+                    </h2>
+
+                    <p className="text-[12px] text-white opacity-70">
+                      Your product package tells a lot about your brand and your
+                      representation. Our designers are well-equipped to create
+                      smart, responsive, and lucrative packages for your Amazon
+                      product. Leave the technical aspects of how the package
+                      looks to us so you can concentrate on more important areas
+                      like the delivery and product quality.
+                    </p>
+                    {/* ===================== Order Placement Modal starts from here =============================== */}
+                    <button
+                      className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                      onClick={() =>
+                        document.getElementById("my_modal_3").showModal()
+                      }
+                    >
+                      Order Now
+                    </button>
+
+                    <dialog id="my_modal_3" className="modal">
+                      <div className="modal-box">
+                        <form method="dialog">
+                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                            ✕
+                          </button>
+                        </form>
+                        <div>
+                          <OrderForm />
+                        </div>
+                        {/* <p className="py-4">
+                          Press ESC key or click on ✕ button to close
+                        </p> */}
+                      </div>
+                    </dialog>
+                    {/* ================== Order placement Model ended here ============== */}
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
+                  <figure>
+                    <img
+                      src="../updated/social_media_post_design.png"
+                      alt="social_media_post_design"
+                      className="w-[60vw] mx-auto my-[20px]"
+                    ></img>
+                  </figure>
+                  <div className="card-body bg-sky-500 rounded-lg">
+                    <h2 className="font-bold text-white text-xl">
+                      Social Media Post Design
                     </h2>
 
                     <p className="text-[12px] text-white opacity-70">
@@ -497,25 +552,130 @@ const TabContext = () => {
                   </div>
                 </div>
               </div>
+            </Slider>
+          </div>
+        </TabPanel>
+        {/* 4th Tap panel for web development */}
+        <TabPanel>
+          <div className="slider-container pt-[20px] bg-[#ffffff] w-[100vw] mx-auto">
+            <Slider {...settings}>
               <div>
-                <div className="card card-compact w-[90vw] bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
-                      src="./updated/Product_package_Design2.png"
-                      alt="Product_package_Design2.png"
-                      className="w-[50%]"
+                      src="../updated/Wordpress_website2.png"
+                      alt="Wordpress_website2"
+                      className="w-[60vw] mx-auto my-[20px]"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-3xl">
-                      Product Package Design
+                    <h2 className="font-bold text-white text-xl">
+                      Wordpress Website
                     </h2>
 
                     <p className="text-[12px] text-white opacity-70">
-                      Your product package tells a lot about your brand and your
-                      representation. Our designers are well-equipped to create
-                      smart, responsive, and lucrative packages for your Amazon
-                      product.
+                      You must take approval for your brand name and trademark
+                      from amazon and it’s essential if you want to create your
+                      private label products and build a brand on Amazon.
+                    </p>
+                    {/* ===================== Order Placement Modal starts from here =============================== */}
+                    <button
+                      className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                      onClick={() =>
+                        document.getElementById("my_modal_3").showModal()
+                      }
+                    >
+                      Order Now
+                    </button>
+
+                    <dialog id="my_modal_3" className="modal">
+                      <div className="modal-box">
+                        <form method="dialog">
+                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                            ✕
+                          </button>
+                        </form>
+                        <div>
+                          <OrderForm />
+                        </div>
+                        {/* <p className="py-4">
+                          Press ESC key or click on ✕ button to close
+                        </p> */}
+                      </div>
+                    </dialog>
+                    {/* ================== Order placement Model ended here ============== */}
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
+                  <figure>
+                    <img
+                      className="w-[60vw] mx-auto my-[20px]"
+                      src="../updated/MERN-logo-1.png"
+                      alt="MERN-logo-1"
+                    ></img>
+                  </figure>
+                  <div className="card-body bg-sky-500 rounded-lg">
+                    <h2 className="font-bold text-white text-xl">
+                      MERN Stack Development
+                    </h2>
+
+                    <p className="text-[12px] text-white opacity-70">
+                      If the technical aspects like UPC/FNSKU are not handled
+                      properly, you can face serious troubles to the extent of
+                      registry suspension. We make sure your UPC and FNSKU
+                      labels are correct and comply with Amazon’s guidelines.
+                    </p>
+                    {/* ===================== Order Placement Modal starts from here =============================== */}
+                    <button
+                      className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
+                      onClick={() =>
+                        document.getElementById("my_modal_3").showModal()
+                      }
+                    >
+                      Order Now
+                    </button>
+
+                    <dialog id="my_modal_3" className="modal">
+                      <div className="modal-box">
+                        <form method="dialog">
+                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                            ✕
+                          </button>
+                        </form>
+                        <div>
+                          <OrderForm />
+                        </div>
+                        {/* <p className="py-4">
+                          Press ESC key or click on ✕ button to close
+                        </p> */}
+                      </div>
+                    </dialog>
+                    {/* ================== Order placement Model ended here ============== */}
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
+                  <figure>
+                    <img
+                      src="../updated/shopify.png"
+                      alt="shopify"
+                      className="w-[60vw] mx-auto my-[20px]"
+                    ></img>
+                  </figure>
+                  <div className="card-body bg-sky-500 rounded-lg">
+                    <h2 className="font-bold text-white text-xl">
+                      Shopify Store
+                    </h2>
+
+                    <p className="text-[12px] text-white opacity-70">
+                      We will research highly profitable products for your
+                      brands that will have low competition and high demand in
+                      the market. We will find out the unique selling
+                      proposition for your product and it will be different from
+                      others.
                     </p>
                     {/* ===================== Order Placement Modal starts from here =============================== */}
                     <button
@@ -549,7 +709,7 @@ const TabContext = () => {
             </Slider>
           </div>
         </TabPanel>
-        <div className="text-center bg-[#cee9ff] pb-[25px] w-[90vw] mx-auto">
+        <div className="text-center bg-[#ffffff] pb-[25px] w-[100vw] mx-auto">
           <button className="btn btn-sm btn-neutral rounded-none my-[10px]">
             View All Services
           </button>
