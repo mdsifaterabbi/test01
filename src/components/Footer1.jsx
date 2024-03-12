@@ -189,7 +189,7 @@ const Footer1 = () => {
               Avoid Failure and Maximize Potential Growth. Schedule a Free
               Meeting Now!
             </p>
-            <div className="pt-[5px] pb-[5px] text-center">
+            <div className="pt-[5px] pb-[5px] text-center relative top-[-10px]">
               <a
                 href="#"
                 className="py-[5px] px-[10px] bg-black text-white"

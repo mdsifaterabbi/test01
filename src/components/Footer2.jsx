@@ -344,7 +344,7 @@ const Footer2 = () => {
         </div>
       </div>
       {/* =================== Footer2 for xl devices ========================= */}
-      <div className="hidden xl:block xl:w-[50vw] xl:mx-auto">
+      <div className="hidden xl:block xl:w-[50vw] xl:mx-auto  ">
         <div className="flex flex-row">
           <div className="basis-1/1 w-[80vw] mx-auto mt-[50px] relative z-50">
             <div className="flex flex-row bg-[#40b0fd]">
@@ -383,9 +383,9 @@ const Footer2 = () => {
         </div>
       </div>
       {/* ====================== Only for extra large devices ========================= bg-[#ddf1ff] */}
-      <div className="hidden xl:block xl:w-[100vw] bg-[#ddf1ff] relative top-0 left-0 overflow-hidden">
+      <div className="hidden xl:block xl:w-[100vw] bg-[#ddf1ff] relative top-0 left-0">
         {/*  ================= Water mark ===================== */}
-        <div className="absolute top-0 left-0 w-[50vw] h-[100%] hidden lg:block xl:block">
+        <div className="absolute top-0 left-0 w-[50vw] h-[100%] hidden lg:block xl:block overflow-hidden">
           <img
             src="../watermarks/xl_home_water_1.png"
             alt="xl_home_water_1"

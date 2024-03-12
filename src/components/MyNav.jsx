@@ -39,11 +39,13 @@ const MyNav = () => {
           <div className="lg:hidden w-[100vw] relative">
             <div className=" block lg:hidden absolute left-0">
               <a className="btn btn-ghost text-xl">
-                <img
-                  src="../Logo.png"
-                  alt="logo"
-                  className="w-[80px] sm:w-[90px] md:w-[100px]"
-                ></img>
+                <Link to="/home" className="btn btn-ghost text-xl">
+                  <img
+                    src="../Logo.png"
+                    alt="logo"
+                    className="w-[80px] sm:w-[90px] md:w-[100px]"
+                  ></img>
+                </Link>
               </a>
             </div>
             <div className="block lg:hidden absolute right-[10px]">
@@ -73,19 +75,19 @@ const MyNav = () => {
                   className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 absolute right-[0px]"
                 >
                   <li>
-                    <a>Service sm</a>
+                    <Link to="/service">Service sm</Link>
                   </li>
                   <li>
-                    <a>Portfolio</a>
+                    <Link to="/portfolio">Portfolio</Link>
                   </li>
                   <li>
-                    <a>About</a>
+                    <Link to="/about">About</Link>
                   </li>
                   <li>
-                    <a>Blog</a>
+                    <Link to="/blog">Blog</Link>
                   </li>
                   <li>
-                    <a>Contact</a>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>

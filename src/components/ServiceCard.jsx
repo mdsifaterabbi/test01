@@ -1,13 +1,15 @@
+import "../MyShadow.css";
+
 const ServiceCard = () => {
   return (
     <>
-      <div className="card card-side bg-base-100 shadow-xl my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[120px] xl:mx-auto">
+      <div className="card card-side bg-base-100 my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[120px] xl:mx-auto myShadowDiv">
         <figure className="bg-sky-500 min-w-[80px]">
           <img src="../expert2.png" alt="expert2" className="w-[50px]" />
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
           {/* water mark */}
-          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px] hidden lg:block">
+          <div className="absolute top-[-10px] right-[-10px] xl:w-[80px] xl:h-[80px] hidden lg:block">
             <img
               src="../watermarks/xl_home_water_3.png"
               alt="xl_home_water_3"
@@ -44,7 +46,7 @@ const ServiceCard = () => {
 const ServiceCard2 = () => {
   return (
     <>
-      <div className="card card-side bg-base-100 shadow-xl my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[120px] xl:mx-auto">
+      <div className="card card-side bg-base-100 my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[120px] xl:mx-auto myShadowDiv">
         <figure className="bg-sky-500 min-w-[80px]">
           <img
             src="../DigitalMarketing1.png"
@@ -54,7 +56,7 @@ const ServiceCard2 = () => {
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
           {/* water mark */}
-          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px]  hidden lg:block">
+          <div className="absolute top-[-10px] right-[-10px] xl:w-[80px] xl:h-[80px]  hidden lg:block">
             <img
               src="../watermarks/xl_home_water_3.png"
               alt="xl_home_water_3"
@@ -91,7 +93,7 @@ const ServiceCard2 = () => {
 const ServiceCard3 = () => {
   return (
     <>
-      <div className="card card-side bg-base-100 shadow-xl my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[120px] xl:mx-auto">
+      <div className="card card-side bg-base-100 my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[120px] xl:mx-auto myShadowDiv">
         <figure className="bg-sky-500 min-w-[80px]">
           <img
             src="../Creative_1.png"
@@ -101,7 +103,7 @@ const ServiceCard3 = () => {
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
           {/* water mark */}
-          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px]  hidden lg:block">
+          <div className="absolute top-[-10px] right-[-10px] xl:w-[80px] xl:h-[80px]  hidden lg:block">
             <img
               src="../watermarks/xl_home_water_3.png"
               alt="xl_home_water_3"
@@ -138,7 +140,7 @@ const ServiceCard3 = () => {
 const ServiceCard4 = () => {
   return (
     <>
-      <div className="card card-side bg-base-100 shadow-xl my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[120px] xl:mx-auto">
+      <div className="card card-side bg-base-100 my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[120px] xl:mx-auto myShadowDiv">
         <figure className="bg-sky-500 min-w-[80px]">
           <img
             src="../LearnAndGrow1.png"
@@ -148,7 +150,7 @@ const ServiceCard4 = () => {
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
           {/* water mark */}
-          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px]  hidden lg:block">
+          <div className="absolute top-[-10px] right-[-10px] xl:w-[80px] xl:h-[80px]  hidden lg:block">
             <img
               src="../watermarks/xl_home_water_3.png"
               alt="xl_home_water_3"
@@ -185,7 +187,7 @@ const ServiceCard4 = () => {
 const ServiceCard5 = () => {
   return (
     <>
-      <div className="card card-side bg-base-100 shadow-xl my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[100px] xl:mx-auto">
+      <div className="card card-side bg-base-100 my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[100px] xl:mx-auto myShadowDiv">
         <figure className="bg-sky-500 min-w-[80px]">
           <img
             src="../Solutions1.png"
@@ -195,7 +197,7 @@ const ServiceCard5 = () => {
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
           {/* water mark */}
-          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px]  hidden lg:block">
+          <div className="absolute top-[-10px] right-[-10px] xl:w-[80px] xl:h-[80px]  hidden lg:block">
             <img
               src="../watermarks/xl_home_water_3.png"
               alt="xl_home_water_3"
@@ -232,7 +234,7 @@ const ServiceCard5 = () => {
 const ServiceCard6 = () => {
   return (
     <>
-      <div className="card card-side bg-base-100 shadow-xl my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[100px] xl:mx-auto">
+      <div className="card card-side bg-base-100 my-[5px] sm:w-[95%] sm:ml-[5px] rounded-[8px] xl:w-[90%] xl:min-h-[100px] xl:mx-auto myShadowDiv">
         <figure className="bg-sky-500 min-w-[80px]">
           <img
             src="../EndTOEnd1.png"
@@ -242,7 +244,7 @@ const ServiceCard6 = () => {
         </figure>
         <div className="card-body shadow-sm py-[0px] px-2 relative top-0 left-0">
           {/* water mark */}
-          <div className="absolute top-[-10px] right-[-20px] xl:w-[90px] xl:h-[90px] hidden lg:block">
+          <div className="absolute top-[-10px] right-[-10px] xl:w-[80px] xl:h-[80px] hidden lg:block">
             <img
               src="../watermarks/xl_home_water_3.png"
               alt="xl_home_water_3"

@@ -1,4 +1,6 @@
 import Slider from "react-slick";
+import "../MyShadow.css";
+
 const ClientsCommentsXL = () => {
   var settings = {
     dots: true,
@@ -23,7 +25,7 @@ const ClientsCommentsXL = () => {
           autoplaySpeed={3000} // Sets the autoplay speed in milliseconds (optional)
         >
           <div className="mb-[30px] xl:w-[100%]">
-            <div className="card card-side shadow-xl xl:w-[70%] xl:mx-auto">
+            <div className="card card-side xl:w-[70%] xl:mx-auto myShadowDiv">
               <figure className="xl:w-[300px]">
                 <img
                   src="../Mostafiz_Rana.jpeg"
@@ -68,7 +70,7 @@ const ClientsCommentsXL = () => {
             </div>
           </div>
           <div className="mb-[30px] xl:w-[100%]">
-            <div className="card card-side shadow-xl xl:w-[70%] xl:mx-auto">
+            <div className="card card-side xl:w-[70%] xl:mx-auto myShadowDiv">
               <figure className="xl:w-[300px]">
                 <img
                   src="../Robert.jpeg"
@@ -114,7 +116,7 @@ const ClientsCommentsXL = () => {
             </div>
           </div>
           <div className="mb-[30px] xl:w-[100%]">
-            <div className="card card-side shadow-xl xl:w-[70%] xl:mx-auto">
+            <div className="card card-side xl:w-[70%] xl:mx-auto myShadowDiv">
               <figure className="xl:w-[300px]">
                 <img
                   src="../Noor.jpeg"

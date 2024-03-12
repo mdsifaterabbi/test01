@@ -43,7 +43,7 @@ const Home = ({ title }) => {
           className="basis-1/1 md:basis-1/2 text-left xl:py-[100px]"
           style={{
             fontFamily: "Futura PT, sans-serif",
-            fontWeight: 'bold',
+            fontWeight: "bold",
             fontStyle: "normal",
           }}
         >

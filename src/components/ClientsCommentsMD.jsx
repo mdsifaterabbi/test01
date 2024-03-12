@@ -1,4 +1,5 @@
 import Slider from "react-slick";
+import "../MyShadow.css";
 const ClientsCommentsMD = () => {
   var settings = {
     dots: true,
@@ -59,6 +60,29 @@ const ClientsCommentsMD = () => {
               </div>
             </div>
           </div>
+          {/* ================ */}
+          <div className="mb-[30px]">
+            <div className="card card-side w-[90%] glass mx-auto">
+              <figure className="pt-[20px] px-[100px]">
+                <img src="../Noor.jpeg" alt="Noor" className="w-[100px]" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title px-[0px]">
+                  Barrister AKM NOOR A RABBI
+                </h2>
+                <span className="pl-[0px] text-[12px] text-slate-900 font-bold">
+                  <p className="pl-[0px] text-[12px] text-slate-600 opacity-50">
+                    As a legal professional, I badly needed social media
+                    branding and content management for my law firm ‘Noor & Co.’
+                    eSaviour Limited helped me build the entire brand design
+                    from scratch.
+                  </p>
+                  Noor & Co
+                </span>
+              </div>
+            </div>
+          </div>
+          {/* ================ */}
         </Slider>
       </div>
     </>

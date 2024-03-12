@@ -1,3 +1,4 @@
+import "../MyShadow.css";
 
 const Hero = () => {
   return (
@@ -65,7 +66,7 @@ const Hero = () => {
 
       {/* ========================================================= */}
 
-      <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[80vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-80px] xl:w-[80vw] relative">
+      <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[80vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-80px] xl:w-[80vw] relative myShadowDiv">
         <div className="basis-1/1 md:basis-1/1 text-center text-black px-[5px] section_3_span">
           <span
             className="text-sm text-slate-600 xl:text-3xl"
@@ -210,9 +211,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
-        <div className="absolute inset-0 bg-transparent z-0"></div>
-        <div className="absolute inset-0 bg-transparent z-10 shadow-lg shadow-black/20"></div>
       </div>
     </>
   );
