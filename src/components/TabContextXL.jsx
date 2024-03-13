@@ -25,7 +25,10 @@ const TabContextXL = () => {
     <>
       <div className="tab-container bg-[#f4faff] px-4 py-8 xl:w-[80vw] xl:mx-auto">
         <h2 className="font-normal xl:text-[32px] xl:font-thin text-center mb-4">
-          Our Best Selling B2B Digital Marketing <span className="text-[#40b0fd] font-extrabold xl:text-[32px]">Services</span>
+          Our Best Selling B2B Digital Marketing{" "}
+          <span className="text-[#40b0fd] font-extrabold xl:text-[32px]">
+            Services
+          </span>
         </h2>
 
         {/* Tab list container */}
@@ -55,39 +58,36 @@ const TabContextXL = () => {
               <div className="slider-container pb-[0px] bg-[#f4faff] xl:w-[70vw] xl:mx-auto">
                 <Slider {...settings}>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[40px]">
                         <img
-                          src="../updated/Fba_Consultancy.png"
+                          src="../updated/amazon_fba_consultancy.png"
                           alt="Fba_Consultancy"
                           className="w-[50%]"
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Amazon FBA Consultancy
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           Maximize Your E-commerce Potential Unlock the full
                           potential of your Amazon FBA business with Esaviour
                           Limited. Our consultancy services are designed to
                           optimize your product listings, enhance visibility,
-                          and boost sales.
+                          and boost sales. Trust our expertise to navigate the
+                          intricacies of the world’s largest online marketplace.
                         </p>
 
                         {/* ===================== Order Placement Modal starts from here =============================== */}
@@ -120,7 +120,7 @@ const TabContextXL = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/PPC.png"
@@ -130,28 +130,26 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           PPC Campaigns
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           Pay-per-click (PPC) advertising (Sponsored Ads) is a
                           common tool for e-commerce merchants. However, if you
                           lack the necessary skills and experience, you can
-                          jeopardize your whole business instead.
+                          jeopardize your whole business instead. Our Sponsored
+                          Ad campaign guarantees you a decent click-through and
+                          conversion rate within a convenient price range.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
@@ -183,7 +181,7 @@ const TabContextXL = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/Product_Sorcing.png"
@@ -193,22 +191,18 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Product Sourcing
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           Leave some of your major concerns to us, like choosing
@@ -253,7 +247,7 @@ const TabContextXL = () => {
               <div className="slider-container p-0 bg-[#f4faff] xl:w-[70vw] xl:mx-auto">
                 <Slider {...settings}>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/Facebook_Ads.png"
@@ -263,28 +257,25 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Facebook Ads Campaigns
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           We will research highly profitable products for your
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling
-                          proposition for your product.
+                          proposition for your product and it will be different
+                          from your competitor and help you to grow as a brand.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
@@ -316,7 +307,7 @@ const TabContextXL = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/Google_Ads.png"
@@ -326,29 +317,25 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="font-bold text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Google Ads Campaigns
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           We will research highly profitable products for your
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling
                           proposition for your product and it will be different
-                          from your competitor.
+                          from your competitor and help you to grow as a brand.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
@@ -380,7 +367,7 @@ const TabContextXL = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100  mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/Local_SEO.png"
@@ -390,27 +377,27 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="font-bold text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Local & Technical SEO
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           Professional guidance to optimize your product
-                          listings to enhance the visibility on Amazon. The best
-                          e-commerce optimization techniques we are providing.
+                          listings to enhance the visibility on Amazon that will
+                          attract new customers and drive more sales. The best
+                          e-commerce optimization techniques such as keyword
+                          research and optimization, crafting compelling product
+                          descriptions and images, and pricing and promotions to
+                          convert the clicks to sales.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
@@ -448,7 +435,7 @@ const TabContextXL = () => {
               <div className="slider-container p-0  bg-[#f4faff] xl:w-[70vw] xl:mx-auto">
                 <Slider {...settings}>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/Product_Listing.png"
@@ -458,29 +445,26 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-xl opacity-80 "
+                          className="text-black text-2xl font-extrabold opacity-80 "
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Amazon Product Listing Design
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           Maximize Your E-commerce Potential Unlock the full
                           potential of your Amazon FBA business with Esaviour
                           Limited. Our consultancy services are designed to
-                          optimize you business. Trust our expertise to navigate
-                          the online marketplace.
+                          optimize your product listings, enhance visibility,
+                          and boost sales. Trust our expertise to navigate the
+                          intricacies of the world’s largest online marketplace.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
@@ -512,7 +496,7 @@ const TabContextXL = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="./updated/Product_package_Design2.png"
@@ -522,28 +506,27 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className=" text-black text-xl opacity-80"
+                          className=" text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Product package Design
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           Your product package tells a lot about your brand and
                           your representation. Our designers are well-equipped
                           to create smart, responsive, and lucrative packages
-                          for your Amazon product.
+                          for your Amazon product. Leave the technical aspects
+                          of how the package looks to us so you can concentrate
+                          on more important areas like the delivery and product
+                          quality.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
@@ -575,7 +558,7 @@ const TabContextXL = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/Social_Media_Design.png"
@@ -585,29 +568,26 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className=" text-black text-xl opacity-80"
+                          className=" text-black text-2xl font-extrabold opacity-800"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Social Media Post Design
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           Social media is all about visuals and drawing the
                           attention of a huge customer base. Our social media
                           package includes graphics design for posts, creating
                           page layouts, making infographics and graphics for
-                          video content.
+                          video content. Highlight your products by customizing
+                          your social media plan with our graphics design team.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
@@ -645,7 +625,7 @@ const TabContextXL = () => {
               <div className="slider-container p-0  bg-[#f4faff] xl:w-[70vw] xl:mx-auto">
                 <Slider {...settings}>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto bshadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto bshadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/Wordpress_website2.png"
@@ -655,28 +635,28 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Wordpress Website
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
-                          You must take approval for your brand name and
-                          trademark from amazon and it’s essential if you want
-                          to create your private label products and build a
-                          brand on Amazon.
+                          As a brand, you must take approval for your brand name
+                          from amazon and it’s essential if you want to create
+                          your private label products and build a brand on
+                          Amazon. We can help you to navigate the complex
+                          process of obtaining brand registry and trademark
+                          approval on Amazon, which will protect your
+                          intellectual property and build a strong brand
+                          identity.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button
@@ -708,7 +688,7 @@ const TabContextXL = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
                           src="../updated/MERN-logo-1.png"
@@ -718,22 +698,18 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           MERN Stack Development
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           If the technical aspects like UPC/FNSKU are not
@@ -772,39 +748,35 @@ const TabContextXL = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="card card-compact w-[20vw] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
                       <figure className="bg-[#ffffff] py-[20px]">
                         <img
-                          src="../updated/shopify.png"
+                          src="../updated/shopify_store.png"
                           alt="shopify"
                           className="w-[50%]"
                         ></img>
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-xl opacity-80"
+                          className="text-black text-2xl font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: "bold",
-                            fontStyle: "normal",
                           }}
                         >
                           Shopify Store
                         </h2>
 
                         <p
-                          className="text-[12px] text-black opacity-70 xl:text-[14px]"
+                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
-                            fontWeight: 400,
-                            fontStyle: "normal",
                           }}
                         >
                           We will research highly profitable products for your
                           brands that will have low competition and high demand
                           in the market. We will find out the unique selling
                           proposition for your product and it will be different
-                          from others.
+                          from your competitor and help you to grow as a brand.
                         </p>
                         {/* ===================== Order Placement Modal starts from here =============================== */}
                         <button

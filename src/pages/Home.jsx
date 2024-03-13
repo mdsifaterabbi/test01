@@ -35,7 +35,7 @@ const Home = ({ title }) => {
       <MyNav />
       <Hero />
       {/* ========================== section 3 starts from here ============================ */}
-      <div className="flex flex-col md:flex-row flex-wrap xl:w-[90vw]">
+      <div className="flex flex-col md:flex-row flex-wrap xl:w-[90vw] overflow-x-hidden">
         <div className="basis-1/1 md:basis-1/2 flex justify-center items-center">
           <img src="../Arrow_2.png" alt="Arrow_2"></img>
         </div>
@@ -95,22 +95,22 @@ const Home = ({ title }) => {
       </div>
       {/* ========================== section 3 ended  here ============================ */}
       {/* ================== section 4 starts from here =================================*/}
-      <div className="sm:hidden">
+      <div className="sm:hidden overflow-x-hidden">
         <TabContext />
       </div>
-      <div className="hidden sm:block md:hidden">
+      <div className="hidden sm:block md:hidden overflow-x-hidden">
         <TabContextSM />
       </div>
-      <div className="hidden md:block xl:hidden">
+      <div className="hidden md:block xl:hidden overflow-x-hidden">
         <TabContextMD />
       </div>
-      <div className="hidden xl:block">
+      <div className="hidden xl:block overflow-x-hidden">
         <TabContextXL />
       </div>
 
       {/* ================== section 4 ends from here =================================*/}
       {/* ================== section 5 starts from here =================================*/}
-      <div className="my-[25px] text-center">
+      <div className="my-[25px] text-center w-[98vw] mx-auto">
         <span className="TabContextFontSpan text-[18px] xl:text-[40px]">
           Why Choose Esaviour Limited to
           <span className=" text-sky-500 TabContextFontSpan2">
@@ -118,7 +118,7 @@ const Home = ({ title }) => {
           </span>
         </span>
       </div>
-      <div className="flex flex-wrap flex-col sm:flex-row w-[90vw] xl:w-[80%] xl:mx-auto md:w-[90vw] md:mx-auto mx-auto">
+      <div className="flex flex-wrap flex-col sm:flex-row w-[90vw] xl:w-[80%] xl:mx-auto md:w-[90vw] md:mx-auto mx-auto overflow-x-hidden">
         <div className="basis-1/1 sm:basis-1/2">
           <ServiceCard />
         </div>
@@ -141,7 +141,7 @@ const Home = ({ title }) => {
       {/* ================== section 5 ended here =================================*/}
 
       {/* ================== section 6 (The Brands we have worked with) starts from here =====================*/}
-      <div className="flex flex-wrap flex-col justify-center items-center mb-0 py-[20px]">
+      <div className="flex flex-wrap flex-col justify-center items-center mb-0 py-[20px] overflow-x-hidden">
         <div className="basis-1/1">
           <h1 className="text-center py-[20px] TabContextFontSpan text-[18px] xl:text-[40px]">
             The Brands we have <br></br>
@@ -154,7 +154,7 @@ const Home = ({ title }) => {
       <BrandSlider />
       {/* ================== section 6 (The Brands we have worked with) ended here =====================*/}
       {/* ================== section 7 (A Glimpse into our Creative Universe) starts from here =====================*/}
-      <div className="flex flex-wrap flex-col justify-center items-center mb-0">
+      <div className="flex flex-wrap flex-col justify-center items-center mb-0 overflow-x-hidden">
         <div className="basis-1/1">
           <h1 className="text-center py-[20px] TabContextFontSpan text-[18px] xl:text-[40px]">
             A Glimpse into our <br></br>
@@ -164,27 +164,27 @@ const Home = ({ title }) => {
           </h1>
         </div>
       </div>
-      <div className="sm:hidden">
+      <div className="sm:hidden overflow-x-hidden">
         <CreativeSlider />
       </div>
-      <div className="hidden sm:block md:hidden">
+      <div className="hidden sm:block md:hidden overflow-x-hidden">
         <CreativeSliderSM />
       </div>
-      <div className="hidden xl:block">
+      <div className="hidden xl:block overflow-x-hidden">
         <CreativeSliderXL />
       </div>
       {/* ================== section 7 (A Glimpse into our Creative Universe) ended here here =====================*/}
       {/* ================== section 8 (Clients Comments) start from here =====================*/}
-      <div className="sm:hidden">
+      <div className="sm:hidden overflow-x-hidden">
         <ClientsComments />
       </div>
-      <div className="hidden sm:block md:hidden">
+      <div className="hidden sm:block md:hidden overflow-x-hidden">
         <ClientsCommentsSM />
       </div>
-      <div className="hidden md:block xl:hidden">
+      <div className="hidden md:block xl:hidden overflow-x-hidden">
         <ClientsCommentsMD />
       </div>
-      <div className="hidden xl:block">
+      <div className="hidden xl:block overflow-x-hidden">
         <ClientsCommentsXL />
       </div>
 

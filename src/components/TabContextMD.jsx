@@ -56,7 +56,7 @@ const TabContextMD = () => {
                 <div className="card card-compact w-[27vw] h-[450px]  bg-[#ffffff] shadow-xl mx-auto">
                   <figure className="bg-[#ffffff]">
                     <img
-                      src="../updated/Fba_Consultancy.png"
+                      src="../updated/amazon_fba_consultancy.png"
                       alt="Fba_Consultancy"
                       className="w-[90%] mx-auto my-[10px] lg:w-[60%] lg:my-[40px]"
                     ></img>
@@ -67,9 +67,12 @@ const TabContextMD = () => {
                     </h2>
 
                     <p className="text-[12px] text-white opacity-70">
-                      MMaximize Your E-commerce Potential Unlock the full
+                      Maximize Your E-commerce Potential Unlock the full
                       potential of your Amazon FBA business with Esaviour
-                      Limited.We are here for helping you.
+                      Limited. Our consultancy services are designed to optimize
+                      your product listings, enhance visibility, and boost
+                      sales. Trust our expertise to navigate the intricacies of
+                      the world’s largest online marketplace.
                     </p>
                     {/* ===================== Order Placement Modal starts from here =============================== */}
                     <button
@@ -118,7 +121,9 @@ const TabContextMD = () => {
                       Pay-per-click (PPC) advertising (Sponsored Ads) is a
                       common tool for e-commerce merchants. However, if you lack
                       the necessary skills and experience, you can jeopardize
-                      your whole business instead.
+                      your whole business instead. Our Sponsored Ad campaign
+                      guarantees you a decent click-through and conversion rate
+                      within a convenient price range.
                     </p>
                     {/* ===================== Order Placement Modal starts from here =============================== */}
                     <button
@@ -167,7 +172,7 @@ const TabContextMD = () => {
                       Leave some of your major concerns to us, like choosing the
                       right supplier for your products. As FBA specialists, we
                       will source from the most reliable and affordable
-                      suppliers at a competitive price.
+                      suppliers in the market for you at a competitive price.
                     </p>
                     {/* ===================== Order Placement Modal starts from here =============================== */}
                     <button
@@ -612,7 +617,7 @@ const TabContextMD = () => {
                 <div className="card card-compact w-[27vw] h-[450px] bg-[#ffffff] shadow-xl mx-auto">
                   <figure className="bg-[#ffffff]">
                     <img
-                      src="../updated/shopify.png"
+                      src="../updated/shopify_store.png"
                       alt="shopify"
                       className="w-[90%] mx-auto my-[10px] lg:w-[60%] lg:my-[40px]"
                     ></img>

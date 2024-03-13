@@ -15,10 +15,10 @@ var settings = {
 const BrandSlider = () => {
   return (
     <>
-      <div className="relative top-0 left-0">
+      <div className="">
         <Slider
           {...settings}
-          className="myShadowDiv py-[15px] border-[rgba(82, 83, 86,0.5)] md:w-[90vw] md:mx-auto xl:w-[100vw] bg-[#ffffff]"
+          className="myShadowDiv py-[15px] border-[rgba(82, 83, 86,0.5)] w-[95vw] md:w-[95vw] mx-auto xl:w-[95vw] bg-[#ffffff]"
           autoplay={true}
           autoplaySpeed={2000}
         >
@@ -95,12 +95,8 @@ const BrandSlider = () => {
             </h3>
           </div>
         </Slider>
-        <div className="absolute left-[-100px] top-0 bg-[#28acf8] xl:w-[250px] xl:h-[100px] transform rotate-45 -z-40">
-          .
-        </div>
-        <div className="absolute right-[-100px] top-0 bg-[#28acf8] xl:w-[250px] xl:h-[100px] transform rotate-45 -z-40">
-          .
-        </div>
+        {/* <div className="absolute left-[-100px] top-0 bg-[#28acf8] xl:w-[250px] xl:h-[100px] transform rotate-45 -z-40 overflow-x-hidden"></div>
+        <div className="absolute right-[-100px] top-0 bg-[#28acf8] xl:w-[250px] xl:h-[100px] transform rotate-45 -z-40 overflow-x-hidden"></div> */}
       </div>
     </>
   );

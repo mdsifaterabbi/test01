@@ -98,8 +98,8 @@ const TabContext = () => {
                   <figure>
                     <img
                       className="w-[60vw] mx-auto my-[20px]"
-                      src="../updated/Fba_Consultancy.png"
-                      alt="Fba_Consultancy"
+                      src="../updated/amazon_fba_consultancy.png"
+                      alt="amazon_fba_consultancy"
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
@@ -112,7 +112,8 @@ const TabContext = () => {
                       potential of your Amazon FBA business with Esaviour
                       Limited. Our consultancy services are designed to optimize
                       your product listings, enhance visibility, and boost
-                      sales.
+                      sales. Trust our expertise to navigate the intricacies of
+                      the world’s largest online marketplace.
                     </p>
                     {/* ===================== Order Placement Modal starts from here =============================== */}
                     <button
@@ -161,7 +162,9 @@ const TabContext = () => {
                       Pay-per-click (PPC) advertising (Sponsored Ads) is a
                       common tool for e-commerce merchants. However, if you lack
                       the necessary skills and experience, you can jeopardize
-                      your whole business instead.
+                      your whole business instead. Our Sponsored Ad campaign
+                      guarantees you a decent click-through and conversion rate
+                      within a convenient price range.
                     </p>
                     {/* ===================== Order Placement Modal starts from here =============================== */}
                     <button
@@ -662,7 +665,7 @@ const TabContext = () => {
                 <div className="card card-compact w-[70vw] bg-[#ffffff] shadow-xl mx-auto">
                   <figure>
                     <img
-                      src="../updated/shopify.png"
+                      src="../updated/shopify_store.png"
                       alt="shopify"
                       className="w-[60vw] mx-auto my-[20px]"
                     ></img>

@@ -31,7 +31,7 @@ const Footer2 = () => {
             </div>
           </div>
         </div>
-        <div className="basis-1/1 pt-[100px] bg-[#ddf1ff] mt-[-70px]">
+        <div className="basis-1/1 pt-[100px] bg-[#ddf1ff] w-[98vw] mx-auto mt-[-70px]">
           <div className="flex flex-col">
             <div className="basis-1/1 bg-[#ddf1ff]">
               <img
@@ -40,7 +40,7 @@ const Footer2 = () => {
                 className="mx-auto w-[120px] py-[10px]"
               ></img>
             </div>
-            <div className="basis-1/1 bg-[#ddf1ff]">
+            <div className="basis-1/1 bg-[#ddf1ff] w-[98vw] mx-auto">
               <p className="text-[11px] text-center px-[5px] py-[5px] section_3_span">
                 At Esaviour Limited, we're dedicated to propelling your business
                 to new heights in the digital landscape. Our comprehensive suite
@@ -50,7 +50,7 @@ const Footer2 = () => {
                 expertise to every project.
               </p>
             </div>
-            <div className="basis-1/1 py-[10px] bg-[#ddf1ff]">
+            <div className="basis-1/1 py-[10px] bg-[#ddf1ff] w-[98vw] mx-auto">
               <div className="flex flex-row sm:w-[60%] sm:mx-auto">
                 <div className="basis-1/2 pl-[30px]">
                   <span className="font-book text-xl">Quick Link</span>
@@ -91,7 +91,7 @@ const Footer2 = () => {
                 </div>
               </div>
             </div>
-            <div className="basis-1/1 bg-[#ddf1ff]">
+            <div className="basis-1/1 bg-[#ddf1ff] w-[98vw] mx-auto">
               <h5 className="text-center py-[10px] section_3_span">
                 Let's Get Social
               </h5>
@@ -114,7 +114,7 @@ const Footer2 = () => {
                 </a>
               </div>
             </div>
-            <div className="basis-1/1 bg-[#ddf1ff]">
+            <div className="basis-1/1 bg-[#ddf1ff] w-[98vw] mx-auto">
               <h5 className="text-center py-[10px] section_3_span">
                 Payment method
               </h5>
@@ -383,7 +383,7 @@ const Footer2 = () => {
         </div>
       </div>
       {/* ====================== Only for extra large devices ========================= bg-[#ddf1ff] */}
-      <div className="hidden xl:block xl:w-[100vw] bg-[#ddf1ff] relative top-0 left-0">
+      <div className="hidden xl:block xl:w-[98vw] mx-auto bg-[#ddf1ff] relative top-0 left-0">
         {/*  ================= Water mark ===================== */}
         <div className="absolute top-0 left-0 w-[50vw] h-[100%] hidden lg:block xl:block overflow-hidden">
           <img
@@ -588,7 +588,7 @@ const Footer2 = () => {
       </div>
       <div className="hidden xl:block">
         <div className="flex flex-col">
-          <div className="basis-1/1 bg-[#000000] pb-[10px] text-center xl:w-[100vw] xl:mx-auto">
+          <div className="basis-1/1 bg-[#000000] pb-[10px] text-center xl:w-[98vw] mx-auto">
             <span className="text-white text-[11px] font-semibold ">
               Copyright © 2024 eSaviour Limited | All Right Reserved
             </span>
