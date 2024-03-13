@@ -1,4 +1,5 @@
 import "../MyShadow.css";
+import "./Hero.css";
 
 const Hero = () => {
   return (
@@ -34,11 +35,11 @@ const Hero = () => {
             services is crafted to elevate your brand, drive sales, and
             establish a strong online presence.
           </p>
-          <div className="block xl:mt-[20px]">
+          {/* <div className="block xl:mt-[20px]">
             <div className="flex flex-row">
               <div className=" basis-1/4  xl:basis-1/4 xl:pl-[12%] mt-[30px] sm:mt-[30px]">
                 <button className="btn btn-sm btn-info w-[120px] bg-[#000000] text-[10px] xl:text-[12px] text-white rounded-none hover:none border-none">
-                  Get a Free Quote!
+                  Get a Free Quote
                 </button>
               </div>
               <div className="basis-3/4 xl:basis-3/4 mt-[30px] sm:mt-[30px]">
@@ -53,8 +54,42 @@ const Hero = () => {
                 </p>
               </div>
             </div>
+          </div> */}
+          {/* ============== Only For XL devices ============= */}
+          <div className="basis-1/1 hidden xl:block">
+            <div className="flex flex-row gap-3">
+              <div className="basis-1/4 h-[100px] xl:text-end mt-[15px]">
+                <button className="btn rounded-none xl:text-[12px] bg-black hover:bg-orange-500 cursor-pointer text-white relative xl:top-[30px] transition duration-300 ease-linear">
+                  Get Free Quote
+                </button>
+              </div>
+              <div className="basis-3/4 h-[100px] mt-[25px]">
+                <p className="relative xl:text-[16px] xl:top-[20px]">
+                  Over 3 Years of Experience in B2B Digital Marketing
+                  Services.Helped 27+ Brands to Achieve Success.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* =================== Only For XSM ,SM, MD, lg devices devices =================== */}
+          <div className="basis-1/1 block xl:hidden mt-[30px]">
+            <div className="flex flex-row gap-1">
+              <div
+                className="basis-1/4 text-[12px] bg-black text-white text-center hover:text-black hover:bg-orange-500 cursor-pointer relative
+              top-0 left-0 transition duration-300 ease-linear sm:py-[10px]"
+              >
+                Get Free Quote
+              </div>
+              <div className="basis-3/4">
+                <p className="relative text-[12px] top-[0px] font-semibold leading-[12px] sm:pt-[5px] md:pt-[5px] lg:px-[50px]">
+                  Over 3 Years of Experience in B2B Digital Marketing
+                  Services.Helped 27+ Brands to Achieve Success.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+
         <div className="basis-1/1 md:basis-1/1 xl:basis-1/2 flex justify-center items-center order-0 md:order-0 xl:order-1 pt-[20px] md:mr-[50px] lg:mt-[50px] lg:mb-[-100px] xl:text-center xl:pt-[10px] xl:mb-[50px]">
           <img
             src="../Speech_Bubble.png"
@@ -72,7 +107,7 @@ const Hero = () => {
             className="text-[16px] text-black xl:text-3xl"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              }}
+            }}
           >
             eSaviour Limited has achieved fame internationally recognized by the
             world leaders
