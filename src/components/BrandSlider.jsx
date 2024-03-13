@@ -11,6 +11,7 @@ var settings = {
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 2,
+  arrows: false,
 };
 
 //const BRAND_SLIDER_ANIMATION_DURATION = "15s"; // Adjust animation duration
@@ -40,10 +41,10 @@ var settings = {
 const BrandSlider = () => {
   return (
     <>
-      <div className="">
+      <div className="relative top-0 left-0">
         <Slider
           {...settings}
-          className="myShadowDiv py-[15px] border-[rgba(82, 83, 86,0.5)] w-[95vw] md:w-[95vw] mx-auto xl:w-[95vw] bg-[#ffffff]"
+          className="myShadowDiv py-[15px] border-[rgba(82, 83, 86,0.5)] w-[98vw] md:w-[95vw] mx-auto xl:w-[95vw] bg-[#ffffff]"
           autoplay={true}
           autoplaySpeed={2000}
         >
@@ -52,7 +53,7 @@ const BrandSlider = () => {
               <img
                 src="./t3r-logo.png"
                 alt="t3r-logo"
-                className="w-[50px] sm:w-[80px] mx-auto xl:w-[150px]"
+                className="w-[50px] sm:w-[80px] mx-auto xl:w-[100px] xl:pt-[10px]"
               ></img>
             </h3>
           </div>
@@ -61,7 +62,7 @@ const BrandSlider = () => {
               <img
                 src="./virtusale-logo.png"
                 alt="virtusale-logo.png"
-                className="w-[50px] sm:w-[80px] mx-auto xl:w-[150px]"
+                className="w-[50px] sm:w-[80px] mx-auto xl:w-[150px] xl:pt-[10px]"
               ></img>
             </h3>
           </div>
@@ -70,7 +71,7 @@ const BrandSlider = () => {
               <img
                 src="./bugwomp-logo.png"
                 alt="bugwomp-logo"
-                className="w-[50px] sm:w-[80px] mx-auto xl:w-[150px]"
+                className="w-[50px] sm:w-[80px] mx-auto xl:w-[150px] xl:pt-[10px]"
               ></img>
             </h3>
           </div>
@@ -120,8 +121,8 @@ const BrandSlider = () => {
             </h3>
           </div>
         </Slider>
-        {/* <div className="absolute left-[-100px] top-0 bg-[#28acf8] xl:w-[250px] xl:h-[100px] transform rotate-45 -z-40 overflow-x-hidden"></div>
-        <div className="absolute right-[-100px] top-0 bg-[#28acf8] xl:w-[250px] xl:h-[100px] transform rotate-45 -z-40 overflow-x-hidden"></div> */}
+        <div className="absolute left-[0px] top-[0px] bg-[#28acf8] xl:w-[300px] xl:h-[100px] transform -rotate-45 -z-40 overflow-x-hidden"></div>
+        <div className="absolute right-[0px] top-[0px] bg-[#28acf8] xl:w-[300px] xl:h-[100px] transform rotate-45 -z-40 overflow-x-hidden"></div>
       </div>
     </>
   );
