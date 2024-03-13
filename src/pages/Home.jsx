@@ -47,15 +47,15 @@ const Home = ({ title }) => {
             fontStyle: "normal",
           }}
         >
-          <span className="text-[40px] pr-[5px] pl-[5px] xl:text-9xl">
-            Who&nbsp;
+          <span className="text-[70px] pr-[5px] pl-[5px] xl:text-[128px]">
+            Who
           </span>
-          <span className="text-sky-500 text-[30px] pr-[5px] xl:text-6xl">
-            We&nbsp;
+          <span className="text-sky-500 text-[34px] pr-[5px] xl:text-[70px]">
+            We
           </span>
-          <span className="text-sm text-[20px] xl:text-3xl">Are?</span>
+          <span className="text-[20px] xl:text-[34px] font-bold">Are?</span>
           <p
-            className="text-[12px] font-bold sm:text-[14px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] text-black tracking-[1px]"
+            className="text-[16px] font-semibold sm:text-[16px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] text-black leading-[16px] xl:tracking-[1px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
             }}
@@ -65,7 +65,7 @@ const Home = ({ title }) => {
             them dominate international markets
           </p>
           <p
-            className="text-[12px] font-bold sm:text-[14px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] tracking-[1px]"
+            className="text-[16px] font-semibold sm:text-[16px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] text-black leading-[16px] xl:tracking-[1px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
             }}
@@ -77,7 +77,7 @@ const Home = ({ title }) => {
             results for you.
           </p>
           <p
-            className="text-[12px] font-bold sm:text-[14px] md:text-[16px] xl:text-[16px] pl-[10px] pr-[20px] sm:px-[10px] text-black tracking-[1px]"
+            className="text-[16px] font-semibold sm:text-[16px] md:text-[16px] xl:text-[16px] pb-[20px] pl-[10px] pr-[20px] sm:px-[10px] text-black leading-[16px] xl:tracking-[1px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
             }}
@@ -111,7 +111,7 @@ const Home = ({ title }) => {
       {/* ================== section 4 ends from here =================================*/}
       {/* ================== section 5 starts from here =================================*/}
       <div className="my-[25px] text-center w-[98vw] mx-auto">
-        <span className="TabContextFontSpan text-[18px] xl:text-[40px]">
+        <span className="TabContextFontSpan text-[24px] xl:text-[40px]">
           Why Choose Esaviour Limited to
           <span className=" text-sky-500 TabContextFontSpan2">
             <br></br> Builds Your Brand?
@@ -143,7 +143,7 @@ const Home = ({ title }) => {
       {/* ================== section 6 (The Brands we have worked with) starts from here =====================*/}
       <div className="flex flex-wrap flex-col justify-center items-center mb-0 py-[20px] overflow-x-hidden">
         <div className="basis-1/1">
-          <h1 className="text-center py-[20px] TabContextFontSpan text-[18px] xl:text-[40px]">
+          <h1 className="text-center py-[20px] TabContextFontSpan text-[24px] xl:text-[40px]">
             The Brands we have <br></br>
             <span className="text-sky-500 TabContextFontSpan2">
               worked with
@@ -156,7 +156,7 @@ const Home = ({ title }) => {
       {/* ================== section 7 (A Glimpse into our Creative Universe) starts from here =====================*/}
       <div className="flex flex-wrap flex-col justify-center items-center mb-0 overflow-x-hidden">
         <div className="basis-1/1">
-          <h1 className="text-center py-[20px] TabContextFontSpan text-[18px] xl:text-[40px]">
+          <h1 className="text-center py-[20px] TabContextFontSpan text-[24px] xl:text-[40px]">
             A Glimpse into our <br></br>
             <span className="text-sky-500 TabContextFontSpan2">
               Creative Universe

@@ -18,12 +18,12 @@ const Hero = () => {
           ></img>
         </div>
         <div className="basis-1/1 md:basis-1/1 xl:basis-1/2 md:mx-[100px] lg:mt-[100px] order-1 md:order-1 xl:order-0 px-[10px] xl:mt-[0px]">
-          <h1 className="text-left font-extrabold pt-[20px] text-[20px] lg:text-[34px] xl:pl-[12%] xl:text-[38px] xl:leading-[50px] md:pt-[50px]">
+          <h1 className="text-left font-extrabold pt-[20px] text-[25px] lg:text-[34px] xl:pl-[12%] xl:text-[38px] xl:leading-[50px] md:pt-[50px]">
             Worried About your Brand's<br></br>
             <span className="text-sky-500"> Marketing Strategy?</span>
           </h1>
           <p
-            className="text-sm font-bold md:text-[14px] mt-[20px] mb-[10px] xl:pl-[12%] xl:text-[16px] tracking-[1px] md:text-justify"
+            className="text-[15px] font-bold md:text-[14px] mt-[20px] mb-[10px] xl:pl-[12%] xl:text-[16px] tracking-[1px] md:text-justify"
             style={{
               fontFamily: "Futura PT, sans-serif",
             }}
@@ -36,14 +36,14 @@ const Hero = () => {
           </p>
           <div className="block xl:mt-[20px]">
             <div className="flex flex-row">
-              <div className=" basis-1/4  xl:basis-1/4 xl:pl-[12%] mt-[40px] sm:mt-[35px]">
+              <div className=" basis-1/4  xl:basis-1/4 xl:pl-[12%] mt-[30px] sm:mt-[30px]">
                 <button className="btn btn-sm btn-info w-[120px] bg-[#000000] text-[10px] xl:text-[12px] text-white rounded-none hover:none border-none">
                   Get a Free Quote!
                 </button>
               </div>
-              <div className="basis-3/4 xl:basis-3/4 mt-[30px] sm:mt-[35px]">
+              <div className="basis-3/4 xl:basis-3/4 mt-[30px] sm:mt-[30px]">
                 <p
-                  className="xl:px-[20px] font-semibold text-[12px] sm:text-[14px] sm:px-[2px] px-[2px] text-justify xl:text-[14px] xl:tracking-[1px] leading-[12px]"
+                  className="xl:px-[20px] text-[12px] sm:text-[12px] sm:px-[2px] px-[2px] text-justify xl:text-[16px] xl:tracking-[1px] leading-[12px] xl:leading-[16px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
                   }}
@@ -69,7 +69,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-col bg-[#ffffff] py-[20px] w-[95vw] md:w-[80vw] mx-auto mt-[-150px] sm:mt-[-80px] xl:mt-[-80px] xl:w-[80vw] relative myShadowDiv">
         <div className="basis-1/1 md:basis-1/1 text-center text-black px-[5px] section_3_span">
           <span
-            className="text-sm text-black xl:text-3xl font-bold"
+            className="text-[16px] text-black xl:text-3xl"
             style={{
               fontFamily: "Futura PT, sans-serif",
               }}
@@ -80,28 +80,28 @@ const Hero = () => {
         </div>
         {/* ===================For extra small devices only====================== */}
         <div className="basis-1/1 sm:hidden flex flex-wrap items-center justify-center mx-auto">
-          <div className="basis-1/2">
+          <div className="mx-[5px]">
             <img
               src="../meta.png"
               alt="meta"
               className="w-[80px] mx-auto"
             ></img>
           </div>
-          <div className="basis-1/2">
+          <div className="mx-[5px]">
             <img
               src="../Amazon-Ads 1.png"
               alt="mAmazon-Ads 1.pngta"
               className="w-[80px] h-[100px] mx-auto"
             ></img>
           </div>
-          <div className="basis-1/2">
+          <div className="mx-[5px]">
             <img
               src="../Google_Ads_logo.png"
               alt="Google_Ads_logo.png"
-              className="w-[50px] mx-auto"
+              className="w-[60px] h-[50px] mx-auto"
             ></img>
           </div>
-          <div className="basis-1/2">
+          <div className="mx-[5px]">
             <img
               src="../Group 210.png"
               alt="Group 210.png"

@@ -52,7 +52,7 @@ const Footer1 = () => {
       <div className="sm:hidden w-[95vw] mx-auto">
         <div className="flex flex-col sm:hidden mb-[30px]">
           <div className="basis-1/1 bg-[#EEF7FF]">
-            <p className="text-center text-[12px] px-[5px] py-[10px] section_3_span">
+            <p className="text-center text-[15px] px-[5px] py-[10px] section_3_span">
               Our Professional Team has helped Hundreds of Sellers on Amazon to
               Avoid Failure and Maximize Potential Growth. Schedule a Free
               Meeting Now!

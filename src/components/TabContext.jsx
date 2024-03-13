@@ -60,16 +60,16 @@ const TabContext = () => {
   return (
     <>
       <div className="pb-[25px] pt-[25px] mt-[12px] text-center w-[90vw] mx-auto">
-        <span className="TabContextFontSpan text-[20px]">
+        <span className="TabContextFontSpan text-[30px]">
           Our Best Selling B2B Digital Marketing{" "}
-          <span className="text-[#40b0fd] font-extrabold text-[22px]">
+          <span className="text-[#40b0fd] font-extrabold text-[30px] tracking-tighter">
             Services
           </span>
         </span>
       </div>
 
       <Tabs>
-        <TabList className=" pb-[10px] TabContextTabFont text-[12px] w-[50vw] mx-auto text-center">
+        <TabList className=" pb-[10px] TabContextTabFont text-[18px] w-[50vw] mx-auto text-center">
           {[
             "Amazon FBA",
             "Digital Marketing",
@@ -78,9 +78,9 @@ const TabContext = () => {
           ].map((tabName, index) => (
             <Tab
               key={tabName}
-              className={`px-[10px] border-b-[2px] border-b-sky-300 cursor-pointer ${
+              className={`px-[10px] border-b-[2px] border-b-sky-300 my-[15px] cursor-pointer ${
                 selectedIndex === index
-                  ? "bg-[#cee9ff] text-black font-bold border-b-[4px] border-b-sky-800"
+                  ? "bg-[#faf7f5] text-sky-500 font-bold border-b-[4px] border-b-sky-800"
                   : "border-b-[2px] border-b-sky-300"
               }`}
               onClick={() => handleTabClick(index)}
@@ -103,11 +103,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Amazon FBA Consultancy
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       Maximize Your E-commerce Potential Unlock the full
                       potential of your Amazon FBA business with Esaviour
                       Limited. Our consultancy services are designed to optimize
@@ -154,11 +154,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       PPC Campaigns
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       Pay-per-click (PPC) advertising (Sponsored Ads) is a
                       common tool for e-commerce merchants. However, if you lack
                       the necessary skills and experience, you can jeopardize
@@ -205,11 +205,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Product Sourcing
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       Leave some of your major concerns to us, like choosing the
                       right supplier for your products. As FBA specialists, we
                       will source from the most reliable and affordable
@@ -260,11 +260,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Facebook Ads Campaigns
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       We will research highly profitable products for your
                       brands that will have low competition and high demand in
                       the market. We will find out the unique selling
@@ -309,11 +309,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Google Ads Campaigns
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       We will research highly profitable products for your
                       brands that will have low competition and high demand in
                       the market. We will find out the unique selling
@@ -359,11 +359,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Amazon Product Listing Design
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       Professional guidance to optimize your product listings to
                       enhance the visibility on Amazon. The best e-commerce
                       optimization techniques we are providing.
@@ -414,11 +414,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Amazon Product Listing Design
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       Maximize Your E-commerce Potential Unlock the full
                       potential of your Amazon FBA business with Esaviour
                       Limited. Our consultancy services are designed to optimize
@@ -465,11 +465,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Product Package Design
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       Your product package tells a lot about your brand and your
                       representation. Our designers are well-equipped to create
                       smart, responsive, and lucrative packages for your Amazon
@@ -516,11 +516,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Social Media Post Design
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       Social media is all about visuals and drawing the
                       attention of a huge customer base. Our social media
                       package includes graphics design for posts, creating page
@@ -574,11 +574,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Wordpress Website
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       You must take approval for your brand name and trademark
                       from amazon and it’s essential if you want to create your
                       private label products and build a brand on Amazon.
@@ -622,11 +622,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       MERN Stack Development
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       If the technical aspects like UPC/FNSKU are not handled
                       properly, you can face serious troubles to the extent of
                       registry suspension. We make sure your UPC and FNSKU
@@ -671,11 +671,11 @@ const TabContext = () => {
                     ></img>
                   </figure>
                   <div className="card-body bg-sky-500 rounded-lg">
-                    <h2 className="font-bold text-white text-xl">
+                    <h2 className="text-white text-[20px] pb-[10px]">
                       Shopify Store
                     </h2>
 
-                    <p className="text-[12px] text-white opacity-70">
+                    <p className="text-[15px] text-white opacity-70">
                       We will research highly profitable products for your
                       brands that will have low competition and high demand in
                       the market. We will find out the unique selling

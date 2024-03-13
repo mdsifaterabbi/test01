@@ -16,26 +16,22 @@ const ServiceCard = () => {
             ></img>
           </div>
           <h2
-            className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
+            className="text-sky-500  text-[18px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              fontWeight: 400,
-              fontStyle: "normal",
             }}
           >
             Expert Guidance
           </h2>
           <p
-            className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
+            className="text-[15px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              fontWeight: 400,
-              fontStyle: "normal",
             }}
           >
-            Our Amazon FBA Consultancy provides you with strategic insights to
-            navigate the complexities of online retail, ensuring your products
-            stand out in the competitive marketplace.
+            The best b2b digital marketing agency provides you with strategic
+            insights to navigate the complexities of online retail, ensuring
+            your products or brands stand out in the competitive marketplace.
           </p>
         </div>
       </div>
@@ -63,7 +59,7 @@ const ServiceCard2 = () => {
             ></img>
           </div>
           <h2
-            className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
+            className="text-sky-500 text-[18px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -73,7 +69,7 @@ const ServiceCard2 = () => {
             Digital Marketing Mastery
           </h2>
           <p
-            className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
+            className="text-[15px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -110,7 +106,7 @@ const ServiceCard3 = () => {
             ></img>
           </div>
           <h2
-            className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
+            className="text-sky-500 text-[18px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -120,7 +116,7 @@ const ServiceCard3 = () => {
             Creative Excellence
           </h2>
           <p
-            className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
+            className="text-[15px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -157,7 +153,7 @@ const ServiceCard4 = () => {
             ></img>
           </div>
           <h2
-            className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
+            className="text-sky-500 text-[18px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -167,7 +163,7 @@ const ServiceCard4 = () => {
             Learn and Grow
           </h2>
           <p
-            className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
+            className="text-[15px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -204,7 +200,7 @@ const ServiceCard5 = () => {
             ></img>
           </div>
           <h2
-            className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
+            className="text-sky-500 text-[18px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -214,7 +210,7 @@ const ServiceCard5 = () => {
             Web Solutions That Work
           </h2>
           <p
-            className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
+            className="text-[15px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -251,7 +247,7 @@ const ServiceCard6 = () => {
             ></img>
           </div>
           <h2
-            className="text-sky-500 font-bold text-[14px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
+            className="text-sky-500 text-[18px] xl:text-[24px] pt-[5px] sm:pt-[5px] sm:pb-[5px] md:pt-[5px] md:pb-[10px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,
@@ -261,7 +257,7 @@ const ServiceCard6 = () => {
             End-to-End Solutions
           </h2>
           <p
-            className="text-[12px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
+            className="text-[15px] pt-[5px] pb-1 mt-[-10px] sm:text-[12px] md:text-[14px] xl:text-[16px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
               fontWeight: 400,

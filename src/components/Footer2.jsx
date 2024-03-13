@@ -37,11 +37,11 @@ const Footer2 = () => {
               <img
                 src="./Logo.png"
                 alt="Logo"
-                className="mx-auto w-[120px] py-[10px]"
+                className="mx-auto w-[140px] py-[30px]"
               ></img>
             </div>
             <div className="basis-1/1 bg-[#ddf1ff] w-[98vw] mx-auto">
-              <p className="text-[11px] text-center px-[5px] py-[5px] section_3_span">
+              <p className="text-[15px] text-center px-[5px] py-[5px] section_3_span">
                 At Esaviour Limited, we're dedicated to propelling your business
                 to new heights in the digital landscape. Our comprehensive suite
                 of services is crafted to elevate your brand, drive sales, and
@@ -53,38 +53,38 @@ const Footer2 = () => {
             <div className="basis-1/1 py-[10px] bg-[#ddf1ff] w-[98vw] mx-auto">
               <div className="flex flex-row sm:w-[60%] sm:mx-auto">
                 <div className="basis-1/2 pl-[30px]">
-                  <span className="font-book text-xl">Quick Link</span>
+                  <span className="font-book text-[20px]">Quick Link</span>
                   <ul>
-                    <li className="font-thin text-[13px] my-[3px] ">
+                    <li className="text-[16px] my-[3px] ">
                       <a>Home</a>
                     </li>
-                    <li className="font-thin text-[13px] my-[3px] ">
+                    <li className="text-[16px] my-[3px] ">
                       <a>Service</a>
                     </li>
-                    <li className="font-thin text-[13px] my-[3px] ">
+                    <li className="text-[16px] my-[3px] ">
                       <a>Portfolio</a>
                     </li>
-                    <li className="font-thin text-[13px] my-[3px] ">
+                    <li className="text-[16px] my-[3px] ">
                       <a>About Us</a>
                     </li>
-                    <li className="font-thin text-[13px] my-[3px] ">
+                    <li className="text-[16px] my-[3px] ">
                       <a>Blog</a>
                     </li>
                   </ul>
                 </div>
                 <div className="basis-1/2 pl-[30px]">
-                  <span className="font-book text-xl">Legal</span>
+                  <span className="font-book text-[20px]">Legal</span>
                   <ul>
-                    <li className="font-thin text-[13px] my-[3px]">
+                    <li className=" text-[16px] my-[3px]">
                       <a>privacy Policy</a>
                     </li>
-                    <li className="font-thin text-[13px] my-[3px]">
+                    <li className="text-[16px] my-[3px]">
                       <a>Terms & Conditions</a>
                     </li>
-                    <li className="font-thin text-[13px] my-[3px]">
+                    <li className="text-[16px] my-[3px]">
                       <a>Order Calcellation Policy</a>
                     </li>
-                    <li className="font-thin text-[13px] my-[3px]">
+                    <li className=" text-[16px] my-[3px]">
                       <a>Refund Policy</a>
                     </li>
                   </ul>
@@ -92,7 +92,7 @@ const Footer2 = () => {
               </div>
             </div>
             <div className="basis-1/1 bg-[#ddf1ff] w-[98vw] mx-auto">
-              <h5 className="text-center py-[10px] section_3_span">
+              <h5 className="text-center py-[10px] text-[20px]">
                 Let's Get Social
               </h5>
               <div className="flex justify-center">
@@ -115,7 +115,7 @@ const Footer2 = () => {
               </div>
             </div>
             <div className="basis-1/1 bg-[#ddf1ff] w-[98vw] mx-auto">
-              <h5 className="text-center py-[10px] section_3_span">
+              <h5 className="text-center py-[10px] text-[20px]">
                 Payment method
               </h5>
               <div className="flex justify-center">

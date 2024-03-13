@@ -68,7 +68,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -77,7 +77,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -130,7 +130,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -139,7 +139,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -191,7 +191,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -200,7 +200,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -257,7 +257,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px]font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -266,7 +266,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -317,7 +317,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -326,7 +326,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -377,7 +377,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -386,7 +386,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16x] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -445,7 +445,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80 "
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80 "
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -454,7 +454,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -506,7 +506,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className=" text-black text-2xl font-extrabold opacity-80"
+                          className=" text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -515,7 +515,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -568,7 +568,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className=" text-black text-2xl font-extrabold opacity-800"
+                          className=" text-black text-[25px] pb-[10px] font-extrabold opacity-800"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -577,7 +577,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -635,7 +635,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -644,7 +644,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -698,7 +698,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -707,7 +707,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -758,7 +758,7 @@ const TabContextXL = () => {
                       </figure>
                       <div className="card-body bg-[#f2f8ff] rounded-lg myCardBody">
                         <h2
-                          className="text-black text-2xl font-extrabold opacity-80"
+                          className="text-black text-[25px] pb-[10px] font-extrabold opacity-80"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}
@@ -767,7 +767,7 @@ const TabContextXL = () => {
                         </h2>
 
                         <p
-                          className="text-[12px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
+                          className="text-[16px] font-semibold text-justify text-black opacity-80  xl:text-[14px]"
                           style={{
                             fontFamily: "Futura PT, sans-serif",
                           }}

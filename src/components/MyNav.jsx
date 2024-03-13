@@ -7,7 +7,7 @@ const MyNav = () => {
         <div className="navbar bg-base-100 pt-[10px] pb-[20px]">
           <div className="navbar-start hidden lg:flex">
             <Link to="/home" className="btn btn-ghost text-xl">
-              <img src="../Logo.png" alt="logo" className="w-[120px]"></img>
+              <img src="../Logo.png" alt="logo" className="lg:w-[150px]"></img>
             </Link>
           </div>
 
@@ -43,7 +43,7 @@ const MyNav = () => {
                   <img
                     src="../Logo.png"
                     alt="logo"
-                    className="w-[80px] sm:w-[90px] md:w-[100px]"
+                    className="w-[120px] sm:w-[120px] md:w-[120px]"
                   ></img>
                 </Link>
               </a>
