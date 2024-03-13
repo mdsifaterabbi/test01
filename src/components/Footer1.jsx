@@ -49,9 +49,10 @@ const Footer1 = () => {
         </div>
       </Slider>
       {/* ========== only for extra small device ============= */}
-      <div className="sm:hidden w-[95vw] mx-auto">
+      <div className="w-[95vw] sm:hidden mx-auto overflow-x-hidden">
         <div className="flex flex-col sm:hidden mb-[30px]">
-          <div className="basis-1/1 bg-[#EEF7FF]">
+          <div className="basis-1/1 bg-[##EEF7FF] border">
+            {/* #EEF7FF */}
             <p className="text-center text-[15px] px-[5px] py-[10px] section_3_span">
               Our Professional Team has helped Hundreds of Sellers on Amazon to
               Avoid Failure and Maximize Potential Growth. Schedule a Free
@@ -112,7 +113,7 @@ const Footer1 = () => {
       </div>
 
       {/* ============ For small and medium devices with large ============ */}
-      <div className="hidden sm:block xl:hidden w-[95vw] mx-auto">
+      <div className="hidden sm:block xl:hidden w-[95vw] mx-auto overflow-x-hidden">
         <div className="flex flex-col mb-[30px]">
           <div className="basis-1/1 bg-[#EEF7FF]">
             <p className="text-center text-[12px] px-[5px] py-[10px] section_3_span">
@@ -175,7 +176,7 @@ const Footer1 = () => {
       </div>
 
       {/* ============ only for extra large device ============= */}
-      <div className="hidden xl:block xl:w-[70vw] xl:mx-auto">
+      <div className="hidden xl:block xl:w-[70vw] xl:mx-auto overflow-x-hidden">
         <div className="flex flex-row">
           <div className="basis-3/5 bg-[#eef7ff]">
             <p

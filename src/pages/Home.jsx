@@ -28,7 +28,7 @@ import ClientsCommentsXL from "../components/ClientsCommentsXL";
 
 const Home = ({ title }) => {
   return (
-    <div className="w-[98vw] mx-auto">
+    <div className="w-[100vw] lg:w-[98vw] xl:w-[98vw] mx-auto">
       <Helmet>
         <title>{title}</title>
       </Helmet>
@@ -190,7 +190,10 @@ const Home = ({ title }) => {
 
       {/* ================== section 8 (Clients Comments) ended here =====================*/}
       {/* ================== section 9 (Footer1) starts from here =====================*/}
-      <Footer1 />
+      <div className="w-[98vw] mx-auto overflow-x-hidden">
+        <Footer1 />
+      </div>
+
       {/* ================== section 9 (Footer1) ended here =====================*/}
       {/* ================== section 10 (Footer2) started from here =====================*/}
       <Footer2 />

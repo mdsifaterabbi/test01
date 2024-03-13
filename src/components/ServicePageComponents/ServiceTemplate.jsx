@@ -10,7 +10,7 @@ const ServiceTemplate = () => {
           <h1 className="text-[20px] font-bold text-center py-[10px] xl:text-[40px] xl:font-bold xl:text-center xl:py-[20px] text-[#40b0fd]">
             Amazon FBa
           </h1>
-          <p className="text-[11px] px-[3%] text-center xl:text-[16px] xl:text-center xl:px-[25%] xl:pb-[20px] myPoppinsFont">
+          <p className="text-[11px] px-[3%] text-justify xl:text-[16px] xl:text-center xl:px-[25%] xl:pb-[20px] myPoppinsFont">
             Unlock the full potential of your brand with our comprehensive
             digital marketing services. We specialize in crafting engaging
             online experiences to elevate your brand presence and drive
@@ -92,7 +92,7 @@ const ServiceTemplate = () => {
                 <img
                   src="../ServicePageLogos/Right_Down_Arrow.png"
                   alt="Right_Down_Arrow"
-                  className="h-[25px] sm:h-[40px] md:h-[45px] lg:h-[48px] xl:h-[50px]"
+                  className="h-[50px] sm:h-[50px] md:h-[50px] lg:h-[50px] xl:h-[50px]"
                 ></img>
               </div>
             </div>
@@ -105,7 +105,7 @@ const ServiceTemplate = () => {
           <h1 className="text-[20px] font-bold text-center py-[10px] xl:text-[40px] xl:font-bold xl:text-center xl:py-[20px] text-[#40b0fd]">
             Digital Marketing
           </h1>
-          <p className="text-[11px] px-[3%] text-center xl:text-[16px] xl:text-center xl:px-[25%] xl:pb-[20px] myPoppinsFont">
+          <p className="text-[11px] px-[3%] text-justify xl:text-[16px] xl:text-center xl:px-[25%] xl:pb-[20px] myPoppinsFont">
             Unlock the full potential of your brand with our comprehensive
             digital marketing services. We specialize in crafting engaging
             online experiences to elevate your brand presence and drive
@@ -191,7 +191,7 @@ const ServiceTemplate = () => {
                 <img
                   src="../ServicePageLogos/Right_Down_Arrow.png"
                   alt="Right_Down_Arrow"
-                  className="h-[25px] sm:h-[40px] md:h-[45px] lg:h-[48px] xl:h-[50px]"
+                  className="h-[50px] sm:h-[50px] md:h-[50px] lg:h-[50px] xl:h-[50px]"
                 ></img>
               </div>
             </div>
@@ -205,7 +205,7 @@ const ServiceTemplate = () => {
           <h1 className="text-[20px] font-bold text-center py-[10px] xl:text-[40px] xl:font-bold xl:text-center xl:py-[20px] text-[#40b0fd]">
             Graphics Design
           </h1>
-          <p className="text-[11px] px-[3%] text-center xl:text-[16px] xl:text-center xl:px-[25%] xl:pb-[20px] myPoppinsFont">
+          <p className="text-[11px] px-[3%] text-justify xl:text-[16px] xl:text-center xl:px-[25%] xl:pb-[20px] myPoppinsFont">
             Elevate Your Brand and transform your vision into visually stunning
             designs with our Graphics Design service.
           </p>
@@ -287,7 +287,7 @@ const ServiceTemplate = () => {
                 <img
                   src="../ServicePageLogos/Right_Down_Arrow.png"
                   alt="Right_Down_Arrow"
-                  className="h-[25px] sm:h-[40px] md:h-[45px] lg:h-[48px] xl:h-[50px]"
+                  className="h-[50px] sm:h-[50px] md:h-[50px] lg:h-[50px] xl:h-[50px]"
                 ></img>
               </div>
             </div>
@@ -301,7 +301,7 @@ const ServiceTemplate = () => {
           <h1 className="text-[20px] font-bold text-center py-[10px] xl:text-[40px] xl:font-bold xl:text-center xl:py-[20px] text-[#40b0fd]">
             Web Development
           </h1>
-          <p className="text-[11px] px-[3%] text-center xl:text-[16px] xl:text-center xl:px-[25%] xl:pb-[20px] myPoppinsFont">
+          <p className="text-[11px] px-[3%] text-justify xl:text-[16px] xl:text-center xl:px-[25%] xl:pb-[20px] myPoppinsFont">
             Elevate your online presence with our top-notch Web Development
             Service. Our skilled team crafts responsive and visually stunning
             websites tailored to your unique brand identity. We prioritize user
@@ -400,7 +400,7 @@ const ServiceTemplate = () => {
                 <img
                   src="../ServicePageLogos/Right_Down_Arrow.png"
                   alt="Right_Down_Arrow"
-                  className="h-[25px] sm:h-[40px] md:h-[45px] lg:h-[48px] xl:h-[50px]"
+                  className="h-[50px] sm:h-[50px] md:h-[50px] lg:h-[50px] xl:h-[50px]"
                 ></img>
               </div>
             </div>
