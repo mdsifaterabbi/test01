@@ -28,7 +28,7 @@ import ClientsCommentsXL from "../components/ClientsCommentsXL";
 
 const Home = ({ title }) => {
   return (
-    <>
+    <div className="w-[98vw] mx-auto">
       <Helmet>
         <title>{title}</title>
       </Helmet>
@@ -195,7 +195,7 @@ const Home = ({ title }) => {
       {/* ================== section 10 (Footer2) started from here =====================*/}
       <Footer2 />
       {/* ================== section 9 (Footer2) ended here =====================*/}
-    </>
+    </div>
   );
 };
 

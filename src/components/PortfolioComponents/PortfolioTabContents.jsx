@@ -75,7 +75,31 @@ const PortfolioTabContents = () => {
                 </TabList>
               </div>
               <div className="hidden sm:block">
-                <TabList className="flex justify-center mb-[50px] sm:w-[95vw] md:w-[90vw]">
+                <div className="w-[1000px] lg:w-[1200px] xl:w-[1200px] mx-auto overflow-hidden">
+                  <TabList className="mb-[5px]">
+                    {[
+                      "Branding Design",
+                      "Social Media Design",
+                      "Listing Images Design",
+                      "Amazon A+ Content",
+                      "Product Package Design",
+                      "Web Development",
+                    ].map((tabName, index) => (
+                      <Tab
+                        key={tabName}
+                        className={`lg:px-[15px] lg:mx-[5px] rounded-md cursor-pointer md:text-[13px] md:mx-[5px] md:text-center text-[16px] sm:text-[16px] lg:text-[16px] sm:text-center sm:mx-[5px] inline-block  ${
+                          selectedIndex === index
+                            ? "font-bold border-none bg-sky-500 text-white"
+                            : "border-[1px] border-black"
+                        }`}
+                        onClick={() => handleTabClick(index)}
+                      >
+                        {tabName}
+                      </Tab>
+                    ))}
+                  </TabList>
+                </div>
+                {/* <TabList className="flex justify-center mb-[50px] sm:w-[95vw] md:w-[90vw]">
                   {[
                     "Branding Design",
                     "Social Media Design",
@@ -96,7 +120,7 @@ const PortfolioTabContents = () => {
                       {tabName}
                     </Tab>
                   ))}
-                </TabList>
+                </TabList> */}
               </div>
 
               {/* ============ First Tab panel starts from here ================ */}

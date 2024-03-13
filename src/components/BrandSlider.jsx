@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "../MyShadow.css";
+import "./brand-slider.css";
 
 var settings = {
   dots: false,
@@ -11,6 +12,30 @@ var settings = {
   slidesToShow: 4,
   slidesToScroll: 2,
 };
+
+//const BRAND_SLIDER_ANIMATION_DURATION = "15s"; // Adjust animation duration
+
+// var settings = {
+//   dots: false,
+//   infinite: true,
+//   speed: 500, // Adjust speed if needed
+//   slidesToShow: 4, // Show only one slide at a time
+//   slidesToScroll: 2,
+//   autoplay: true,
+//   autoplaySpeed: 2000, // Not strictly necessary for continuous scrolling
+//   cssEase: "linear", // Use linear easing for constant speed
+//   pauseOnHover: false,
+//   pauseOnFocus: false,
+//   beforeChange: (currentSlide, nextSlide) => {
+//     const slideWidth = this.slider.slickList.offsetWidth; // Get slider width
+//     const translateX = -(nextSlide * slideWidth); // Calculate translateX value
+//     const animationClass = `brand-slider-animation transform translateX(${translateX}px)`;
+//     this.slider.slickList.classList.remove("brand-slider-animation"); // Remove previous animation class
+//     setTimeout(() => {
+//       this.slider.slickList.classList.add(animationClass);
+//     }, 100); // Adjust delay if needed
+//   },
+// };
 
 const BrandSlider = () => {
   return (
