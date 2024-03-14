@@ -11,16 +11,18 @@ const ClientsCommentsSM = () => {
 
   return (
     <>
-      <div className="text-center">
-        <h1 className="text-sky-500 text-[22px] TabContextFontSpan">
-          Clients{" "}
-          <strong className="text-sky-500 TabContextFontSpan2">Love</strong> Us
+      <div className="text-center border w-[98vw] mx-auto bg-[#40b0fd] relative top-0 left-0">
+        <h1 className="text-white text-[30px] pt-[30px] pb-[60px]">
+          Clients Love Us
         </h1>
+        <div className="absolute left-[-20px] top-[-20px] w-[100px] h-[100px]">
+          <img src="../HomePageLogos/client.png" alt="client"></img>
+        </div>
       </div>
-      <div className="mb-[100px]">
-        <Slider {...settings} className="pt-[50px]">
+      <div className="mt-[-50px]">
+        <Slider {...settings} className="pt-[-150px]">
           <div className="mb-[30px]">
-            <div className="card card-side w-[90%] glass mx-auto">
+            <div className="card card-side w-[80%] bg-white glass mx-auto">
               <figure className="pt-[20px] px-[100px]">
                 <img
                   src="../Mostafiz_Rana.jpeg"
@@ -43,7 +45,7 @@ const ClientsCommentsSM = () => {
             </div>
           </div>
           <div className="mb-[30px]">
-            <div className="card card-side w-[90%] glass mx-auto">
+            <div className="card card-side w-[80%] bg-white glass mx-auto">
               <figure className="pt-[20px] px-[100px]">
                 <img src="../Robert2.jpg" alt="Robert" className="w-[100px]" />
               </figure>
@@ -62,7 +64,7 @@ const ClientsCommentsSM = () => {
             </div>
           </div>
           <div className="mb-[30px]">
-            <div className="card card-side w-[90%] glass mx-auto">
+            <div className="card card-side w-[80%] bg-white glass mx-auto">
               <figure className="pt-[20px] px-[100px]">
                 <img src="../Noor2.jpg" alt="Noor2" className="w-[100px]" />
               </figure>

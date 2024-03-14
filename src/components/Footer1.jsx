@@ -16,7 +16,7 @@ const Footer1 = () => {
     <>
       <Slider
         {...settings}
-        className="pt-[50px] lg:w-[50vw] xl:w-[50vw] mx-auto"
+        className="lg:w-[50vw] xl:w-[50vw] mx-auto"
         autoplay={false} // Enables autoplay
         autoplaySpeed={1000} // Sets the autoplay speed in milliseconds (optional)
       >
@@ -243,7 +243,7 @@ const Footer1 = () => {
               {/* bg-[#eef7ff]  */}
               <div className="basis-1/1 mt-[0px] w-[80%] mx-auto xl:w-[90%]">
                 <div className="bg-[#eef7ff] relative top-[20px] left-[0px] h-[80px]">
-                  <div className="bg-purple-500 absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
+                  <div className="bg-[#eef7ff] absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2">
                     <label className="input flex items-center rounded-none">
                       <input
                         type="text"

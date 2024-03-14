@@ -8,16 +8,19 @@ const ClientsCommentsXL = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
   };
   return (
     <>
-      <div className="text-center">
-        <h1 className="text-sky-500 text-[22px] xl:text-[40px] TabContextFontSpan">
-          Clients{" "}
-          <strong className="text-sky-500 TabContextFontSpan2">Love</strong> Us
+      <div className="text-center border w-[60vw] mx-auto bg-[#40b0fd] relative top-0 left-0">
+        <h1 className="text-white text-[22px] xl:text-[64px] xl:pt-[50px] xl:pb-[160px]">
+          Clients Love Us
         </h1>
+        <div className="absolute left-[-20px] top-[-20px] xl:w-[200px] xl:h-[200px]">
+          <img src="../HomePageLogos/client.png" alt="client"></img>
+        </div>
       </div>
-      <div className="mb-[100px] w-[70vw] mx-auto">
+      <div className="mb-[0px] w-[70vw] mx-auto relative xl:top-[-150px] xl:left-0 z-50">
         <Slider
           {...settings}
           className="pt-[0px]"
@@ -25,15 +28,21 @@ const ClientsCommentsXL = () => {
           autoplaySpeed={3000} // Sets the autoplay speed in milliseconds (optional)
         >
           <div className="mb-[30px] xl:w-[100%]">
-            <div className="card card-side xl:w-[70%] xl:mx-auto myShadowDiv">
+            <div className="card card-side bg-white xl:w-[70%] xl:mx-auto myShadowDiv xl:relative xl:top-0 xl:left-0">
+              <div className="absolute xl:bottom-[20px] xl:left-0 xl:w-[50%] xl:h-[30%]">
+                <img src="../HomePageLogos/client2.png" alt="client2"></img>
+              </div>
+              <div className="absolute xl:top-[20%] xl:left-[35%] xl:w-[200px] xl:h-[200px]">
+                <img src="../HomePageLogos/client3.png" alt="client3"></img>
+              </div>
               <figure className="xl:w-[300px]">
                 <img
                   src="../Mostafiz_Rana.jpeg"
                   alt="Mostafiz_Rana.jpeg"
-                  className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px]"
+                  className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px] relative top-0 left-0"
                 />
               </figure>
-              <div className="card-body xl:max-w-[500px]">
+              <div className="card-body xl:max-w-[500px] relative">
                 <p
                   className="pt-[80px] xl:text-[16px]"
                   style={{
@@ -70,15 +79,21 @@ const ClientsCommentsXL = () => {
             </div>
           </div>
           <div className="mb-[30px] xl:w-[100%]">
-            <div className="card card-side xl:w-[70%] xl:mx-auto myShadowDiv">
+            <div className="card card-side bg-white  xl:w-[70%] xl:mx-auto myShadowDiv xl:relative xl:top-0 xl:left-0">
+              <div className="absolute xl:bottom-[20px] xl:left-0 xl:w-[50%] xl:h-[30%]">
+                <img src="../HomePageLogos/client2.png" alt="client2"></img>
+              </div>
+              <div className="absolute xl:top-[20%] xl:left-[35%] xl:w-[200px] xl:h-[200px]">
+                <img src="../HomePageLogos/client3.png" alt="client3"></img>
+              </div>
               <figure className="xl:w-[300px]">
                 <img
                   src="../Robert.jpeg"
                   alt="Robert.jpeg"
-                  className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px]"
+                  className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px] relative top-0 left-0"
                 />
               </figure>
-              <div className="card-body xl:max-w-[500px]">
+              <div className="card-body xl:max-w-[500px] relative">
                 <p
                   className="pt-[80px] xl:text-[16px]"
                   style={{
@@ -116,15 +131,21 @@ const ClientsCommentsXL = () => {
             </div>
           </div>
           <div className="mb-[30px] xl:w-[100%]">
-            <div className="card card-side xl:w-[70%] xl:mx-auto myShadowDiv">
+            <div className="card card-side bg-white xl:w-[70%] xl:mx-auto myShadowDiv xl:relative xl:top-0 xl:left-0">
+              <div className="absolute xl:bottom-[20px] xl:left-0 xl:w-[50%] xl:h-[30%]">
+                <img src="../HomePageLogos/client2.png" alt="client2"></img>
+              </div>
+              <div className="absolute xl:top-[20%] xl:left-[35%] xl:w-[200px] xl:h-[200px]">
+                <img src="../HomePageLogos/client3.png" alt="client3"></img>
+              </div>
               <figure className="xl:w-[300px]">
                 <img
                   src="../Noor.jpeg"
                   alt="Noor"
-                  className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px]"
+                  className="xl:w-[200px] xl:h-[200px] xl:my-[100px] xl:ml-[0px] relative top-0 left-0"
                 />
               </figure>
-              <div className="card-body xl:max-w-[500px]">
+              <div className="card-body xl:max-w-[500px] relative">
                 <p
                   className="pt-[80px] xl:text-[16px]"
                   style={{

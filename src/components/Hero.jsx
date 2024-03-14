@@ -35,26 +35,7 @@ const Hero = () => {
             services is crafted to elevate your brand, drive sales, and
             establish a strong online presence.
           </p>
-          {/* <div className="block xl:mt-[20px]">
-            <div className="flex flex-row">
-              <div className=" basis-1/4  xl:basis-1/4 xl:pl-[12%] mt-[30px] sm:mt-[30px]">
-                <button className="btn btn-sm btn-info w-[120px] bg-[#000000] text-[10px] xl:text-[12px] text-white rounded-none hover:none border-none">
-                  Get a Free Quote
-                </button>
-              </div>
-              <div className="basis-3/4 xl:basis-3/4 mt-[30px] sm:mt-[30px]">
-                <p
-                  className="xl:px-[20px] text-[12px] sm:text-[12px] sm:px-[2px] px-[2px] text-justify xl:text-[16px] xl:tracking-[1px] leading-[12px] xl:leading-[16px]"
-                  style={{
-                    fontFamily: "Futura PT, sans-serif",
-                  }}
-                >
-                  Over 3 Years of Experience in B2B Digital Marketing
-                  Services.Helped 27+ Brands to Achieve Success.
-                </p>
-              </div>
-            </div>
-          </div> */}
+
           {/* ============== Only For XL devices ============= */}
           <div className="basis-1/1 hidden xl:block">
             <div className="flex flex-row gap-3">
