@@ -254,8 +254,6 @@ const Hero = () => {
       <dialog id="getQuoteModal" className="modal">
         <div className="modal-box bg-[#ffffff]">
           <form method="dialog">
-            {/* if there is a button in form, it will close the modal */}
-            {/* btn btn-sm btn-circle btn-ghost absolute right-2 top-2 */}
             <button className="btn btn-sm rounded-none bg-black text-white text-[20px] absolute right-2 top-2">
               ✕
             </button>

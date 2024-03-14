@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const PortfolioFooter = () => {
   return (
     <>
@@ -28,19 +30,19 @@ const PortfolioFooter = () => {
                   <span className="font-book text-xl">Quick Link</span>
                   <ul>
                     <li className="font-thin text-[13px] my-[3px] ">
-                      <a>Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li className="font-thin text-[13px] my-[3px] ">
-                      <a>Service</a>
+                      <Link to="/service">Service</Link>
                     </li>
                     <li className="font-thin text-[13px] my-[3px] ">
-                      <a>Portfolio</a>
+                      <Link to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="font-thin text-[13px] my-[3px] ">
-                      <a>About Us</a>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li className="font-thin text-[13px] my-[3px] ">
-                      <a>Blog</a>
+                      <Link to="/blog">Blog</Link>
                     </li>
                   </ul>
                 </div>
@@ -193,12 +195,13 @@ const PortfolioFooter = () => {
               </div>
               <div className="basis-1/1 bg-[#ddf1ff]">
                 <p className="text-[11px] text-left px-[20px] py-[30px] section_3_span">
-                  At Esaviour Limited, we're dedicated to propelling your
-                  business to new heights in the digital landscape. Our
-                  comprehensive suite of services is crafted to elevate your
-                  brand, drive sales, and establish a lasting online presence.
-                  From Amazon FBA Consultancy to cutting-edge Website
-                  Development, we bring a wealth of expertise to every project.
+                  eSaviour Limited is one of the leading multinational B2B
+                  Digital Marketing Agencies. We provide digital business
+                  development and branding services all around the world. Our
+                  services include Amazon FBA Consultancy, Graphics Design, Web
+                  Design and Development, Search Engine Optimization (SEO),
+                  UI/UX Design, Software Development, Mobile Apps Development,
+                  and so on.
                 </p>
               </div>
             </div>
@@ -375,13 +378,13 @@ const PortfolioFooter = () => {
                       fontStyle: "normal",
                     }}
                   >
-                    At Esaviour Limited, we're dedicated to propelling your
-                    business to new heights in the digital landscape. Our
-                    comprehensive suite of services is crafted to elevate your
-                    brand, drive sales, and establish a lasting online presence.
-                    From Amazon FBA Consultancy to cutting-edge Website
-                    Development, we bring a wealth of expertise to every
-                    project.
+                    eSaviour Limited is one of the leading multinational B2B
+                    Digital Marketing Agencies. We provide digital business
+                    development and branding services all around the world. Our
+                    services include Amazon FBA Consultancy, Graphics Design,
+                    Web Design and Development, Search Engine Optimization
+                    (SEO), UI/UX Design, Software Development, Mobile Apps
+                    Development, and so on.
                   </p>
                 </div>
               </div>
@@ -398,7 +401,7 @@ const PortfolioFooter = () => {
                     fontStyle: "normal",
                   }}
                 >
-                  <a>Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
@@ -407,7 +410,7 @@ const PortfolioFooter = () => {
                     fontStyle: "normal",
                   }}
                 >
-                  <a>Service</a>
+                  <Link to="/service">Service</Link>
                 </li>
                 <li
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
@@ -416,7 +419,7 @@ const PortfolioFooter = () => {
                     fontStyle: "normal",
                   }}
                 >
-                  <a>Portfolio</a>
+                  <Link to="/portfolio">Portfolio</Link>
                 </li>
                 <li
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
@@ -425,7 +428,7 @@ const PortfolioFooter = () => {
                     fontStyle: "normal",
                   }}
                 >
-                  <a>About Us</a>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
@@ -434,7 +437,8 @@ const PortfolioFooter = () => {
                     fontStyle: "normal",
                   }}
                 >
-                  <a>Blog</a>
+                  <Link to="/blog">Blog</Link>
+                  
                 </li>
               </ul>
             </div>

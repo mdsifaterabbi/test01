@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer2 = () => {
   return (
     <>
@@ -41,13 +43,13 @@ const Footer2 = () => {
               ></img>
             </div>
             <div className="basis-1/1 bg-[#ddf1ff] w-[98vw] mx-auto">
-              <p className="text-[15px] text-center px-[5px] py-[5px] section_3_span">
-                At Esaviour Limited, we're dedicated to propelling your business
-                to new heights in the digital landscape. Our comprehensive suite
-                of services is crafted to elevate your brand, drive sales, and
-                establish a lasting online presence. From Amazon FBA Consultancy
-                to cutting-edge Website Development, we bring a wealth of
-                expertise to every project.
+              <p className="text-[15px] text-justify px-[5px] py-[5px] section_3_span">
+                eSaviour Limited is one of the leading multinational B2B Digital
+                Marketing Agencies. We provide digital business development and
+                branding services all around the world. Our services include
+                Amazon FBA Consultancy, Graphics Design, Web Design and
+                Development, Search Engine Optimization (SEO), UI/UX Design,
+                Software Development, Mobile Apps Development, and so on.
               </p>
             </div>
             <div className="basis-1/1 py-[10px] bg-[#ddf1ff] w-[98vw] mx-auto">
@@ -221,12 +223,13 @@ const Footer2 = () => {
               </div>
               <div className="basis-1/1 bg-[#ddf1ff]">
                 <p className="text-[11px] text-left px-[20px] py-[30px] section_3_span">
-                  At Esaviour Limited, we're dedicated to propelling your
-                  business to new heights in the digital landscape. Our
-                  comprehensive suite of services is crafted to elevate your
-                  brand, drive sales, and establish a lasting online presence.
-                  From Amazon FBA Consultancy to cutting-edge Website
-                  Development, we bring a wealth of expertise to every project.
+                  eSaviour Limited is one of the leading multinational B2B
+                  Digital Marketing Agencies. We provide digital business
+                  development and branding services all around the world. Our
+                  services include Amazon FBA Consultancy, Graphics Design, Web
+                  Design and Development, Search Engine Optimization (SEO),
+                  UI/UX Design, Software Development, Mobile Apps Development,
+                  and so on.
                 </p>
               </div>
             </div>
@@ -411,112 +414,122 @@ const Footer2 = () => {
                       fontStyle: "normal",
                     }}
                   >
-                    At Esaviour Limited, we're dedicated to propelling your
-                    business to new heights in the digital landscape. Our
-                    comprehensive suite of services is crafted to elevate your
-                    brand, drive sales, and establish a lasting online presence.
-                    From Amazon FBA Consultancy to cutting-edge Website
-                    Development, we bring a wealth of expertise to every
-                    project.
+                    eSaviour Limited is one of the leading multinational B2B
+                    Digital Marketing Agencies. We provide digital business
+                    development and branding services all around the world. Our
+                    services include Amazon FBA Consultancy, Graphics Design,
+                    Web Design and Development, Search Engine Optimization
+                    (SEO), UI/UX Design, Software Development, Mobile Apps
+                    Development, and so on.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="basis-1/5 pt-[70px] pb-[30px] pl-[30px] xl:pt-[85px] bg-[#ddf1ff]">
-              <span className="font-book text-xl block pb-[15px]">
+            <div className="basis-1/5 pt-[70px] pb-[30px] pl-[30px] xl:pt-[85px] bg-[#ddf1ff] relative">
+              <span className="font-book text-xl block pb-[15px] font-bold">
                 Quick Link
               </span>
               <ul>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                    
                   }}
                 >
-                  <a>Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                    
                   }}
                 >
-                  <a>Service</a>
+                  <Link to="/service">Service</Link>
                 </li>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px]  xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                    
                   }}
                 >
-                  <a>Portfolio</a>
+                  <Link to="/portfolio">Portfolio</Link>
                 </li>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                   
                   }}
                 >
-                  <a>About Us</a>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                    
                   }}
                 >
-                  <a>Blog</a>
+                  <Link to="/blog">Blog</Link>
+                </li>
+                <li
+                  className="font-bold text-[18px] my-[3px]  xl:text-[18px]"
+                  style={{
+                    fontFamily: "Futura PT, sans-serif",
+                   
+                  }}
+                >
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
+              
             </div>
             <div className="basis-1/5 pt-[70px] pb-[30px] pl-[0px] xl:pt-[85px] bg-[#ddf1ff]">
-              <span className="font-book text-xl block pb-[15px]">Legal</span>
+              <span className="font-book text-xl block pb-[15px] font-bold">Legal</span>
               <ul>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                    
                   }}
                 >
-                  <a>privacy Policy</a>
+                  <a href="#">privacy Policy</a>
                 </li>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                   
                   }}
                 >
-                  <a>Terms & Conditions</a>
+                  <a href="#">Terms & Conditions</a>
                 </li>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                    
                   }}
                 >
-                  <a>Order Calcellation Policy</a>
+                  <a href="#">Order Calcellation Policy</a>
                 </li>
                 <li
-                  className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
+                  className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                    
                   }}
                 >
-                  <a>Refund Policy</a>
+                  <a href="#">Refund Policy</a>
                 </li>
               </ul>
             </div>
             <div className="basis-1/5 pt-[70px] pb-[10px] xl:pt-[85px] bg-[#ddf1ff]">
-              <span className="font-book text-xl block pb-[15px]">
+              <span className="font-book text-xl block pb-[15px] font-bold">
                 Let's Get Social
               </span>
               <div className="flex justify-start">
@@ -537,7 +550,7 @@ const Footer2 = () => {
                   ></img>
                 </a>
               </div>
-              <span className="font-book text-xl block py-[15px]">
+              <span className="font-book text-xl block py-[15px] font-bold">
                 Payment method
               </span>
 

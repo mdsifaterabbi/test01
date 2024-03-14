@@ -44,11 +44,9 @@ const ClientsCommentsXL = () => {
               </figure>
               <div className="card-body xl:max-w-[500px] relative">
                 <p
-                  className="pt-[80px] xl:text-[16px]"
+                  className="pt-[80px] xl:text-[17px] font-bold"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontWeight: 400,
-                    fontStyle: "normal",
                   }}
                 >
                   We wanted to design a website for our chauffeur business in
@@ -57,7 +55,7 @@ const ClientsCommentsXL = () => {
                   for web development.”
                 </p>
                 <h2
-                  className="relative font-bold left-[0px] top-[-60px] xl:text-[24px] text-sky-500"
+                  className="relative font-bold left-[0px] top-[-60px] xl:text-[25px] text-sky-500"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
                     fontStyle: "normal",
@@ -69,8 +67,6 @@ const ClientsCommentsXL = () => {
                   className="relative left-[0px] top-[-70px] xl:text-[16px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontWeight: 400,
-                    fontStyle: "normal",
                   }}
                 >
                   UnitedCarry Imports LLC
@@ -95,11 +91,9 @@ const ClientsCommentsXL = () => {
               </figure>
               <div className="card-body xl:max-w-[500px] relative">
                 <p
-                  className="pt-[80px] xl:text-[16px]"
+                  className="pt-[80px] xl:text-[17px] font-bold"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontWeight: 400,
-                    fontStyle: "normal",
                   }}
                 >
                   eSaviour Limited helped us launch a new Amazon FBA product in
@@ -109,7 +103,7 @@ const ClientsCommentsXL = () => {
                   highly recommend them for Amazon FBA services.
                 </p>
                 <h2
-                  className="relative font-bold left-[0px] top-[-60px] xl:text-[20px] text-sky-500"
+                  className="relative font-bold left-[0px] top-[-60px] xl:text-[25px] text-sky-500"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
                     fontStyle: "normal",
@@ -147,11 +141,9 @@ const ClientsCommentsXL = () => {
               </figure>
               <div className="card-body xl:max-w-[500px] relative">
                 <p
-                  className="pt-[80px] xl:text-[16px]"
+                  className="pt-[80px] xl:text-[17px] font-bold"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontWeight: 400,
-                    fontStyle: "normal",
                   }}
                 >
                   As a legal professional, I badly needed social media branding
@@ -159,10 +151,10 @@ const ClientsCommentsXL = () => {
                   Limited helped me build the entire brand design from scratch.
                 </p>
                 <h2
-                  className="relative left-[0px] top-[-60px] xl:text-[24px] text-sky-500"
+                  className="relative left-[0px] top-[-60px] xl:text-[26px] text-sky-500"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
+                    
                   }}
                 >
                   Barrister AKM NOOR A RABBI
@@ -171,8 +163,6 @@ const ClientsCommentsXL = () => {
                   className="relative left-[0px] top-[-70px] xl:text-[16px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontWeight: 400,
-                    fontStyle: "normal",
                   }}
                 >
                   Noor & Co
