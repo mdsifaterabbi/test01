@@ -150,8 +150,15 @@ const Home = ({ title }) => {
             </span>
           </h1>
         </div>
+        <div className="basis-1/1">
+          <div className="relative top-0 left-0 xl:h-[220px] pt-[50px] overflow-hidden">
+            <BrandSlider />
+            <div className="bg-sky-500 w-[300px] h-[90px] absolute top-[30px] left-[-140px] transform rotate-45 -z-10 hidden xl:block"></div>
+            <div className="bg-sky-500 w-[300px] h-[90px] absolute top-[30px] right-[-100px] transform rotate-45 -z-10 hidden xl:block"></div>
+          </div>
+        </div>
       </div>
-      <BrandSlider />
+      {/* <BrandSlider /> */}
       {/* ================== section 6 (The Brands we have worked with) ended here =====================*/}
       {/* ================== section 7 (A Glimpse into our Creative Universe) starts from here =====================*/}
       <div className="flex flex-wrap flex-col justify-center items-center mb-0 overflow-x-hidden">
