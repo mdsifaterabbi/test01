@@ -1,7 +1,13 @@
 import "../MyShadow.css";
 import "./Hero.css";
+import { useForm } from "react-hook-form";
 
 const Hero = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
   return (
     <>
       <div className="flex flex-col md:flex-col xl:flex-row pb-[200px] sm:pb-[100px] md:pb-[100px] bg-[#b3d9f8] relative top-0 left-0">
@@ -40,7 +46,12 @@ const Hero = () => {
           <div className="basis-1/1 hidden xl:block">
             <div className="flex flex-row gap-3">
               <div className="basis-1/4 h-[100px] xl:text-end mt-[15px]">
-                <button className="btn rounded-none xl:text-[12px] bg-black hover:bg-orange-500 cursor-pointer text-white relative xl:top-[30px] transition duration-300 ease-linear">
+                <button
+                  className="btn rounded-none xl:text-[12px] bg-black hover:bg-orange-500 cursor-pointer text-white relative xl:top-[30px] transition duration-300 ease-linear"
+                  onClick={() =>
+                    document.getElementById("getQuoteModal").showModal()
+                  }
+                >
                   Get Free Quote
                 </button>
               </div>
@@ -52,19 +63,31 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
           {/* =================== Only For XSM ,SM, MD, lg devices devices =================== */}
           <div className="basis-1/1 block xl:hidden mt-[30px]">
             <div className="flex flex-row gap-1">
               <div
-                className="basis-1/4 text-[12px] bg-black text-white text-center hover:text-black hover:bg-orange-500 cursor-pointer relative
-              top-0 left-0 transition duration-300 ease-linear sm:py-[10px]"
+                className="basis-1/4 bg-black text-white text-center hover:text-black hover:bg-orange-500 cursor-pointer relative
+              top-0 left-0 transition duration-300 ease-linear"
               >
-                Get Free Quote
+                <button
+                  className="btn border-none w-full rounded-none text-[12px] sm:text-[12px] xl:text-[12px] bg-black hover:bg-orange-500 cursor-pointer text-white relative xl:top-[30px] transition duration-300 ease-linear"
+                  onClick={() =>
+                    document.getElementById("getQuoteModal").showModal()
+                  }
+                >
+                  Get Free Quote
+                </button>
               </div>
               <div className="basis-3/4">
-                <p className="relative text-[12px] top-[0px] font-semibold leading-[12px] sm:pt-[5px] md:pt-[5px] lg:px-[50px]">
+                <p className="relative text-[12px] top-[0px] font-semibold leading-[12px] pt-[5px] sm:pt-[9px] md:pt-[5px] lg:px-[50px] md:hidden">
                   Over 3 Years of Experience in B2B Digital Marketing
-                  Services.Helped 27+ Brands to Achieve Success.
+                  Services.Helped 27+ Brands to <br></br>Achieve Success.
+                </p>
+                <p className="relative text-[12px] top-[0px] font-semibold leading-[12px] pt-[5px] sm:pt-[9px] md:pt-[10px] lg:px-[50px] hidden md:block">
+                  Over 3 Years of Experience in B2B Digital Marketing
+                  Services.Helped 27+<br></br> Brands to Achieve Success.
                 </p>
               </div>
             </div>
@@ -226,6 +249,74 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {/* this is get quote modal*/}
+
+      <dialog id="getQuoteModal" className="modal">
+        <div className="modal-box bg-[#ffffff]">
+          <form method="dialog">
+            {/* if there is a button in form, it will close the modal */}
+            {/* btn btn-sm btn-circle btn-ghost absolute right-2 top-2 */}
+            <button className="btn btn-sm rounded-none bg-black text-white text-[20px] absolute right-2 top-2">
+              ✕
+            </button>
+          </form>
+          <div className="">
+            <div className="mb-[10px]">
+              <img
+                src="../HomePageLogos/Logo.png"
+                alt="Logo"
+                className="w-[150px] mx-auto"
+              ></img>
+            </div>
+            <form onSubmit={handleSubmit((data) => console.log(data))}>
+              <input
+                {...register("name", { required: true })}
+                placeholder="Name*"
+                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[200px] xl:mx-[5px] pl-[5px] inline getFreeQuote"
+              />
+              {errors.name && (
+                <p className="text-red-500 font-semibold">Name is required.</p>
+              )}
+              <input
+                {...register("email", { required: true })}
+                placeholder="Email*"
+                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[200px] pl-[5px] inline getFreeQuote"
+              />
+              {errors.email && (
+                <p className="text-red-500 font-semibold">Email is required.</p>
+              )}
+              <input
+                {...register("phone", { required: true })}
+                placeholder="Phone*"
+                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[92%] xl:mx-[5px] pl-[5px] inline getFreeQuote"
+              />
+              {errors.phone && (
+                <p className="text-red-500 font-semibold">Phone is required.</p>
+              )}
+
+              <textarea
+                {...register("message", { required: true })}
+                placeholder="Message*"
+                rows={5}
+                cols={40}
+                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[92%] xl:mx-[5px] pl-[5px] inline getFreeQuote"
+              />
+              {errors.message && (
+                <p className="text-red-500 font-semibold">
+                  Message is required.
+                </p>
+              )}
+
+              <button
+                type="submit"
+                className="btn btn-info rounded-md text-white py-[5px] px-[20px] ml-[5px]"
+              >
+                SEND
+              </button>
+            </form>
+          </div>
+        </div>
+      </dialog>
     </>
   );
 };

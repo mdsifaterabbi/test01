@@ -1,3 +1,6 @@
 .myButtonDiv {
   background: red;
 }
+.getFreeQuote::placeholder {
+  color: #666666;
+}
