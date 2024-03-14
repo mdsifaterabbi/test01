@@ -18,7 +18,9 @@ const Service = ({ title }) => {
         <span className="text-sky-500 font-bold">&nbsp;Selling Services</span>
       </h1>
       <ServiceTemplate />
+
       <Footer1 />
+
       <Footer2 />
     </>
   );

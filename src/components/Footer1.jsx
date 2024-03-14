@@ -176,7 +176,7 @@ const Footer1 = () => {
       </div>
 
       {/* ============ only for extra large device ============= */}
-      <div className="hidden xl:block xl:w-[70vw] xl:mx-auto overflow-x-hidden">
+      <div className="hidden xl:block xl:w-[70vw] xl:mx-auto overflow-x-hidden overflow-y-hidden">
         <div className="flex flex-row">
           <div className="basis-3/5 bg-[#eef7ff]">
             <p

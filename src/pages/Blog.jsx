@@ -7,13 +7,15 @@ import BlogBody from "../components/BlogPageComponents/BlogBody";
 const Blog = ({ title }) => {
   return (
     <>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <MyNav />
-      <BlogHero />
-      <BlogBody />
-      <PortfolioFooter />
+      <div className="overflow-x-hidden overflow-y-hidden">
+        <Helmet>
+          <title>{title}</title>
+        </Helmet>
+        <MyNav />
+        <BlogHero />
+        <BlogBody />
+        <PortfolioFooter />
+      </div>
     </>
   );
 };

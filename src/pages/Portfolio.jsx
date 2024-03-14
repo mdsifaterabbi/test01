@@ -7,13 +7,15 @@ import PortfolioTabContents from "../components/PortfolioComponents/PortfolioTab
 const Portfolio = ({ title }) => {
   return (
     <>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <MyNav />
-      <PortfolioHero />
-      <PortfolioTabContents />
-      <PortfolioFooter />
+      <div className="overflow-x-hidden overflow-y-hidden">
+        <Helmet>
+          <title>{title}</title>
+        </Helmet>
+        <MyNav />
+        <PortfolioHero />
+        <PortfolioTabContents />
+        <PortfolioFooter />
+      </div>
     </>
   );
 };

@@ -10,7 +10,7 @@ const AboutSection_8 = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     centeredItem: true,
-    
+
     dots: true,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -100,6 +100,43 @@ const AboutSection_8 = () => {
                 </div>
               </div>
             </div>
+            {/* ============Me============ */}
+            <div className="">
+              <div className="card w-[90%] bg-[#40b0fd] shadow-xl mx-auto">
+                <figure>
+                  <img
+                    src="../AboutPageLogos/Yeasin_Ali.png"
+                    alt="Yeasin_Ali"
+                    className="pt-[30px]"
+                  />
+                </figure>
+                <div className="card-body relative top-0 left-0">
+                  <h2
+                    className="text-center text-white xl:text-[22px] xl:font-bold"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Sifat Rabbi
+                  </h2>
+                  <p
+                    className="text-center text-white xl:text-[17px] xl:font-light xl:mt-[-10px]"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Intern Web Full Stack
+                  </p>
+                  <div className="absolute bottom-[-30px] left-0 xl:w-[180px] xl:h-[180px]">
+                    <img
+                      src="../AboutPageLogos/AboutPageWaterMark.png"
+                      alt="AboutPageWaterMark"
+                    ></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ======================== */}
             <div className="">
               <div className="card w-[90%] bg-[#40b0fd] shadow-xl mx-auto">
                 <figure>
@@ -318,6 +355,43 @@ const AboutSection_8 = () => {
                 </div>
               </div>
             </div>
+            {/* =============Me================= */}
+            <div className="">
+              <div className="card w-[90%]  bg-[#40b0fd] shadow-xl mx-auto">
+                <figure>
+                  <img
+                    src="../AboutPageLogos/Yeasin_Ali.png"
+                    alt="Yeasin_Ali"
+                    className="pt-[30px]"
+                  />
+                </figure>
+                <div className="card-body relative top-0 left-0">
+                  <h2
+                    className="text-center text-white xl:text-[22px] xl:font-bold"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Sifat Rabbi
+                  </h2>
+                  <p
+                    className="text-center text-white xl:text-[17px] xl:font-light xl:mt-[-10px]"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Intern Web Full Stack
+                  </p>
+                  <div className="absolute bottom-[-30px] left-0 xl:w-[180px] xl:h-[180px]">
+                    <img
+                      src="../AboutPageLogos/AboutPageWaterMark.png"
+                      alt="AboutPageWaterMark"
+                    ></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ============================== */}
             <div className="">
               <div className="card w-[90%] bg-[#40b0fd] shadow-xl mx-auto">
                 <figure>
@@ -537,6 +611,43 @@ const AboutSection_8 = () => {
                 </div>
               </div>
             </div>
+            {/* ===================Me===================== */}
+            <div className="">
+              <div className="card w-[90%]  bg-[#40b0fd] shadow-xl mx-auto">
+                <figure>
+                  <img
+                    src="../AboutPageLogos/Yeasin_Ali.png"
+                    alt="Yeasin_Ali"
+                    className="pt-[30px]"
+                  />
+                </figure>
+                <div className="card-body relative top-0 left-0">
+                  <h2
+                    className="text-center text-white xl:text-[22px] xl:font-bold"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Sifat Rabbi
+                  </h2>
+                  <p
+                    className="text-center text-white xl:text-[17px] xl:font-light xl:mt-[-10px]"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Intern Web full stack
+                  </p>
+                  <div className="absolute bottom-[-30px] left-0 xl:w-[180px] xl:h-[180px]">
+                    <img
+                      src="../AboutPageLogos/AboutPageWaterMark.png"
+                      alt="AboutPageWaterMark"
+                    ></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ======================================== */}
             <div className="">
               <div className="card w-[90%] bg-[#40b0fd] shadow-xl mx-auto">
                 <figure>
@@ -756,6 +867,43 @@ const AboutSection_8 = () => {
                 </div>
               </div>
             </div>
+            {/* ====================Me===================== */}
+            <div className="">
+              <div className="card w-[90%]  bg-[#40b0fd] shadow-xl mx-auto">
+                <figure>
+                  <img
+                    src="../AboutPageLogos/Yeasin_Ali.png"
+                    alt="Yeasin_Ali"
+                    className="pt-[30px]"
+                  />
+                </figure>
+                <div className="card-body relative top-0 left-0">
+                  <h2
+                    className="text-center text-white text-[22px] font-bold"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Sifat Rabbi
+                  </h2>
+                  <p
+                    className="text-center text-white text-[14px] font-light mt-[-10px]"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Intern Web Full Stack
+                  </p>
+                  <div className="absolute bottom-[-30px] left-0 xl:w-[180px] xl:h-[180px]">
+                    <img
+                      src="../AboutPageLogos/AboutPageWaterMark.png"
+                      alt="AboutPageWaterMark"
+                    ></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ========================================= */}
             <div className="">
               <div className="card w-[90%] bg-[#40b0fd] shadow-xl mx-auto">
                 <figure>
@@ -975,6 +1123,43 @@ const AboutSection_8 = () => {
                 </div>
               </div>
             </div>
+            {/* ======================Me==================== */}
+            <div className="">
+              <div className="card w-[90%] bg-[#40b0fd] shadow-xl mx-auto">
+                <figure>
+                  <img
+                    src="../AboutPageLogos/Yeasin_Ali.png"
+                    alt="Yeasin_Ali"
+                    className="pt-[30px]"
+                  />
+                </figure>
+                <div className="card-body relative top-0 left-0">
+                  <h2
+                    className="text-center text-white text-[22px] font-bold"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Sifat Rabbi
+                  </h2>
+                  <p
+                    className="text-center text-white text-[17px] font-light mt-[-10px]"
+                    style={{
+                      fontFamily: "Futura PT, sans-serif",
+                    }}
+                  >
+                    Intern Web Full Stack
+                  </p>
+                  <div className="absolute bottom-[-30px] left-0 w-[180px] h-[180px]">
+                    <img
+                      src="../AboutPageLogos/AboutPageWaterMark.png"
+                      alt="AboutPageWaterMark"
+                    ></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ========================================== */}
             <div className="">
               <div className="card w-[90%] bg-[#40b0fd] shadow-xl mx-auto">
                 <figure>

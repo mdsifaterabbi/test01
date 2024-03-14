@@ -1,4 +1,7 @@
 import Slider from "react-slick";
+import Carousel from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./AboutCustomCSS.css";
 
 const AboutSectionSliderXL = () => {
@@ -8,7 +11,12 @@ const AboutSectionSliderXL = () => {
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 4,
-    speed: 500,
+    //speed: 500,
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 3000,
+    cssEase: "linear",
+    slidesToScroll: 1,
   };
 
   return (

@@ -16,22 +16,24 @@ import AboutFAQSection from "../components/AboutPageComponents/AboutFAQSection";
 const About = ({ title }) => {
   return (
     <>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <MyNav />
-      <AboutHero />
-      <AboutSection_1 />
-      <AboutSection_2 />
-      <AboutSection_3 />
-      <AboutSection_4 />
-      <AboutSection_5 />
-      <AboutSection_6 />
-      <AboutSection_7 />
-      <AboutSection_8 />
-      <AboutFAQSection />
-      <Footer1 />
-      <Footer2 />
+      <div className="overflow-x-hidden overflow-y-hidden">
+        <Helmet>
+          <title>{title}</title>
+        </Helmet>
+        <MyNav />
+        <AboutHero />
+        <AboutSection_1 />
+        <AboutSection_2 />
+        <AboutSection_3 />
+        <AboutSection_4 />
+        <AboutSection_5 />
+        <AboutSection_6 />
+        <AboutSection_7 />
+        <AboutSection_8 />
+        <AboutFAQSection />
+        <Footer1 />
+        <Footer2 />
+      </div>
     </>
   );
 };
