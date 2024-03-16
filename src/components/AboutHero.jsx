@@ -1,46 +1,235 @@
+import { useEffect, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useEmailJS } from "../ContextAPI/EmailJSContextAPI";
+import { useForm } from "react-hook-form";
+
+// email js service id: service_d2jkicu
+//email js public key: cdQJMV8uBJzxi8V29
+//email js private key: grt1gnZ0C2_7o__MtlImb
+//email js template id: template_jcd7rrq
+
 const AboutHero = () => {
+  const form = useRef();
+
+  const { emailData, setEmailData } = useEmailJS();
+  const [localData, setLocalData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [emailStatus, setEmailStatus] = useState(false);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+    formState: { isSubmitting }, // Access isSubmitting property
+  } = useForm();
+
+  const handleMyQuoteAbout = (data) => {
+    console.log("Your name is: ", data.name);
+    console.log("Your email is: ", data.email);
+    console.log("Your phone is: ", data.phone);
+    console.log("Your message is: ", data.message);
+
+    setLocalData({
+      name: data.name,
+      email: data.email,
+      phone: data.phone,
+      message: data.message,
+    });
+
+    //implement email js here
+    emailjs
+      .sendForm(
+        "service_d2jkicu",
+        "template_jcd7rrq",
+        form.current,
+        "cdQJMV8uBJzxi8V29"
+      )
+      .then(
+        (result) => {
+          console.log(result.text, "send successfully");
+          alert(result.text, "send successfully");
+          setEmailStatus(true);
+        },
+        (error) => {
+          console.log(error.text, "didn't send");
+          alert(error.text, "didn't send");
+          setEmailStatus(false);
+        }
+      );
+
+    //call the reset form based on the response from email js
+    if (setEmailStatus) {
+      reset();
+    }
+  };
+
+  useEffect(() => {
+    // Update emailData directly
+    setEmailData(localData);
+  }, [localData]);
+
+  useEffect(() => {
+    console.log("After form submission: ");
+    console.log(emailData);
+  }, [emailData]);
+
+  const senderNameFormatted = JSON.stringify(emailData.name);
+
   return (
     <>
+      {/* this is get quote modal for about hero*/}
+
+      <dialog id="getQuoteModalAbout" className="modal">
+        <div className="modal-box bg-[#ffffff]">
+          <form method="dialog">
+            <button className="btn btn-sm rounded-none bg-black text-white text-[20px] absolute right-2 top-2">
+              ✕
+            </button>
+          </form>
+          <div className="">
+            <div className="mb-[10px]">
+              <img
+                src="../HomePageLogos/Logo.png"
+                alt="Logo"
+                className="w-[150px] mx-auto"
+              ></img>
+            </div>
+            <form ref={form} onSubmit={handleSubmit(handleMyQuoteAbout)}>
+              <input
+                {...register("name", { required: true })}
+                placeholder="Name*"
+                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[200px] xl:mx-[5px] pl-[5px] inline getFreeQuote"
+              />
+              {errors.name && (
+                <p className="text-red-500 font-semibold">Name is required.</p>
+              )}
+              <input
+                {...register("email", { required: true })}
+                placeholder="Email*"
+                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[200px] pl-[5px] inline getFreeQuote"
+              />
+              {errors.email && (
+                <p className="text-red-500 font-semibold">Email is required.</p>
+              )}
+              <input
+                {...register("phone", { required: true })}
+                placeholder="Phone*"
+                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[92%] xl:mx-[5px] pl-[5px] inline getFreeQuote"
+              />
+              {errors.phone && (
+                <p className="text-red-500 font-semibold">Phone is required.</p>
+              )}
+              <textarea
+                {...register("message", { required: true })}
+                placeholder="Message*"
+                rows={5}
+                cols={40}
+                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[92%] xl:mx-[5px] pl-[5px] inline getFreeQuote"
+              />
+              {errors.message && (
+                <p className="text-red-500 font-semibold">
+                  Message is required.
+                </p>
+              )}
+              <button
+                type="submit"
+                className="btn btn-info rounded-md text-white py-[5px] px-[20px] ml-[5px]"
+              >
+                SEND
+              </button>
+
+              {isSubmitting || emailStatus ? ( // Show notification only when isSubmitting or emailStatus is set
+                emailStatus ? (
+                  <p className="text-green-500 font-semibold">
+                    Hello {senderNameFormatted}, your email was sent
+                    successfully!
+                  </p>
+                ) : (
+                  <p className="text-red-500 font-semibold">
+                    Hello {senderNameFormatted}, there was an error sending your
+                    email. Please try again.
+                  </p>
+                )
+              ) : null}
+            </form>
+          </div>
+        </div>
+      </dialog>
       <div className="flex flex-col md:flex-row bg-[#b3d9f8] pb-[50px] md:pb-[150px] md:pt-[50px] lg:pb-[50px]">
-        <div className="basis-1/1 md:basis-1/2 lg:basis-1/2 lg:mt-[50px] order-1 md:order-0 px-[10px] xl:mt-[0px]">
+        <div className="basis-1/1 md:basis-1/2 lg:basis-1/2 xl:basis-1/2 lg:mt-[50px] order-1 md:order-0 px-[10px] xl:mt-[0px]">
           <h1
-            className="text-left pt-[20px] sm:text-[26px] md:text-xl lg:text-2xl  md:pt-[50px] md:pl-[5%] md:font-extrabold sm:pl-[5%] xl:pt-[50px] xl:font-bold xl:pl-[20%] xl:text-[38px] xl:leading-[40px]"
+            className="text-left font-extrabold pt-[20px] sm:text-[26px] md:text-[28px] lg:text-[30px] lg:leading-[40px] md:pt-[50px] md:pl-[5%] sm:pl-[5%] xl:pt-[50px] xl:pl-[20%] xl:text-[34px] xl:leading-[44px]"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              fontStyle: "normal",
             }}
           >
-            A Powerhouse In The Fast-Paced World Of Digital Marketing,
-            Generating Solutions To Every One Of Your Digital Business Needs
+            A Powerhouse in the Fast-Paced World of Digital Marketing. Offering
+            Enhance Solutions for your B2B Digital Marketing Problems
           </h1>
           <p
             className="text-[12px] sm:text-[16px] sm:pl-[5%] sm:pr-[5%] md:text-[14px] md:pl-[5%] mt-[20px] mb-[10px] xl:pl-[20%] xl:pr-[200px] xl:text-[18px] xl:leading-[25px] font-bold xl:font-bold"
             style={{
               fontFamily: "Futura PT, sans-serif",
-              fontStyle: "normal",
             }}
           >
-            We are committed to help you dominate the industry with a dynamic
-            variety of services and solutions from our end.
+            eSAviour Limited is dedicated to empowering you to lead the industry
+            with our comprehensive range of dynamic digital marketing services
+            and solutions.
           </p>
-          <div className="xl:pl-[20%]">
-            <div className="inline-block w-[80px] relative top-[-10px]">
-              <a className="w-[80px] text-[10px] py-[10px] px-[5px] bg-[#000000] text-white rounded-none border-none hover:bg-[#40b0fd] hover:cursor-pointer">
-                Get Free Quote!
-              </a>
+
+          {/* ============== Only For XL devices ============= */}
+          <div className="basis-1/1 hidden xl:block xl:w-[798px] xl:ml-[100px]">
+            <div className="flex flex-row gap-3">
+              <div className="basis-1/4 h-[100px] xl:text-end mt-[15px]">
+                <button
+                  className="btn rounded-none xl:text-[12px] bg-black hover:bg-orange-500 cursor-pointer text-white relative xl:top-[30px] transition duration-300 ease-linear"
+                  onClick={() =>
+                    document.getElementById("getQuoteModalAbout").showModal()
+                  }
+                >
+                  Get Free Quote
+                </button>
+              </div>
+              <div className="basis-3/4 h-[100px] mt-[25px]">
+                <p className="relative xl:text-[16px] xl:top-[20px]">
+                  Over 3 Years of Experience in B2B Digital Marketing Services.
+                  Helped 27+ Brands to Achieve Success.
+                </p>
+              </div>
             </div>
-            <div className="inline-block text-[8px] w-[65vw] xl:w-[565px] xl:text-[14px] xl:ml-[10px] xl:mt-[40px] xl:leading-[15px] relative left-[5px]">
-              <p
-                className=""
-                style={{
-                  fontFamily: "Futura PT, sans-serif",
-                  fontStyle: "normal",
-                }}
+          </div>
+          {/* =================== Only For XSM ,SM, MD, lg devices =================== */}
+          <div className="basis-1/1 block xl:hidden mt-[30px]">
+            <div className="flex flex-row gap-1">
+              <div
+                className="basis-1/4 bg-black text-white text-center hover:text-black hover:bg-orange-500 cursor-pointer relative
+              top-0 left-0 transition duration-300 ease-linear"
               >
-                If you want to make a mark with your business on the global
-                stage, get in touch with us for a tailored approach to your
-                endeavors and a chance to crack the international market!
-              </p>
+                <button
+                  className="btn border-none w-full rounded-none text-[12px] sm:text-[12px] xl:text-[12px] bg-black hover:bg-orange-500 cursor-pointer text-white relative xl:top-[30px] transition duration-300 ease-linear"
+                  onClick={() =>
+                    document.getElementById("getQuoteModalAbout").showModal()
+                  }
+                >
+                  Get Free Quote
+                </button>
+              </div>
+              <div className="basis-3/4">
+                <p className="relative text-[12px] top-[0px] font-semibold leading-[12px] pt-[5px] sm:pt-[9px] md:pt-[5px] lg:px-[50px] md:hidden">
+                  Over 3 Years of Experience in B2B Digital Marketing
+                  Services.Helped 27+ Brands to <br></br>Achieve Success.
+                </p>
+                <p className="relative text-[12px] top-[0px] font-semibold leading-[12px] pt-[5px] sm:pt-[9px] md:pt-[10px] lg:px-[50px] hidden md:block">
+                  Over 3 Years of Experience in B2B Digital Marketing
+                  Services.Helped 27+<br></br> Brands to Achieve Success.
+                </p>
+              </div>
             </div>
           </div>
         </div>

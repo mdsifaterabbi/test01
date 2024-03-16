@@ -196,7 +196,7 @@ const Hero = () => {
           </p>
 
           {/* ============== Only For XL devices ============= */}
-          <div className="basis-1/1 hidden xl:block">
+          <div className="basis-1/1 hidden xl:block"> 
             <div className="flex flex-row gap-3">
               <div className="basis-1/4 h-[100px] xl:text-end mt-[15px]">
                 <button
@@ -217,7 +217,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* =================== Only For XSM ,SM, MD, lg devices devices =================== */}
+          {/* =================== Only For XSM ,SM, MD, lg devices =================== */}
           <div className="basis-1/1 block xl:hidden mt-[30px]">
             <div className="flex flex-row gap-1">
               <div

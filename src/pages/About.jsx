@@ -16,7 +16,8 @@ import AboutFAQSection from "../components/AboutPageComponents/AboutFAQSection";
 const About = ({ title }) => {
   return (
     <>
-      <div className="overflow-x-hidden overflow-y-hidden">
+      {/* className="w-[100vw] lg:w-[98vw] xl:w-[98vw] mx-auto" */}
+      <div className="w-[100vw] lg:w-[98vw] xl:w-[98vw] mx-auto overflow-x-hidden overflow-y-hidden">
         <Helmet>
           <title>{title}</title>
         </Helmet>
