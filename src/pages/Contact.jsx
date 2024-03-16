@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import MyNav from "../components/MyNav";
 import Footer2 from "../components/Footer2";
@@ -5,13 +6,90 @@ import { useForm } from "react-hook-form";
 import "../App.css";
 import "../MyShadow.css";
 import ContactHero from "../components/ContactHero";
+import { useMyContactObj } from "../ContextAPI/EmailJSContextAPIContact";
+import emailjs from "@emailjs/browser";
+
+// email js service id: service_d2jkicu
+//email js public key: cdQJMV8uBJzxi8V29
+//email js private key: grt1gnZ0C2_7o__MtlImb
+//email js template id: template_kyadm6c
 
 const Contact = ({ title }) => {
+  const form = useRef();
+
+  const { contactEmail, setContactEmail } = useMyContactObj();
+  const [localContactData, setLocalContactData] = useState({
+    name: "",
+    email: "",
+    whatsapp: "",
+    subject: "",
+    message: "",
+  });
+
+  const [contactEmailStatus, setContactEmailStatus] = useState(false);
+
   const {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
+    formState: { isSubmitting }, // Access isSubmitting property
   } = useForm();
+
+  const submitContact = (data) => {
+    console.log("Your name is: ", data.name);
+    console.log("Your email is: ", data.email);
+    console.log("Your whatsapp is: ", data.whatsapp);
+    console.log("Your subject line is: ", data.subject);
+    console.log("Your message is: ", data.message);
+    console.log(contactEmail);
+
+    setLocalContactData({
+      name: data.name,
+      email: data.email,
+      whatsapp: data.whatsapp,
+      subject: data.subject,
+      message: data.message,
+    });
+
+    //implement email js here
+    emailjs
+      .sendForm(
+        "service_d2jkicu",
+        "template_kyadm6c",
+        form.current,
+        "cdQJMV8uBJzxi8V29"
+      )
+      .then(
+        (result) => {
+          console.log(result.text, "send successfully");
+          alert(result.text, "send successfully");
+          setContactEmailStatus(true);
+        },
+        (error) => {
+          console.log(error.text, "didn't send");
+          alert(error.text, "didn't send");
+          setContactEmailStatus(false);
+        }
+      );
+
+    //call the reset form based on the response from email js
+    if (setContactEmailStatus) {
+      reset();
+    }
+  };
+
+  useEffect(() => {
+    setContactEmail(localContactData);
+  }, [localContactData]);
+
+  useEffect(() => {
+    console.log("After form submission: ");
+    console.log(contactEmail);
+  }, [contactEmail]);
+
+  const senderNameFormatted = JSON.stringify(contactEmail.name);
+
   return (
     <>
       <div className="overflow-x-hidden overflow-y-hidden">
@@ -39,7 +117,7 @@ const Contact = ({ title }) => {
             <div className="flex flex-col lg:flex-row xl:flex-row flex-wrap">
               <div className="basis-1/2 lg:basis-1/2 xl:basis-1/2">
                 <div className="w-[90%] mt-[0px] mb-[25px] xl:mb-[50px] mx-auto">
-                  <form onSubmit={handleSubmit((data) => console.log(data))}>
+                  <form ref={form} onSubmit={handleSubmit(submitContact)}>
                     <input
                       {...register("name", { required: true })}
                       placeholder="Name"
@@ -85,6 +163,19 @@ const Contact = ({ title }) => {
                       }}
                     />
                   </form>
+                  {isSubmitting || contactEmailStatus ? ( // Show notification only when isSubmitting or contactEmailStatus is set
+                    contactEmailStatus ? (
+                      <p className="text-green-500 font-semibold">
+                        Hello {senderNameFormatted}, your email was sent
+                        successfully!
+                      </p>
+                    ) : (
+                      <p className="text-red-500 font-semibold">
+                        Hello {senderNameFormatted}, there was an error sending
+                        your email. Please try again.
+                      </p>
+                    )
+                  ) : null}
                 </div>
               </div>
               <div className="basis-1/2 lg:basis-1/2 xl:basis-1/2 pt-[0px] xl:pt-[10px]">
