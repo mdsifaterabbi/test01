@@ -98,16 +98,16 @@ const Footer2 = () => {
                 Let's Get Social
               </h5>
               <div className="flex justify-center">
-                <a className="inline mx-[5px]" href="">
+                <a className="inline mx-[5px]" href="https://www.facebook.com/eSaviourLTD" target="_blank">
                   <img src="./Facebook2.png" alt="Facebook2"></img>
                 </a>
-                <a className="inline mx-[5px]" href="">
+                <a className="inline mx-[5px]" href="https://www.instagram.com/esaviourltd/" target="_blank">
                   <img src="./instagram2.png" alt="instagram2"></img>
                 </a>
-                <a className="inline mx-[5px]" href="">
+                <a className="inline mx-[5px]" href="https://www.linkedin.com/company/esaviour/" target="_blank">
                   <img src="./Linkedin2.png" alt="Linkedin2"></img>
                 </a>
-                <a className="inline mx-[5px]" href="">
+                <a className="inline mx-[5px]" href="https://www.youtube.com/@eSaviour" target="_blank">
                   <img
                     src="./youtube2.png"
                     alt="youtube2"
@@ -274,16 +274,32 @@ const Footer2 = () => {
           <div className="basis-1/5 pt-[70px] pb-[10px] bg-[#ddf1ff]">
             <h5 className="text-left font-book text-md">Let's Get Social</h5>
             <div className="flex justify-center">
-              <a className="inline mr-[3px]" href="">
+              <a
+                className="inline mr-[3px]"
+                href="https://www.facebook.com/eSaviourLTD"
+                target="_blank"
+              >
                 <img src="./Facebook2.png" alt="Facebook2"></img>
               </a>
-              <a className="inline mx-[3px]" href="">
+              <a
+                className="inline mx-[3px]"
+                href="https://www.instagram.com/esaviourltd/"
+                target="_blank"
+              >
                 <img src="./instagram2.png" alt="instagram2"></img>
               </a>
-              <a className="inline mx-[3px]" href="">
+              <a
+                className="inline mx-[3px]"
+                href="https://www.linkedin.com/company/esaviour/"
+                target="_blank"
+              >
                 <img src="./Linkedin2.png" alt="Linkedin2"></img>
               </a>
-              <a className="inline mx-[3px]" href="">
+              <a
+                className="inline mx-[3px]"
+                href="https://www.youtube.com/@eSaviour"
+                target="_blank"
+              >
                 <img
                   src="./youtube2.png"
                   alt="youtube2"
@@ -434,7 +450,6 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    
                   }}
                 >
                   <Link to="/">Home</Link>
@@ -443,7 +458,6 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    
                   }}
                 >
                   <Link to="/service">Service</Link>
@@ -452,7 +466,6 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px]  xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    
                   }}
                 >
                   <Link to="/portfolio">Portfolio</Link>
@@ -461,7 +474,6 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                   
                   }}
                 >
                   <Link to="/about">About Us</Link>
@@ -470,7 +482,6 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    
                   }}
                 >
                   <Link to="/blog">Blog</Link>
@@ -479,22 +490,21 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px]  xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                   
                   }}
                 >
                   <Link to="/contact">Contact</Link>
                 </li>
               </ul>
-              
             </div>
             <div className="basis-1/5 pt-[70px] pb-[30px] pl-[0px] xl:pt-[85px] bg-[#ddf1ff]">
-              <span className="font-book text-xl block pb-[15px] font-bold">Legal</span>
+              <span className="font-book text-xl block pb-[15px] font-bold">
+                Legal
+              </span>
               <ul>
                 <li
                   className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    
                   }}
                 >
                   <a href="#">privacy Policy</a>
@@ -503,7 +513,6 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                   
                   }}
                 >
                   <a href="#">Terms & Conditions</a>
@@ -512,7 +521,6 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    
                   }}
                 >
                   <a href="#">Order Calcellation Policy</a>
@@ -521,7 +529,6 @@ const Footer2 = () => {
                   className="font-bold text-[18px] my-[3px] xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    
                   }}
                 >
                   <a href="#">Refund Policy</a>
@@ -533,16 +540,32 @@ const Footer2 = () => {
                 Let's Get Social
               </span>
               <div className="flex justify-start">
-                <a className="inline mr-[3px]" href="">
+                <a
+                  className="inline mr-[3px]"
+                  href="https://www.facebook.com/eSaviourLTD"
+                  target="_blank"
+                >
                   <img src="./Facebook2.png" alt="Facebook2"></img>
                 </a>
-                <a className="inline mx-[3px]" href="">
+                <a
+                  className="inline mx-[3px]"
+                  href="https://www.instagram.com/esaviourltd/"
+                  target="_blank"
+                >
                   <img src="./instagram2.png" alt="instagram2"></img>
                 </a>
-                <a className="inline mx-[3px]" href="">
+                <a
+                  className="inline mx-[3px]"
+                  href="https://www.linkedin.com/company/esaviour/"
+                  target="_blank"
+                >
                   <img src="./Linkedin2.png" alt="Linkedin2"></img>
                 </a>
-                <a className="inline mx-[3px]" href="">
+                <a
+                  className="inline mx-[3px]"
+                  href="https://www.youtube.com/@eSaviour"
+                  target="_blank"
+                >
                   <img
                     src="./youtube2.png"
                     alt="youtube2"

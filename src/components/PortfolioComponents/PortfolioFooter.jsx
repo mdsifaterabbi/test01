@@ -70,16 +70,16 @@ const PortfolioFooter = () => {
                 Let's Get Social
               </h5>
               <div className="flex justify-center">
-                <a className="inline mx-[5px]" href="">
+                <a className="inline mx-[5px]" href="https://www.facebook.com/eSaviourLTD" target="_blank">
                   <img src="./Facebook2.png" alt="Facebook2"></img>
                 </a>
-                <a className="inline mx-[5px]" href="">
+                <a className="inline mx-[5px]" href="https://www.instagram.com/esaviourltd/" target="_blank">
                   <img src="./instagram2.png" alt="instagram2"></img>
                 </a>
-                <a className="inline mx-[5px]" href="">
+                <a className="inline mx-[5px]" href="https://www.linkedin.com/company/esaviour/" target="_blank">
                   <img src="./Linkedin2.png" alt="Linkedin2"></img>
                 </a>
-                <a className="inline mx-[5px]" href="">
+                <a className="inline mx-[5px]" href="https://www.youtube.com/@eSaviour" target="_blank">
                   <img
                     src="./youtube2.png"
                     alt="youtube2"
@@ -141,45 +141,6 @@ const PortfolioFooter = () => {
           </div>
         </div>
       </div>
-      {/* =================== Footer2 for medium and large devices ========================= */}
-      {/* <div className="hidden md:block xl:hidden">
-        <div className="flex flex-row">
-          <div className="basis-1/1 w-[95vw] mx-auto mt-[50px] relative z-50">
-            <div className="flex flex-row bg-[#40b0fd]">
-              <div className="basis-1/4 text-center py-[15px]">
-                <span className="block text-3xl font-thin text-white">
-                  500+
-                </span>
-                <span className="text-sm font-bold text-white">
-                  Happy Clients
-                </span>
-              </div>
-              <div className="basis-1/4 text-center py-[15px]">
-                <span className="block text-3xl font-thin text-white">27+</span>
-                <span className="text-sm font-bold text-white">
-                  Brains to Support
-                </span>
-              </div>
-              <div className="basis-1/4 text-center py-[15px]">
-                <span className="block text-3xl font-thin text-white">
-                  100+
-                </span>
-                <span className="text-sm font-bold text-white">
-                  Websites Developed
-                </span>
-              </div>
-              <div className="basis-1/4 text-center py-[15px]">
-                <span className="block text-3xl font-thin text-white">
-                  150+
-                </span>
-                <span className="text-sm font-bold text-white">
-                  Product launched
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       {/* ============== Only for medium and large devices =================== */}
       <div className="hidden md:block xl:hidden">
@@ -246,16 +207,32 @@ const PortfolioFooter = () => {
           <div className="basis-1/5 pt-[70px] pb-[10px] bg-[#ddf1ff]">
             <h5 className="text-left font-book text-md">Let's Get Social</h5>
             <div className="flex justify-center">
-              <a className="inline mr-[3px]" href="">
+              <a
+                className="inline mr-[3px]"
+                href="https://www.facebook.com/eSaviourLTD"
+                target="_blank"
+              >
                 <img src="./Facebook2.png" alt="Facebook2"></img>
               </a>
-              <a className="inline mx-[3px]" href="">
+              <a
+                className="inline mx-[3px]"
+                href="https://www.instagram.com/esaviourltd/"
+                target="_blank"
+              >
                 <img src="./instagram2.png" alt="instagram2"></img>
               </a>
-              <a className="inline mx-[3px]" href="">
+              <a
+                className="inline mx-[3px]"
+                href="https://www.linkedin.com/company/esaviour/"
+                target="_blank"
+              >
                 <img src="./Linkedin2.png" alt="Linkedin2"></img>
               </a>
-              <a className="inline mx-[3px]" href="">
+              <a
+                className="inline mx-[3px]"
+                href="https://www.youtube.com/@eSaviour"
+                target="_blank"
+              >
                 <img
                   src="./youtube2.png"
                   alt="youtube2"
@@ -318,45 +295,7 @@ const PortfolioFooter = () => {
           </div>
         </div>
       </div>
-      {/* =================== Footer2 for xl devices ========================= */}
-      {/* <div className="hidden xl:block xl:w-[50vw] xl:mx-auto">
-        <div className="flex flex-row">
-          <div className="basis-1/1 w-[80vw] mx-auto mt-[50px] relative z-50">
-            <div className="flex flex-row bg-[#40b0fd]">
-              <div className="basis-1/4 text-center py-[15px] xl:py-[30px]">
-                <span className="block text-3xl font-thin text-white">
-                  500+
-                </span>
-                <span className="text-sm font-bold text-white">
-                  Happy Clients
-                </span>
-              </div>
-              <div className="basis-1/4 text-center py-[15px] xl:py-[30px]">
-                <span className="block text-3xl font-thin text-white">27+</span>
-                <span className="text-sm font-bold text-white">
-                  Brains to Support
-                </span>
-              </div>
-              <div className="basis-1/4 text-center py-[15px] xl:py-[30px]">
-                <span className="block text-3xl font-thin text-white">
-                  100+
-                </span>
-                <span className="text-sm font-bold text-white">
-                  Websites Developed
-                </span>
-              </div>
-              <div className="basis-1/4 text-center py-[15px] xl:py-[30px]">
-                <span className="block text-3xl font-thin text-white">
-                  150+
-                </span>
-                <span className="text-sm font-bold text-white">
-                  Product launched
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+
       {/* ====================== Only for extra large devices ========================= */}
       <div className="hidden xl:block xl:w-[100vw] bg-[#ddf1ff]">
         <div className="hidden xl:block xl:w-[70vw] xl:mx-auto">
@@ -398,7 +337,6 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <Link to="/">Home</Link>
@@ -407,7 +345,6 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <Link to="/service">Service</Link>
@@ -416,7 +353,6 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <Link to="/portfolio">Portfolio</Link>
@@ -425,7 +361,6 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <Link to="/about">About Us</Link>
@@ -434,11 +369,9 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <Link to="/blog">Blog</Link>
-                  
                 </li>
               </ul>
             </div>
@@ -449,7 +382,6 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <a>privacy Policy</a>
@@ -458,7 +390,6 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <a>Terms & Conditions</a>
@@ -467,7 +398,6 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <a>Order Calcellation Policy</a>
@@ -476,7 +406,6 @@ const PortfolioFooter = () => {
                   className="font-thin text-[13px] my-[3px] xl:font-light xl:text-[18px]"
                   style={{
                     fontFamily: "Futura PT, sans-serif",
-                    fontStyle: "normal",
                   }}
                 >
                   <a>Refund Policy</a>
@@ -488,16 +417,32 @@ const PortfolioFooter = () => {
                 Let's Get Social
               </span>
               <div className="flex justify-start">
-                <a className="inline mr-[3px]" href="">
+                <a
+                  className="inline mr-[3px]"
+                  href="https://www.facebook.com/eSaviourLTD"
+                  target="_blank"
+                >
                   <img src="./Facebook2.png" alt="Facebook2"></img>
                 </a>
-                <a className="inline mx-[3px]" href="">
+                <a
+                  className="inline mx-[3px]"
+                  href="https://www.instagram.com/esaviourltd/"
+                  target="_blank"
+                >
                   <img src="./instagram2.png" alt="instagram2"></img>
                 </a>
-                <a className="inline mx-[3px]" href="">
+                <a
+                  className="inline mx-[3px]"
+                  href="https://www.linkedin.com/company/esaviour/"
+                  target="_blank"
+                >
                   <img src="./Linkedin2.png" alt="Linkedin2"></img>
                 </a>
-                <a className="inline mx-[3px]" href="">
+                <a
+                  className="inline mx-[3px]"
+                  href="https://www.youtube.com/@eSaviour"
+                  target="_blank"
+                >
                   <img
                     src="./youtube2.png"
                     alt="youtube2"

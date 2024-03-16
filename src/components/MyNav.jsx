@@ -29,9 +29,9 @@ const MyNav = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <li>
-                <a className="bg-[#40b0fd] text-white hover:bg-[#40b0fd] hover:text-white rounded-none">
+                <Link to="/contact" className="bg-[#40b0fd] text-white hover:bg-[#40b0fd] hover:text-white rounded-none">
                   Get a Proposal
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
