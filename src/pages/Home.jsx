@@ -2,14 +2,7 @@ import { Helmet } from "react-helmet-async";
 import MyNav from "../components/MyNav";
 import Hero from "../components/Hero";
 import "../App.css";
-import {
-  ServiceCard,
-  ServiceCard2,
-  ServiceCard3,
-  ServiceCard4,
-  ServiceCard5,
-  ServiceCard6,
-} from "../components/ServiceCard";
+import { ServiceCard } from "../components/ServiceCard";
 import TabContext from "../components/TabContext";
 import BrandSlider from "../components/BrandSlider";
 import CreativeSlider from "../components/CreativeSlider";
@@ -27,6 +20,51 @@ import CreativeSliderXL from "../components/CreativeSliderXL";
 import ClientsCommentsXL from "../components/ClientsCommentsXL";
 
 const Home = ({ title }) => {
+  const cardContents = [
+    {
+      id: 1,
+      image: "./expert2.png",
+      heading: "Expert Guidance",
+      paragraph:
+        "The best b2b digital marketing agency provides you with strategic insights to navigate the complexities of online retail, ensuring your products or brands stand out in the competitive marketplace.",
+    },
+    {
+      id: 2,
+      image: "./DigitalMarketing1.png",
+      heading: "Digital Marketing Mastery",
+      paragraph:
+        "Unleash the power of our Digital Marketing services to reach your target audience effectively. From SEO to social media campaigns, we drive results that matter.",
+    },
+    {
+      id: 3,
+      image: "./Creative_1.png",
+      heading: "Creative Excellence",
+      paragraph:
+        "Elevate your brand with our Graphics Design services, where creativity meets strategy. Our team transforms concepts into captivating visuals that leave a lasting impression",
+    },
+    {
+      id: 4,
+      image: "./LearnAndGrow1.png",
+      heading: "Learn and Grow",
+      paragraph:
+        "Explore our courses in Graphics Design, UI/UX Design, Website Design and Development, and SEO. Empower yourself with the skills needed to thrive in the digital era.",
+    },
+    {
+      id: 5,
+      image: "./Solutions1.png",
+      heading: "Web Solutions That Work",
+      paragraph:
+        "Experience seamless Website Development that not only looks stunning but also functions flawlessly. We create responsive, user-friendly websites tailored to your unique business needs.",
+    },
+    {
+      id: 6,
+      image: "./EndTOEnd1.png",
+      heading: "End-to-End Solutions",
+      paragraph:
+        "From concept to execution, we offer end-to-end solutions to streamline your digital journey. Trust us to handle every aspect, ensuring a seamless and hassle-free experience.",
+    },
+  ];
+
   return (
     <div className="w-[100vw] lg:w-[98vw] xl:w-[98vw] mx-auto">
       <Helmet>
@@ -119,24 +157,11 @@ const Home = ({ title }) => {
         </span>
       </div>
       <div className="flex flex-wrap flex-col sm:flex-row w-[90vw] xl:w-[80%] xl:mx-auto md:w-[90vw] md:mx-auto mx-auto overflow-x-hidden">
-        <div className="basis-1/1 sm:basis-1/2">
-          <ServiceCard />
-        </div>
-        <div className="basis-1/1 sm:basis-1/2 ">
-          <ServiceCard2 />
-        </div>
-        <div className="basis-1/1 sm:basis-1/2 ">
-          <ServiceCard3 />
-        </div>
-        <div className="basis-1/1 sm:basis-1/2 ">
-          <ServiceCard4 />
-        </div>
-        <div className="basis-1/1 sm:basis-1/2 ">
-          <ServiceCard5 />
-        </div>
-        <div className="basis-1/1 sm:basis-1/2 ">
-          <ServiceCard6 />
-        </div>
+        {cardContents.map((c) => (
+          <div key={c.id} className="basis-1/1 sm:basis-1/2">
+            <ServiceCard props={c} />
+          </div>
+        ))}
       </div>
       {/* ================== section 5 ended here =================================*/}
 
