@@ -110,9 +110,6 @@ const TabContextXL = () => {
                             <div>
                               <OrderForm />
                             </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
                           </div>
                         </dialog>
                         {/* ================== Order placement Model ended here ============== */}
