@@ -196,7 +196,7 @@ const Hero = () => {
           </p>
 
           {/* ============== Only For XL devices ============= */}
-          <div className="basis-1/1 hidden xl:block"> 
+          <div className="basis-1/1 hidden xl:block">
             <div className="flex flex-row gap-3">
               <div className="basis-1/4 h-[100px] xl:text-end mt-[15px]">
                 <button
@@ -402,72 +402,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* this is get quote modal*/}
-
-      {/* <dialog id="getQuoteModal" className="modal">
-        <div className="modal-box bg-[#ffffff]">
-          <form method="dialog">
-            <button className="btn btn-sm rounded-none bg-black text-white text-[20px] absolute right-2 top-2">
-              ✕
-            </button>
-          </form>
-          <div className="">
-            <div className="mb-[10px]">
-              <img
-                src="../HomePageLogos/Logo.png"
-                alt="Logo"
-                className="w-[150px] mx-auto"
-              ></img>
-            </div>
-            <form onSubmit={handleSubmit((data) => console.log(data))}>
-              <input
-                {...register("name", { required: true })}
-                placeholder="Name*"
-                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[200px] xl:mx-[5px] pl-[5px] inline getFreeQuote"
-              />
-              {errors.name && (
-                <p className="text-red-500 font-semibold">Name is required.</p>
-              )}
-              <input
-                {...register("email", { required: true })}
-                placeholder="Email*"
-                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[200px] pl-[5px] inline getFreeQuote"
-              />
-              {errors.email && (
-                <p className="text-red-500 font-semibold">Email is required.</p>
-              )}
-              <input
-                {...register("phone", { required: true })}
-                placeholder="Phone*"
-                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[92%] xl:mx-[5px] pl-[5px] inline getFreeQuote"
-              />
-              {errors.phone && (
-                <p className="text-red-500 font-semibold">Phone is required.</p>
-              )}
-
-              <textarea
-                {...register("message", { required: true })}
-                placeholder="Message*"
-                rows={5}
-                cols={40}
-                className="border my-[5px] py-[10px] rounded-md w-[100%] xl:w-[92%] xl:mx-[5px] pl-[5px] inline getFreeQuote"
-              />
-              {errors.message && (
-                <p className="text-red-500 font-semibold">
-                  Message is required.
-                </p>
-              )}
-
-              <button
-                type="submit"
-                className="btn btn-info rounded-md text-white py-[5px] px-[20px] ml-[5px]"
-              >
-                SEND
-              </button>
-            </form>
-          </div>
-        </div>
-      </dialog> */}
     </>
   );
 };

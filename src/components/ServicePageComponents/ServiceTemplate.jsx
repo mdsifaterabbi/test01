@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../Font.css";
 import "../../MyShadow.css";
 
@@ -87,15 +88,17 @@ const ServiceTemplate = () => {
                 profitability.
               </p>
             </div>
-            <div className="relative top-0 left-0 h-[50px]">
-              <div className="absolute right-0 bottom-0">
-                <img
-                  src="../ServicePageLogos/Right_Down_Arrow.png"
-                  alt="Right_Down_Arrow"
-                  className="h-[50px] sm:h-[50px] md:h-[50px] lg:h-[50px] xl:h-[50px]"
-                ></img>
+            <Link to="/service-FBA">
+              <div className="relative top-0 left-0 h-[50px]">
+                <div className="absolute right-0 bottom-0">
+                  <img
+                    src="../ServicePageLogos/Right_Down_Arrow.png"
+                    alt="Right_Down_Arrow"
+                    className="h-[50px] sm:h-[50px] md:h-[50px] lg:h-[50px] xl:h-[50px]"
+                  ></img>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

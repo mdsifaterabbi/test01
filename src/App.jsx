@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import Service from "./pages/Service";
 import Contact from "./pages/Contact";
 import SingleBlogDetails from "./components/BlogPageComponents/SingleBlogDetails";
+import FBA from "./pages/FBA";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           path="/blog/singleblogdetails/:slug"
           element={<SingleBlogDetails />}
         />
+        <Route path="/service-FBA" element={<FBA />}></Route>
       </Routes>
     </>
   );
