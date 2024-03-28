@@ -31,6 +31,23 @@ const TabContextXL = () => {
           </span>
         </h2>
 
+        <dialog
+          id="my_modal_2"
+          className="bg-sky-500"
+          style={{ width: "800px" }}
+        >
+          <div className="" style={{ width: "800px", height: "700px" }}>
+            <form method="dialog">
+              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                ✕
+              </button>
+            </form>
+            <div>
+              <OrderForm />
+            </div>
+          </div>
+        </dialog>
+
         {/* Tab list container */}
         <div className="tab-list bg-[#f4faff] pb-4">
           <Tabs>
@@ -58,7 +75,7 @@ const TabContextXL = () => {
               <div className="slider-container pb-[0px] bg-[#f4faff] xl:w-[70vw] xl:mx-auto">
                 <Slider {...settings}>
                   <div>
-                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8] h-[350px]">
+                    <div className="card card-compact w-[20vw] xl:h-[400px] bg-base-100 mx-auto shadow-xl shadow-[#cee6f8]">
                       <figure className="bg-[#ffffff] py-[40px]">
                         <img
                           src="../updated/amazon_fba_consultancy.png"
@@ -85,9 +102,9 @@ const TabContextXL = () => {
                           Maximize Your E-commerce Potential Unlock the full
                           potential of your Amazon FBA business with Esaviour
                           Limited. Our consultancy services are designed to
-                          optimize your product listings, enhance visibility,
-                          and boost sales. Trust our expertise to navigate the
-                          intricacies of the world’s largest online marketplace.
+                          optimize your product listings, enhance visibility,...
+                          {/* and boost sales. Trust our expertise to navigate the
+                          intricacies of the world’s largest online marketplace. */}
                         </p>
 
                         {/* ===================== Order Placement Modal starts from here =============================== */}
@@ -100,18 +117,6 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                          </div>
-                        </dialog>
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -158,21 +163,6 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -218,21 +208,6 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -284,21 +259,6 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -344,21 +304,6 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -406,21 +351,7 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
+                        
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -473,21 +404,7 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
+                        
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -535,21 +452,7 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
+                        
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -596,21 +499,7 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
+                        
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -665,21 +554,7 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
+                        
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -725,21 +600,7 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
+                        
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>
@@ -785,21 +646,7 @@ const TabContextXL = () => {
                           Order Now
                         </button>
 
-                        <dialog id="my_modal_2" className="modal">
-                          <div className="modal-box">
-                            <form method="dialog">
-                              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                ✕
-                              </button>
-                            </form>
-                            <div>
-                              <OrderForm />
-                            </div>
-                            <p className="py-4">
-                              Press ESC key or click on ✕ button to close
-                            </p>
-                          </div>
-                        </dialog>
+                        
                         {/* ================== Order placement Model ended here ============== */}
                       </div>
                     </div>

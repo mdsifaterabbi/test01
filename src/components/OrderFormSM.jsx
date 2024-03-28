@@ -73,8 +73,8 @@ const OrderFormSM = () => {
   }, [localOrderData]);
 
   useEffect(() => {
-    console.log("After form submission: ");
-    console.log(emailData);
+    // console.log("After form submission: ");
+    // console.log(emailData);
   }, [emailData]);
 
   const senderNameFormatted = JSON.stringify(emailData.name);

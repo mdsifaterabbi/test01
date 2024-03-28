@@ -27,6 +27,20 @@ const TabContextMD = () => {
           </span>
         </span>
       </div>
+
+      <dialog id="my_modal_MD" className="" style={{ width: "700px", height: "550px" }}>
+        <div className="">
+          <form method="dialog">
+            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+              ✕
+            </button>
+          </form>
+          <div>
+            <OrderFormMD />
+          </div>
+        </div>
+      </dialog>
+
       <Tabs>
         <TabList className="flex justify-center bg-[#faf7f5] py-[50px] TabContextTabFont text-[14px] w-[90vw] md:w-[100vw] mx-auto">
           {[
@@ -84,7 +98,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -94,11 +108,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                        
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -135,7 +147,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -145,11 +157,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                        
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -184,7 +194,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -194,11 +204,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                        
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -239,7 +247,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -249,11 +257,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                       
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -288,7 +294,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -298,11 +304,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                      
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -336,7 +340,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -346,11 +350,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                        
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -391,7 +393,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -401,11 +403,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                       
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -441,7 +441,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -451,11 +451,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                        
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -490,7 +488,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -500,11 +498,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                       
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -545,7 +541,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -555,11 +551,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                        
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -594,7 +588,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -604,11 +598,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                        
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -644,7 +636,7 @@ const TabContextMD = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_MD" className="modal">
+                    {/* <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -654,11 +646,9 @@ const TabContextMD = () => {
                         <div>
                           <OrderFormMD />
                         </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
+                        
                       </div>
-                    </dialog>
+                    </dialog> */}
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
