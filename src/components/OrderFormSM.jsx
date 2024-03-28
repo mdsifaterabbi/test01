@@ -8,7 +8,7 @@ import emailjs from "@emailjs/browser";
 //email js private key: grt1gnZ0C2_7o__MtlImb
 //email js template id: template_jcd7rrq
 
-const OrderForm = () => {
+const OrderFormSM = () => {
   const form = useRef();
   const { emailData, setEmailData } = useEmailJS();
 
@@ -89,15 +89,17 @@ const OrderForm = () => {
         ></img>
       </div>
       <div className="w-[80vw] ml-[-5px] xl:bg-white xl:w-[450px] h-[550px] xl:mx-auto xl:mt-[-120px] xl:px-[10px]">
-        <h1 className="text-center text-[12px] xl:text-[30px] font-thin xl:pt-[50px] xl:pb-[30px]">
-          Place an order to start
-        </h1>
-        <div className="flex flex-wrap justify-between">
+        <div className="w-[460px]">
+          <h1 className="text-center text-[12px] xl:text-[30px] font-thin xl:pt-[50px] xl:pb-[30px]">
+            Place an order to start
+          </h1>
+        </div>
+        <div className="flex flex-wrap justify-between overflow-hidden">
           <form ref={form} onSubmit={handleSubmit(submitOrder)}>
             <input
               {...register("name", { required: true })}
               placeholder="Name"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] xl:w-[212px] border mycontactPlaceholder xl:mr-[5px]"
+              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[230px] border mycontactPlaceholder xl:mr-[5px]"
             />
 
             {errors.name && <p style={{ color: "red" }}>Name is required.</p>}
@@ -105,7 +107,7 @@ const OrderForm = () => {
             <input
               {...register("email", { required: true })}
               placeholder="Email"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] xl:w-[212px]  mycontactPlaceholder"
+              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[230px] mx-[2px]  mycontactPlaceholder"
             />
 
             {errors.email && <p style={{ color: "red" }}>Email is required.</p>}
@@ -113,35 +115,35 @@ const OrderForm = () => {
             <input
               {...register("phone", { required: true })}
               placeholder="phone"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] xl:w-[212px]  mycontactPlaceholder xl:mr-[5px]"
+              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[230px]  mycontactPlaceholder xl:mr-[5px]"
             />
             {errors.phone && <p>Please enter phone number.</p>}
 
             <input
               {...register("productLink", { required: true })}
               placeholder="productLink"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] xl:w-[212px]  mycontactPlaceholder"
+              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[230px] mx-[2px]  mycontactPlaceholder"
             />
             {errors.productLink && <p>Please enter productLink.</p>}
 
             <input
               {...register("serviceCategory", { required: true })}
               placeholder="serviceCategory"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] xl:w-[212px]  mycontactPlaceholder xl:mr-[5px]"
+              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[230px]  mycontactPlaceholder xl:mr-[5px]"
             />
             {errors.serviceCategory && <p>Please enter serviceCategory.</p>}
 
             <input
               {...register("selectedService", { required: true })}
               placeholder="selectedService"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] xl:w-[212px] mycontactPlaceholder"
+              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[230px] mx-[2px] mycontactPlaceholder"
             />
             {errors.selectedService && <p>Please enter selectedService.</p>}
 
             <textarea
               {...register("message", { required: true })}
               placeholder="Message"
-              className=" block bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] xl:w-[430px] mycontactPlaceholder"
+              className=" block bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[460px] mycontactPlaceholder"
               style={{
                 maxHeight: "250px",
                 minHeight: "150px",
@@ -194,11 +196,10 @@ const OrderForm = () => {
               )
             ) : null}
           </form>
-
         </div>
       </div>
     </>
   );
 };
 
-export default OrderForm;
+export default OrderFormSM;

@@ -3,7 +3,7 @@ import "react-tabs/style/react-tabs.css";
 
 import Slider from "react-slick";
 import { useState } from "react";
-import OrderForm from "./OrderForm";
+import OrderFormSM from "./OrderFormSM";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -118,13 +118,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_sm").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_sm" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -132,7 +132,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -171,13 +171,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_sm").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_sm" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -185,7 +185,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -222,13 +222,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_sm").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_sm" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -236,7 +236,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -279,13 +279,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_sm").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_sm" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -293,7 +293,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -331,13 +331,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_SM" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -345,7 +345,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -381,13 +381,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_SM" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -395,7 +395,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -441,13 +441,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_SM" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -455,7 +455,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -494,13 +494,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_SM" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -508,7 +508,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -547,13 +547,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_SM" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -561,7 +561,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -604,13 +604,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_SM" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -618,7 +618,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -655,13 +655,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_SM" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -669,7 +669,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -707,13 +707,13 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_4").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_4" className="modal">
+                    <dialog id="my_modal_SM" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -721,7 +721,7 @@ const TabContextSM = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormSM />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close

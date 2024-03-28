@@ -3,7 +3,7 @@ import "react-tabs/style/react-tabs.css";
 
 import Slider from "react-slick";
 import { useState } from "react";
-import OrderForm from "./OrderForm";
+import OrderFormMD from "./OrderFormMD";
 
 const TabContextMD = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -70,21 +70,21 @@ const TabContextMD = () => {
                       Maximize Your E-commerce Potential Unlock the full
                       potential of your Amazon FBA business with Esaviour
                       Limited. Our consultancy services are designed to optimize
-                      your product listings, enhance visibility, and boost
-                      sales. Trust our expertise to navigate the intricacies of
-                      the world’s largest online marketplace.
+                      your product listings, enhance visibility, and boost...
+                      {/* sales. Trust our expertise to navigate the intricacies of
+                      the world’s largest online marketplace. */}
                     </p>
                     {/* ===================== Order Placement Modal starts from here =============================== */}
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -92,7 +92,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -121,21 +121,21 @@ const TabContextMD = () => {
                       Pay-per-click (PPC) advertising (Sponsored Ads) is a
                       common tool for e-commerce merchants. However, if you lack
                       the necessary skills and experience, you can jeopardize
-                      your whole business instead. Our Sponsored Ad campaign
-                      guarantees you a decent click-through and conversion rate
-                      within a convenient price range.
+                      your whole business instead. Our Sponsored Ad campaign...
+                      {/* guarantees you a decent click-through and conversion rate
+                      within a convenient price range. */}
                     </p>
                     {/* ===================== Order Placement Modal starts from here =============================== */}
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -143,7 +143,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -178,13 +178,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -192,7 +192,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -233,13 +233,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -247,7 +247,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -282,13 +282,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -296,7 +296,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -330,13 +330,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -344,7 +344,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -385,13 +385,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -399,7 +399,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -435,13 +435,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -449,7 +449,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -484,13 +484,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -498,7 +498,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -539,13 +539,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -553,7 +553,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -588,13 +588,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -602,7 +602,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
@@ -638,13 +638,13 @@ const TabContextMD = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_5").showModal()
+                        document.getElementById("my_modal_MD").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_5" className="modal">
+                    <dialog id="my_modal_MD" className="modal">
                       <div className="modal-box">
                         <form method="dialog">
                           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -652,7 +652,7 @@ const TabContextMD = () => {
                           </button>
                         </form>
                         <div>
-                          <OrderForm />
+                          <OrderFormMD />
                         </div>
                         {/* <p className="py-4">
                           Press ESC key or click on ✕ button to close
