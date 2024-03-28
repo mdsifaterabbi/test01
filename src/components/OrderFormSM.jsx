@@ -11,6 +11,11 @@ import emailjs from "@emailjs/browser";
 const OrderFormSM = () => {
   const form = useRef();
   const { emailData, setEmailData } = useEmailJS();
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
 
   const [localOrderData, setLocalOrderData] = useState({
     name: "",
@@ -81,7 +86,7 @@ const OrderFormSM = () => {
 
   return (
     <>
-      <div className="bg-[#40b0fd] xl:h-[230px] pb-[50px]">
+      {/* <div className="bg-[#40b0fd] xl:h-[230px] pb-[50px]">
         <img
           src="../Logo-white.png"
           alt="Logo-white.png"
@@ -196,6 +201,142 @@ const OrderFormSM = () => {
               )
             ) : null}
           </form>
+        </div>
+      </div> */}
+      <div className="bg-[#ffffff] h-[800px] overflow-hidden">
+        <div className="bg-[#40b0fd] h-[230px] pb-[50px]">
+          <img
+            src="../Logo-white.png"
+            alt="Logo-white.png"
+            className="relative top-0 left-[50%] translate-x-[-50%] pt-[20px]"
+          ></img>
+        </div>
+        <div className=" bg-white w-[750px] h-[800px] mx-auto mt-[-120px]">
+          <div className=" w-[150px] text-center relative top-0 left-[50%] translate-x-[-100%]">
+            <h1 className="text-[12px] font-thin pt-[10px] pb-[10px]">
+              Place an order to start
+            </h1>
+          </div>
+          <div className="flex flex-wrap justify-center gap-2">
+            <form
+              ref={form}
+              onSubmit={handleSubmit(submitOrder)}
+              className="pl-[10px]"
+            >
+              <input
+                {...register("name", { required: true })}
+                placeholder="Name"
+                className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[285px] border mycontactPlaceholder ${
+                  errors.name ? "border-red-500" : ""
+                }`}
+              />
+              <input
+                {...register("email", { required: true })}
+                placeholder="Email"
+                className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] mx-[2px] w-[285px] border mycontactPlaceholder ${
+                  errors.email ? "border-red-500" : ""
+                }`}
+              />
+
+              <input
+                {...register("phone", { required: true })}
+                placeholder="phone"
+                className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] mx-[2px] w-[285px] border mycontactPlaceholder ${
+                  errors.phone ? "border-red-500" : ""
+                }`}
+              />
+
+              <input
+                {...register("productLink", { required: true })}
+                placeholder="productLink"
+                className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] mx-[2px] w-[285px] border mycontactPlaceholder ${
+                  errors.productLink ? "border-red-500" : ""
+                }`}
+              />
+
+              <input
+                {...register("serviceCategory", { required: true })}
+                placeholder="serviceCategory"
+                className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] mx-[2px] w-[285px] border mycontactPlaceholder ${
+                  errors.serviceCategory ? "border-red-500" : ""
+                }`}
+              />
+
+              <input
+                {...register("selectedService", { required: true })}
+                placeholder="selectedService"
+                className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] mx-[2px] w-[285px] border mycontactPlaceholder ${
+                  errors.selectedService ? "border-red-500" : ""
+                }`}
+              />
+
+              <textarea
+                {...register("message", { required: true })}
+                placeholder="Message"
+                className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[575px] border mycontactPlaceholder ${
+                  errors.message ? "border-red-500" : ""
+                }`}
+                style={{
+                  maxHeight: "250px",
+                  minHeight: "150px",
+                  marginBottom: "20px",
+                }}
+              />
+
+              <div>
+                <input
+                  type="checkbox"
+                  {...register("isChecked")} // Register for form validation
+                  onChange={handleCheckboxChange} // Update state on change
+                  checked={isChecked} // Set checked state based on state variable
+                />
+                <label htmlFor="isChecked">
+                  <span
+                    style={{
+                      color: "black",
+                      paddingLeft: "5px",
+                    }}
+                  >
+                    I agree with our
+                  </span>
+                  <span
+                    style={{
+                      color: "#40b0fd",
+                      fontWeight: 800,
+                      paddingLeft: "5px",
+                    }}
+                  >
+                    Privacy Policy, Terms & Conditions
+                  </span>
+                </label>
+              </div>
+
+              <input
+                type="submit"
+                className={`block bg-[#000000] text-[12px] xl:text-[18px] lg:font-bold w-[90px] text-white py-[5px] xl:py-[10px] xl:tracking-[2px] mt-[20px] rounded-md ${
+                  isChecked ? "" : "hidden"
+                }`}
+                value="SEND"
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+
+              {isSubmitting || orderEmailStatus ? ( // Show notification only when isSubmitting or emailStatus is set
+                orderEmailStatus ? (
+                  <p className="text-green-500 font-semibold">
+                    Hello {senderNameFormatted}, your email was sent
+                    successfully!
+                  </p>
+                ) : (
+                  <p className="text-red-500 font-semibold">
+                    Hello {senderNameFormatted}, there was an error sending your
+                    email. Please try again.
+                  </p>
+                )
+              ) : null}
+            </form>
+          </div>
         </div>
       </div>
     </>

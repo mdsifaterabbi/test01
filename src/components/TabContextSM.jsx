@@ -67,6 +67,24 @@ const TabContextSM = () => {
           </span>
         </span>
       </div>
+
+      <dialog
+        id="my_modal_SM"
+        className=""
+        style={{ width: "600px", height: "550px" }}
+      >
+        <div className="">
+          <form method="dialog">
+            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+              ✕
+            </button>
+          </form>
+          <div>
+            <OrderFormSM />
+          </div>
+        </div>
+      </dialog>
+
       <Tabs>
         <TabList className="flex justify-center bg-[#f4faff] py-[30px] TabContextTabFont text-[12px] w-[90vw] mx-auto">
           {[
@@ -118,27 +136,11 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_sm").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
-
-                    <dialog id="my_modal_sm" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -171,27 +173,12 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_sm").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_sm" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -209,9 +196,7 @@ const TabContextSM = () => {
                     <h2 className="font-bold text-white text-xl">
                       Product Sourcing
                     </h2>
-                    {/* <span className="text-white font-normal text-xl opacity-80">
-                      Listing Design
-                    </span> */}
+
                     <p className="text-[12px] text-white opacity-70">
                       Leave some of your major concerns to us, like choosing the
                       right supplier for your products. As FBA specialists, we
@@ -222,27 +207,12 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_sm").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_sm" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -279,27 +249,12 @@ const TabContextSM = () => {
                     <button
                       className="btn btn-neutral btn-sm z-50 w-[100px] rounded-none mx-auto"
                       onClick={() =>
-                        document.getElementById("my_modal_sm").showModal()
+                        document.getElementById("my_modal_SM").showModal()
                       }
                     >
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_sm" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -337,21 +292,6 @@ const TabContextSM = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_SM" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -387,21 +327,6 @@ const TabContextSM = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_SM" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -447,21 +372,6 @@ const TabContextSM = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_SM" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -500,21 +410,6 @@ const TabContextSM = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_SM" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -553,21 +448,6 @@ const TabContextSM = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_SM" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -610,21 +490,6 @@ const TabContextSM = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_SM" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -660,22 +525,6 @@ const TabContextSM = () => {
                     >
                       Order Now
                     </button>
-
-                    <dialog id="my_modal_SM" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>
@@ -713,21 +562,6 @@ const TabContextSM = () => {
                       Order Now
                     </button>
 
-                    <dialog id="my_modal_SM" className="modal">
-                      <div className="modal-box">
-                        <form method="dialog">
-                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                            ✕
-                          </button>
-                        </form>
-                        <div>
-                          <OrderFormSM />
-                        </div>
-                        {/* <p className="py-4">
-                          Press ESC key or click on ✕ button to close
-                        </p> */}
-                      </div>
-                    </dialog>
                     {/* ================== Order placement Model ended here ============== */}
                   </div>
                 </div>

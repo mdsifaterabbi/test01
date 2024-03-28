@@ -12,6 +12,12 @@ const OrderFormXSM = () => {
   const form = useRef();
   const { emailData, setEmailData } = useEmailJS();
 
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
+
   const [localOrderData, setLocalOrderData] = useState({
     name: "",
     email: "",
@@ -81,100 +87,115 @@ const OrderFormXSM = () => {
 
   return (
     <>
-      <div className="bg-[#40b0fd] xl:h-[230px] pb-[50px]">
+      <div className="bg-[#40b0fd] h-[230px] pb-[50px] text-center">
         <img
           src="../Logo-white.png"
           alt="Logo-white.png"
           className="inline mx-auto pt-[20px]"
         ></img>
       </div>
-      <div className="w-[80vw] ml-[-5px] xl:bg-white xl:w-[450px] h-[550px] xl:mx-auto xl:mt-[-120px] xl:px-[10px]">
-        <h1 className="text-center text-[12px] xl:text-[30px] font-thin xl:pt-[50px] xl:pb-[30px]">
-          Place an order to start
-        </h1>
+      <div className="bg-[#ffffff] w-[500px] h-[750px] mt-[-120px] px-[10px] overflow-hidden">
+        <div className="w-[200px] relative top-0 left-[50%] translate-x-[-100%]">
+          <h1 className="text-[12px] text-center font-thin pt-[10px] pb-[10px]">
+            Place an order to start
+          </h1>
+        </div>
         <div className="flex flex-wrap justify-between overflow-hidden">
           <form ref={form} onSubmit={handleSubmit(submitOrder)}>
             <input
               {...register("name", { required: true })}
               placeholder="Name"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[49%] border mycontactPlaceholder xl:mr-[5px]"
+              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+                errors.name ? "border-red-500" : ""
+              }`}
             />
-
-            {errors.name && <p style={{ color: "red" }}>Name is required.</p>}
-
             <input
               {...register("email", { required: true })}
               placeholder="Email"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[49%] mx-[2px]  mycontactPlaceholder"
+              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+                errors.email ? "border-red-500" : ""
+              }`}
             />
-
-            {errors.email && <p style={{ color: "red" }}>Email is required.</p>}
 
             <input
               {...register("phone", { required: true })}
               placeholder="phone"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[49%]  mycontactPlaceholder xl:mr-[5px]"
+              className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+                errors.phone ? "border-red-500" : ""
+              }`}
             />
-            {errors.phone && <p>Please enter phone number.</p>}
 
             <input
               {...register("productLink", { required: true })}
               placeholder="productLink"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[49%] mx-[2px]  mycontactPlaceholder"
+              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+                errors.productLink ? "border-red-500" : ""
+              }`}
             />
-            {errors.productLink && <p>Please enter productLink.</p>}
 
             <input
               {...register("serviceCategory", { required: true })}
               placeholder="serviceCategory"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[49%]  mycontactPlaceholder xl:mr-[5px]"
+              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+                errors.serviceCategory ? "border-red-500" : ""
+              }`}
             />
-            {errors.serviceCategory && <p>Please enter serviceCategory.</p>}
 
             <input
               {...register("selectedService", { required: true })}
               placeholder="selectedService"
-              className=" bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[49%] mx-[2px] mycontactPlaceholder"
+              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+                errors.selectedService ? "border-red-500" : ""
+              }`}
             />
-            {errors.selectedService && <p>Please enter selectedService.</p>}
 
             <textarea
               {...register("message", { required: true })}
               placeholder="Message"
-              className=" block bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] w-[98%] mycontactPlaceholder"
+              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] w-[60%] border mycontactPlaceholder ${
+                errors.message ? "border-red-500" : ""
+              }`}
               style={{
                 maxHeight: "250px",
                 minHeight: "150px",
                 marginBottom: "20px",
               }}
             />
-            {errors.message && <p>Tell us About Your Business.</p>}
 
-            <input type="checkbox" {...register("isChecked")} />
-            <label htmlFor="isChecked">
-              <span
-                style={{
-                  color: "black",
-                  paddingLeft: "5px",
-                }}
-              >
-                I agree with our
-              </span>
-              <span
-                style={{
-                  color: "#40b0fd",
-                  fontWeight: 800,
-                  paddingLeft: "5px",
-                }}
-              >
-                Privacy Policy, Terms & Conditions
-              </span>
-            </label>
-            {errors.isChecked && <span>{errors.isChecked.message}</span>}
+            <div>
+              <input
+                type="checkbox"
+                {...register("isChecked")} // Register for form validation
+                onChange={handleCheckboxChange} // Update state on change
+                checked={isChecked} // Set checked state based on state variable
+              />
+              <label htmlFor="isChecked">
+                <span
+                  style={{
+                    color: "black",
+                    paddingLeft: "5px",
+                  }}
+                >
+                  I agree with our<br></br>
+                </span>
+                <span
+                  style={{
+                    color: "#40b0fd",
+                    fontWeight: 800,
+                    paddingLeft: "10px",
+                    fontSize: "13px",
+                  }}
+                >
+                  Privacy Policy, Terms & Conditions
+                </span>
+              </label>
+            </div>
 
             <input
               type="submit"
-              className="block bg-[#40b0fd] font-semibold text-[12px] xl:text-[18px] lg:font-bold xl:font-bold w-[100%] text-white py-[5px] xl:py-[10px] xl:tracking-[2px] mt-[20px]"
+              className={`block bg-[#000000] text-[12px] xl:text-[18px] lg:font-bold w-[90px] text-white py-[5px] xl:py-[10px] xl:tracking-[2px] mt-[20px] rounded-md ${
+                isChecked ? "" : "hidden"
+              }`}
               value="SEND"
               style={{
                 cursor: "pointer",
@@ -194,7 +215,6 @@ const OrderFormXSM = () => {
               )
             ) : null}
           </form>
-
         </div>
       </div>
     </>
