@@ -94,8 +94,8 @@ const OrderFormXSM = () => {
           className="inline mx-auto pt-[20px]"
         ></img>
       </div>
-      <div className="bg-[#ffffff] w-[500px] h-[750px] mt-[-120px] px-[10px] overflow-hidden">
-        <div className="w-[200px] relative top-0 left-[50%] translate-x-[-100%]">
+      <div className="bg-[#ffffff] w-[95%] h-[750px] mx-auto mt-[-120px] px-[10px] overflow-hidden">
+        <div className="w-[200px]">
           <h1 className="text-[12px] text-center font-thin pt-[10px] pb-[10px]">
             Place an order to start
           </h1>
@@ -105,14 +105,14 @@ const OrderFormXSM = () => {
             <input
               {...register("name", { required: true })}
               placeholder="Name"
-              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[98%] border mycontactPlaceholder ${
                 errors.name ? "border-red-500" : ""
               }`}
             />
             <input
               {...register("email", { required: true })}
               placeholder="Email"
-              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[98%] border mycontactPlaceholder ${
                 errors.email ? "border-red-500" : ""
               }`}
             />
@@ -120,7 +120,7 @@ const OrderFormXSM = () => {
             <input
               {...register("phone", { required: true })}
               placeholder="phone"
-              className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+              className={`bg-[#cee9ff] my-[5px] py-[5px] xl:py-[10px] pl-[5px] mx-[2px] w-[98%] border mycontactPlaceholder ${
                 errors.phone ? "border-red-500" : ""
               }`}
             />
@@ -128,7 +128,7 @@ const OrderFormXSM = () => {
             <input
               {...register("productLink", { required: true })}
               placeholder="productLink"
-              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+              className={`bg-[#cee9ff] my-[5px] py-[5px] pl-[5px] mx-[2px] w-[98%] border mycontactPlaceholder ${
                 errors.productLink ? "border-red-500" : ""
               }`}
             />
@@ -136,7 +136,7 @@ const OrderFormXSM = () => {
             <input
               {...register("serviceCategory", { required: true })}
               placeholder="serviceCategory"
-              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] mx-[2px] w-[98%] border mycontactPlaceholder ${
                 errors.serviceCategory ? "border-red-500" : ""
               }`}
             />
@@ -144,7 +144,7 @@ const OrderFormXSM = () => {
             <input
               {...register("selectedService", { required: true })}
               placeholder="selectedService"
-              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] mx-[2px] w-[60%] border mycontactPlaceholder ${
+              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] mx-[2px] w-[98%] border mycontactPlaceholder ${
                 errors.selectedService ? "border-red-500" : ""
               }`}
             />
@@ -152,7 +152,7 @@ const OrderFormXSM = () => {
             <textarea
               {...register("message", { required: true })}
               placeholder="Message"
-              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] w-[60%] border mycontactPlaceholder ${
+              className={`bg-[#cee9ff] my-[5px] py-[5px]  pl-[5px] w-[98%] border mycontactPlaceholder ${
                 errors.message ? "border-red-500" : ""
               }`}
               style={{

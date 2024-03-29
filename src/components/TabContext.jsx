@@ -71,7 +71,7 @@ const TabContext = () => {
       <dialog
         id="my_modal_xsm"
         className=""
-        style={{ width: "500px", height: "750px" }}
+        style={{ width: "98vw", height: "750px" }}
       >
         <div className="">
           <form method="dialog">
